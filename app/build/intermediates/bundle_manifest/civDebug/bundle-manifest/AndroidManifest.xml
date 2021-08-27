@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.atakmap.android.harrissaspr.plugin"
-    android:versionCode="1"
-    android:versionName="1.0 (1) - [4.3.0]" >
+    android:versionCode="1630070603"
+    android:versionName="1.0 (8c60007d) - [4.3.0]" >
 
     <uses-sdk
         android:minSdkVersion="21"
         android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="false"

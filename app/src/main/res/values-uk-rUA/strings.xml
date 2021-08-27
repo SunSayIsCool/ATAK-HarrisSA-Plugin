@@ -26,6 +26,7 @@
     <string name="MAP_ALIAS">Позивний</string>
     <string name="CHOOSE_DOMAIN">Оберіть рід маркеру</string>
     <string name="CHOOSE_MARKER">Оберіть маркер</string>
+    <string name="SAVE_BTN">Налаштування збережені. Поля з пустими ID не зберігатимуться</string>
 
     <!-- Spinner items -->
 
@@ -241,4 +242,5 @@
         <item>ІПСО</item>
         <item>Забезпечення</item>
     </string-array>
+
 </resources>

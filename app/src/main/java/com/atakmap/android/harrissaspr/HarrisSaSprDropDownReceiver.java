@@ -8,7 +8,6 @@ import android.content.IntentFilter;
 import android.hardware.usb.UsbManager;
 import android.os.Build;
 import android.os.Environment;
-import android.os.SystemClock;
 import android.text.InputType;
 import android.view.View;
 import android.widget.AdapterView;
@@ -36,14 +35,10 @@ import com.atakmap.android.harrissaspr.driver.ProbeTable;
 import com.atakmap.android.harrissaspr.driver.UsbSerialDriver;
 import com.atakmap.android.harrissaspr.driver.UsbSerialProber;
 import com.atakmap.android.harrissaspr.plugin.R;
-import com.atakmap.android.ipc.AtakBroadcast;
-import com.atakmap.android.maps.MapData;
 import com.atakmap.android.maps.MapView;
-import com.atakmap.android.maps.Marker;
 import com.atakmap.app.BuildConfig;
 import com.atakmap.coremap.log.Log;
 import com.atakmap.coremap.maps.coords.GeoPoint;
-import com.atakmap.coremap.maps.time.CoordinatedTime;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -83,7 +78,7 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
     BroadcastReceiver br;
     public final static String BROADCAST_ACTION = "spr_service";
     public final static String SPR_BYTE = "spr_byte_array";
-    public final static String SPR_ALERT = "spr_byte_alert_array";
+    public final static String UDP_STRING = "hhmp_udp_string";
     public final static String PARAM_STATUS = "status";
 
     static final String INTENT_ACTION_GRANT_USB = BuildConfig.APPLICATION_ID + ".GRANT_USB";
@@ -173,8 +168,10 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
         customTable.addProduct(0x19a5, 0x0012, CdcAcmSerialDriver.class);
         final UsbSerialProber prober = new UsbSerialProber(customTable);
         final UsbManager manager = (UsbManager) context.getSystemService(Context.USB_SERVICE);
-        final Intent startServiceIntent = new Intent("com.atakmap.android.harrissaspr.SprSerialService");
-        startServiceIntent.setPackage("com.atakmap.android.harrissaspr.plugin");
+        final Intent startHhmpServiceIntent = new Intent("com.atakmap.android.harrissaspr.HhmpUdpService");
+        startHhmpServiceIntent.setPackage("com.atakmap.android.harrissaspr.plugin");
+        final Intent startSprServiceIntent = new Intent("com.atakmap.android.harrissaspr.SprSerialService");
+        startSprServiceIntent.setPackage("com.atakmap.android.harrissaspr.plugin");
 
 
         // Remember to use the PluginLayoutInflator if you are actually inflating a custom view
@@ -228,8 +225,13 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                 if (isChecked) {
                     hhmpSw = true;
                     hhmpGpsSwitch.setClickable(true);
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
+                        getMapView().getContext().startForegroundService(startHhmpServiceIntent);
+                    else
+                        getMapView().getContext().startService(startHhmpServiceIntent);
                     Toast.makeText(getMapView().getContext(), context.getResources().getString(R.string.HHMP_BFT_ENABLED), Toast.LENGTH_SHORT).show();
                 } else {
+                    getMapView().getContext().stopService(startHhmpServiceIntent);
                     hhmpSw = false;
                     hhmpGpsSwitch.setClickable(false);
                     hhmpGpsSwitch.setChecked(false);
@@ -252,7 +254,7 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                     }
                 } else {
                     hhmpGps = false;
-                    Toast.makeText(getMapView().getContext(), context.getResources().getString(R.string.HHMP_GPS_DISABLED), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getMapView().getContext(), context.getResources().getString(R.string.HHMP_BFT_DISABLED), Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -267,21 +269,20 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                     if (drivers.isEmpty()) {
                         sprSwitch.setChecked(false);
                         Toast.makeText(getMapView().getContext(), context.getResources().getString(R.string.SPR_radio_not_found), Toast.LENGTH_SHORT).show();
-                    }
-                    else {
+                    } else {
                         UsbSerialDriver driver = drivers.get(0);
                         sprSw = true;
                         sprGpsSwitch.setClickable(true);
                         //TODO Start spr serial service
 
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
-                            getMapView().getContext().startForegroundService(startServiceIntent);
+                            getMapView().getContext().startForegroundService(startSprServiceIntent);
                         else
-                            getMapView().getContext().startService(startServiceIntent);
+                            getMapView().getContext().startService(startSprServiceIntent);
                         Toast.makeText(getMapView().getContext(), context.getResources().getString(R.string.SPR_BFT_ENABLED), Toast.LENGTH_SHORT).show();
                     }
                 } else {
-                    getMapView().getContext().stopService(startServiceIntent);
+                    getMapView().getContext().stopService(startSprServiceIntent);
                     sprSw = false;
                     sprGpsSwitch.setChecked(false);
                     sprGpsSwitch.setClickable(false);
@@ -571,128 +572,65 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                         e.printStackTrace();
                     }
                 }
-                Toast.makeText(getMapView().getContext(), "Settings saved. Empty IDs will not save", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getMapView().getContext(), context.getResources().getString(R.string.SAVE_BTN), Toast.LENGTH_SHORT).show();
             }
         });
 
         // Init settings and SA Tables
-
-
         init();
 
-        // Thread for HH/MP udp Harris SA processing
-        SAThread = new Thread(new Runnable() {
-
-            @Override
-            public void run() {
-                byte[] rcv_buf = null;
-                DatagramSocket ds = null;
-                DatagramPacket DpReceive = null;
-
-                LocateMarker locateMarker = new LocateMarker();
-                Log.v(TAG, "UDP Thread: Started");
-
-                try {
-                    ds = new DatagramSocket(10011);
-                    rcv_buf = new byte[512];
-                    DpReceive = new DatagramPacket(rcv_buf, rcv_buf.length);
-                } catch (SocketException e) {
-                    Log.v(TAG, "UDP Thread: SocketException");
-                }
-
-
-                while (true) {
-                    try {
-                        String SelfID = HHMP_GPS_ID.getText().toString();
-                        ds.receive(DpReceive);
-                        String str = new String(rcv_buf);
-                        str = str.replaceAll("[\\u0000-\u0009]", "");
-                        // Mock GPS service
-                        if (hhmpGps && SelfID != null) {
-                            Marker item = getMapView().getSelfMarker();
-                            HarrisSAparser saparser = new HarrisSAparser();
-                            if (item != null) {
-
-                                final MapData data = getMapView().getMapData();
-
-                                GeoPoint gp = new GeoPoint(saparser.Latitude(str), saparser.Longtitude(str)); // decimal degrees
-
-                                data.putDouble("mockLocationSpeed", Double.parseDouble(saparser.Speed(str))); // speed in meters per second
-
-                                data.putDouble("mockLocationBearing", Double.parseDouble(saparser.Course(str)));
-
-                                data.putFloat("mockLocationAccuracy", 3f); // accuracy in meters
-                                data.putString("locationSourcePrefix", "mock");
-                                data.putBoolean("mockLocationAvailable", true);
-
-                                data.putString("mockLocationSource", "78xx HH/MP Radio");
-                                data.putBoolean("mockLocationCallsignValid", true);
-
-                                data.putParcelable("mockLocation", gp);
-
-                                data.putLong("mockLocationTime", SystemClock.elapsedRealtime());
-
-                                data.putLong("mockGPSTime", new CoordinatedTime().getMilliseconds()); // time as reported by the gps device
-
-                                data.putInt("mockFixQuality", 2);
-
-                                Intent gpsReceived = new Intent();
-
-                                gpsReceived.setAction("com.atakmap.android.map.WR_GPS_RECEIVED");
-                                AtakBroadcast.getInstance().sendBroadcast(gpsReceived);
-                            }
-                        }
-
-                        if (hhmpSw) {
-                            int row_count = tblLayoutHHMP.getChildCount();
-                            if (row_count != 0) {
-                                for (int i = 0; i < row_count; i++) {
-                                    TableRow hhmp_row = (TableRow) tblLayoutHHMP.getChildAt(i);
-
-                                    CheckBox chk_share = (CheckBox) hhmp_row.getChildAt(0);
-                                    EditText edt_combatid = (EditText) hhmp_row.getChildAt(1);
-                                    EditText edt_alias = (EditText) hhmp_row.getChildAt(2);
-                                    PluginSpinner spn_domain = (PluginSpinner) hhmp_row.getChildAt(3);
-                                    PluginSpinner spn_unit = (PluginSpinner) hhmp_row.getChildAt(4);
-
-                                    Boolean share = chk_share.isChecked();
-                                    String combatid = edt_combatid.getText().toString();
-                                    String alias = edt_alias.getText().toString();
-                                    int domain = spn_domain.getSelectedItemPosition();
-                                    int unit = spn_unit.getSelectedItemPosition();
-
-                                    MILSTDconverter std_conv = new MILSTDconverter();
-                                    if ((!SelfID.equals(combatid)) && (!combatid.equals(""))) {
-                                        locateMarker.placeMarker(share, combatid, alias, str, std_conv.milstd_conv_id(domain, unit));
-                                    }
-                                }
-                            }
-                            Log.v(TAG, "UDP Thread: " + str);
-                        }
-                    } catch (Exception e) {
-                        //Log.v(TAG, "SA Thread: Exception");
-                    }
-                }
-
-            }
-        });
-
-
-        SAThread.setDaemon(true);
-        SAThread.start(); //start UDP receiver thread
-
+        // Broadcast receiver for processing SA from services
         br = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
+
+                String SelfID = null;
+
+                //receving SprSerialService status
                 Boolean status = intent.getBooleanExtra(PARAM_STATUS, true);
                 if (status == false) {
-                    getMapView().getContext().stopService(startServiceIntent);
+                    getMapView().getContext().stopService(startSprServiceIntent);
                     sprSwitch.setChecked(false);
                     sprGpsSwitch.setChecked(false);
                 }
 
+                //Receiving HhmpUdpService input SA data
+                String input_sa = intent.getStringExtra(UDP_STRING);
+                SelfID = HHMP_GPS_ID.getText().toString();
+
+                if ((hhmpSwitch.isChecked()) && SelfID != null) {
+                    int row_count = tblLayoutHHMP.getChildCount();
+                    if (row_count != 0) {
+                        for (int i = 0; i < row_count; i++) {
+                            TableRow hhmp_row = (TableRow) tblLayoutHHMP.getChildAt(i);
+
+                            CheckBox chk_share = (CheckBox) hhmp_row.getChildAt(0);
+                            EditText edt_combatid = (EditText) hhmp_row.getChildAt(1);
+                            EditText edt_alias = (EditText) hhmp_row.getChildAt(2);
+                            PluginSpinner spn_domain = (PluginSpinner) hhmp_row.getChildAt(3);
+                            PluginSpinner spn_unit = (PluginSpinner) hhmp_row.getChildAt(4);
+
+                            Boolean share = chk_share.isChecked();
+                            String combatid = edt_combatid.getText().toString();
+                            String alias = edt_alias.getText().toString();
+                            int domain = spn_domain.getSelectedItemPosition();
+                            int unit = spn_unit.getSelectedItemPosition();
+
+                            MILSTDconverter std_conv = new MILSTDconverter();
+                            if ((!SelfID.equals(combatid)) && (!combatid.equals(""))) {
+                                LocateMarker.placeHhmpMarker(share, combatid, alias, input_sa, std_conv.milstd_conv_id(domain, unit));
+                            }
+                        }
+                    }
+                }
+
+                if ((hhmpGpsSwitch.isChecked()) && SelfID != null) {
+                    LocateMarker.placeHhmpSelf(mapView, input_sa);
+                }
+
+                //Receiving SprSerialService input SA data
                 byte[] byteArray = intent.getByteArrayExtra(SPR_BYTE);
-                String SelfID = SPR_GPS_ID.getText().toString();
+                SelfID = SPR_GPS_ID.getText().toString();
                 if (sprSwitch.isChecked() && (byteArray != null)) {
                     SprSAparser sprparser = new SprSAparser();
                     Boolean AlertOn = sprparser.Alert(byteArray);
@@ -716,9 +654,9 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                             if ((!SelfID.equals(combatid)) && (!combatid.equals(""))) {
                                 // TODO Condition to check is alert on
                                 if (AlertOn) {
-                                    LocateMarker.placeSprAlert(combatid,alias,byteArray);
+                                    LocateMarker.placeSprAlert(combatid, alias, byteArray);
                                     if (sprparser.saPass(byteArray)) {
-                                        getMapView().getMapController().panTo(new GeoPoint(sprparser.Latitude(), sprparser.Longtitude()),true);
+                                        getMapView().getMapController().panTo(new GeoPoint(sprparser.Latitude(), sprparser.Longtitude()), true);
                                         getMapView().getMapController().zoomTo(.00020d, true);
                                     }
                                 } else {
@@ -730,30 +668,7 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                 }
 
                 if ((sprGpsSwitch.isChecked()) && SelfID != null) {
-                    Marker item = getMapView().getSelfMarker();
-                    SprSAparser saparser = new SprSAparser();
-                    if ((item != null) && (byteArray != null)) {
-                        saparser.saPass(byteArray);
-
-                        final MapData data = getMapView().getMapData();
-                        GeoPoint gp = new GeoPoint(saparser.Latitude(), saparser.Longtitude()); // decimal degrees
-                        data.putDouble("mockLocationSpeed", Double.parseDouble(saparser.Speed())); // speed in meters per second
-                        data.putDouble("mockLocationBearing", Double.parseDouble(saparser.Course()));
-                        data.putFloat("mockLocationAccuracy", 3f); // accuracy in meters
-                        data.putString("locationSourcePrefix", "mock");
-                        data.putBoolean("mockLocationAvailable", true);
-                        data.putString("mockLocationSource", "7800S Radio");
-                        data.putBoolean("mockLocationCallsignValid", true);
-                        data.putParcelable("mockLocation", gp);
-                        data.putLong("mockLocationTime", SystemClock.elapsedRealtime());
-                        data.putLong("mockGPSTime", new CoordinatedTime().getMilliseconds()); // time as reported by the gps device
-                        data.putInt("mockFixQuality", 2);
-
-                        Intent gpsReceived = new Intent();
-
-                        gpsReceived.setAction("com.atakmap.android.map.WR_GPS_RECEIVED");
-                        AtakBroadcast.getInstance().sendBroadcast(gpsReceived);
-                    }
+                    LocateMarker.placeSprSelf(mapView, byteArray);
                 }
 
             }
@@ -762,11 +677,11 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
         // new filter for BroadcastReceiver
         IntentFilter intFilt = new IntentFilter(BROADCAST_ACTION);
         // registration BroadcastReceiver
-        context.registerReceiver(br,intFilt);
+        context.registerReceiver(br, intFilt);
 
     }
 
-    private void init () {
+    private void init() {
         String FieldDelimiter = ";";
 
         BufferedReader br;
@@ -1159,13 +1074,6 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
 
     public void disposeImpl() {
     }
-
-    public void receive(byte[] data) {
-        Toast.makeText(getMapView().getContext(), "receive " + data.length + " bytes", Toast.LENGTH_SHORT).show();
-    }
-
-
-
 
     /**************************** INHERITED METHODS *****************************/
 

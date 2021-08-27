@@ -248,6 +248,7 @@ string HHMP_GPS_DISABLED
 string HHMP_GPS_ENABLED
 string MAP_ALIAS
 string RadioIDempty
+string SAVE_BTN
 string SPR_BFT_DISABLED
 string SPR_BFT_ENABLED
 string SPR_GPS_DISABLED

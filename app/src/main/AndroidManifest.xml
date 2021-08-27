@@ -4,6 +4,8 @@
     package="com.atakmap.android.harrissaspr.plugin"
     tools:ignore="GoogleAppIndexingWarning" >
 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
     <application
         android:allowBackup="false"
         android:description="@string/app_desc"

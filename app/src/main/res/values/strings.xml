@@ -34,6 +34,7 @@
     <string name="MAP_ALIAS">Map alias</string>
     <string name="CHOOSE_DOMAIN">Choose marker domain</string>
     <string name="CHOOSE_MARKER">Choose marker</string>
+    <string name="SAVE_BTN">Settings saved. Empty IDs will not save</string>
 
     <!-- Spinner items -->
 

@@ -56,8 +56,8 @@ public class SprSerialService extends Service {
         customTable.addProduct(0x19a5, 0x0012, CdcAcmSerialDriver.class);
 
         Notification notification = new Notification();
-        startForeground(1, notification);
-        Log.d(TAG,"Service created");
+        startForeground(2, notification);
+        Log.d(TAG,"SPR Service created");
     }
 
     @Override
@@ -74,7 +74,7 @@ public class SprSerialService extends Service {
             Log.d(TAG, "Port closing error");
         }
 
-        Log.d(TAG,"Service stopped");
+        Log.d(TAG,"SPR Service stopped");
     }
 
     @Override
@@ -95,7 +95,7 @@ public class SprSerialService extends Service {
         // Checking for USB device permission is granted
         if (manager.hasPermission(driver.getDevice())) {
             Log.d(TAG, "Service started");
-            SomeTask();
+            SPRengine();
         } else {
             try {
                 PendingIntent usbPermissionIntent = PendingIntent.getBroadcast(getApplication(), 0, new Intent(INTENT_ACTION_GRANT_USB), 0);
@@ -105,7 +105,7 @@ public class SprSerialService extends Service {
                 e.printStackTrace();
             } finally {
                 Log.d(TAG, "Service started");
-                SomeTask();
+                SPRengine();
             }
             //Intent intent_stop = new Intent(HarrisSaSprDropDownReceiver.BROADCAST_ACTION);
             //intent_stop.putExtra(HarrisSaSprDropDownReceiver.PARAM_STATUS, false);
@@ -122,7 +122,7 @@ public class SprSerialService extends Service {
         return null;
     }
 
-    void SomeTask() {
+    void SPRengine() {
         new Thread(new Runnable() {
             public void run() {
                 Intent intent = new Intent(HarrisSaSprDropDownReceiver.BROADCAST_ACTION);
