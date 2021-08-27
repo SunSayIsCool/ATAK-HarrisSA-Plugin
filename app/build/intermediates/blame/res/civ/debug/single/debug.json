@@ -1,0 +1,778 @@
+[
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_rotor_attack.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_attack.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_rotor_recon.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_recon.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sof_ranger.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_ranger.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_dot_unselected.xml.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/dot_unselected.xml"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_comabat_recon.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_recon.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle_armor_light.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_armor_light.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_dot_selector.xml.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/dot_selector.xml"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_comabat_recon_mountain.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_recon_mountain.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_armor_wheeled_recovery.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_armor_wheeled_recovery.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_armor_wheeled.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_armor_wheeled.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_weapon_hmg.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_hmg.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_weapon_nbc.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_nbc.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sensor.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sensor.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sof_boat.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_boat.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sof_csar.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_csar.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_combatant.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_combatant.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_convoy.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_convoy.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_weapon_automatic.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_automatic.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_cargo.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_cargo.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/layout_spinner_item.xml.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/layout/spinner_item.xml"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_aa_armored_air_assault.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_aa_armored_air_assault.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_armor_wheeled_airborne.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_armor_wheeled_airborne.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_air_defense_missile.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_air_defense_missile.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_weapon_rifle.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_rifle.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_minelayer.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_minelayer.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_ic_menu_plus.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/ic_menu_plus.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sof_ssnr.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_ssnr.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_subsurf_submarine_conv.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/subsurf_submarine_conv.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_subsurf_diver.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/subsurf_diver.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_tanker.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_tanker.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_single_rocket_self.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_single_rocket_self.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sof_ground.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_ground.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_c3i.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_c3i.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_rotor_c2.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_c2.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle_semi.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_semi.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_fighter.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_fighter.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_air_defense.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_air_defense.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_utility.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_utility.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_interceptor.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_interceptor.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_inf_naval.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_inf_naval.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_frigate.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_frigate.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_ic_launcher.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_armor_wheeled_amphibious.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_armor_wheeled_amphibious.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_rotor_utility.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_utility.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_comabat_recon_airborne.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_recon_airborne.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_weapon_flame.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_flame.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_rotor.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sof_psyops.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_psyops.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_weapon_lmg.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_lmg.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle_engineer.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_engineer.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_minehunter.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_minehunter.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_assault_vessel.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_assault_vessel.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_mortar.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_mortar.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_comabat_composite.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_composite.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_antisubmarine.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_antisubmarine.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_subsurf_submarine.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/subsurf_submarine.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_engineer.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_engineer.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_battleship.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_battleship.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle_apc_recovery.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_apc_recovery.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sof.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_iw.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_iw.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_ic_menu_minus.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/ic_menu_minus.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle_armor_infanrty.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_armor_infanrty.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_aa_armored_tracked.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_aa_armored_tracked.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/xml_device_filter.xml.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/xml/device_filter.xml"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_inf_troops.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_inf_troops.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_subsurf_.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/subsurf_.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_inf_airborne.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_inf_airborne.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_css_maintenance.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/css_maintenance.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_weapon_anti_tank_gun.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_anti_tank_gun.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_rotor_medevac.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_medevac.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_css.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/css.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_aa_armored_wheeled.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_aa_armored_wheeled.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle_ambulance.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_ambulance.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_new_dark_button_bg.xml.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/new_dark_button_bg.xml"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle_apc.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_apc.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_sig_sat.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_sig_sat.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_artillery_fixed.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_artillery_fixed.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_subsurf_uuv.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/subsurf_uuv.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_attack.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_attack.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_patrol.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_patrol.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_weapon_rocket_launcher_single.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_rocket_launcher_single.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_armor_track_amphibious.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_armor_track_amphibious.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle_civ.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_civ.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_aa_motorized.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_aa_motorized.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_comabat_fixed_wing.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_fixed_wing.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_ew.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_ew.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_tanker.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_tanker.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_new_dark_button_disabled.xml.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/new_dark_button_disabled.xml"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_rotor_transport.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_transport.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_weapon_missile_launcher.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_missile_launcher.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_amphibious.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_amphibious.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_uav.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_uav.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_rotor_uav.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_uav.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_carrier.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_carrier.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_inf_mountain.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_inf_mountain.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_destroyer.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_destroyer.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_jammer.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_jammer.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_weapon.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_btn_delete.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/btn_delete.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/layout_main_layout.xml.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/layout/main_layout.xml"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_css_supply.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/css_supply.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_passenger.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_passenger.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sof_rotary.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_rotary.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_rotor_jammer.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_jammer.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_mine_warfare.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_mine_warfare.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_comabat_missile_ss.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_missile_ss.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_multi_rocket_self.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_multi_rocket_self.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_comabat_recon_marine.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_recon_marine.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_new_dark_button_selected.xml.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/new_dark_button_selected.xml"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_recon.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_recon.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_mi.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_mi.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_anti_armor.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_anti_armor.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_nuclear.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_nuclear.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_trainer.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_trainer.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle_mcv.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_mcv.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_weapon_mortar.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_mortar.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_medevac.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_medevac.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_air.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/air.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sof_naval.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_naval.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle_tank.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_tank.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle_truck.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_truck.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sof_support.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_support.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_csar.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_csar.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_inf_mechanized.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_inf_mechanized.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sensor_radar.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sensor_radar.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_sof.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_sof.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_eod.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_eod.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_non_mil.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_non_mil.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_rotor_csar.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_csar.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_armor_track.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_armor_track.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_transport.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_transport.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_track.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_track.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_blimp.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/blimp.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_landing_ship.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_landing_ship.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_comabat_recon_air_assault.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_recon_air_assault.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sof_fixed.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_fixed.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_inf_air_assault.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_inf_air_assault.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_comabat_aviation.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_aviation.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_line.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_line.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_btn_gray.xml.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/btn_gray.xml"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_law_enforcement.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_law_enforcement.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_ci.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_ci.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_cruiser.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_cruiser.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_sig_radio.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_sig_radio.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_armor.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_armor.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_weapon_rocket_antitank.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_rocket_antitank.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle_bus.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_bus.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_rescue.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_rescue.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_biological.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_biological.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_sig_relay.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_sig_relay.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_rocket.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_rocket.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_sig_tel_switch.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_sig_tel_switch.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_c2_hq.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/c2_hq.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_css_med.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/css_med.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_subsurf_submarine_nuc.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/subsurf_submarine_nuc.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sensor_emplaced.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sensor_emplaced.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_mp.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_mp.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_nbc.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_nbc.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_rotor_sof.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_sof.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_weapon_howitzer.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_howitzer.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_comabat_isf.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_isf.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_c2.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_c2.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_css_transport.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/css_transport.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_comabat_rotary_wing.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_rotary_wing.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_civ_law_enforcement.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_civ_law_enforcement.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle_boat.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_boat.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle_utility.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_utility.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_weapon_air_defense.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_air_defense.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_com_ops.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_com_ops.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_aa_airborne.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_aa_airborne.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_bomber.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_bomber.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_hovercraft.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_hovercraft.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_weapon_direct_fire.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_direct_fire.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle_armor_gun.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_armor_gun.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_hospital.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_hospital.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_chemical.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_chemical.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_vstol.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_vstol.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_inf_motorized.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_inf_motorized.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle_c2v_acv.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_c2v_acv.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_css_recovery.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/css_recovery.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_sigint.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_sigint.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_landing_craft.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_landing_craft.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_fixed_patrol.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_patrol.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_dot_selected.xml.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/dot_selected.xml"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_antisurface.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_antisurface.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_combat_inf_ifv.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_inf_ifv.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_weapon_rocket_launcher_multiple.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_rocket_launcher_multiple.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_cs_signal.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_signal.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_vehicle_armor_css.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_armor_css.png"
+    }
+]

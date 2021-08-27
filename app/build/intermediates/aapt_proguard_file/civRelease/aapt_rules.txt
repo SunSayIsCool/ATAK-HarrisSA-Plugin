@@ -1,0 +1,3 @@
+-keep class com.atakmap.android.harrissaspr.UDPReceiverService { <init>(); }
+-keep class com.atakmap.android.gui.PluginSpinner { <init>(android.content.Context, android.util.AttributeSet); }
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.atakmap.android.harrissaspr.plugin"
+    android:versionCode="1"
+    android:versionName="1.0 (1) - [4.3.0]" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="28" />
+
+    <application
+        android:allowBackup="false"
+        android:debuggable="true"
+        android:description="@string/app_desc"
+        android:extractNativeLibs="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service
+            android:name="com.atakmap.android.harrissaspr.HhmpUdpService"
+            android:enabled="true"
+            android:label="78xx HH/MP UDP Service" >
+            <intent-filter>
+                <action android:name="com.atakmap.android.harrissaspr.HhmpUdpService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.atakmap.android.harrissaspr.SprSerialService"
+            android:enabled="true"
+            android:label="7800S serial port Service" >
+            <intent-filter>
+                <action android:name="com.atakmap.android.harrissaspr.SprSerialService" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </service>
+
+        <meta-data
+            android:name="plugin-api"
+            android:value="com.atakmap.app@4.3.0.CIV" />
+        <meta-data
+            android:name="app_desc"
+            android:value="@string/app_desc" />
+    </application>
+
+</manifest>

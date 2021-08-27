@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:fadeScrollbars="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:paddingBottom="0dp"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="3dp"
+            android:background="@android:color/white">
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp"
+        </RelativeLayout>
+
+        <TabHost
+            android:id="@+id/tabHost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:visibility="visible"></TabWidget>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tbHHMP"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Switch
+                            android:id="@+id/swBFTHHMP"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right|center_vertical"
+                            android:text="@string/enableBFT"
+                            android:textOff="OFF"
+                            android:textOn="ON"
+                            android:switchPadding="2dp"
+                            android:paddingBottom="0dp"
+                            android:paddingTop="0dp"
+                            android:textSize="14sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="0dp"
+                            android:paddingTop="0dp"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/edttxtSelfCombatIDHHMP"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:hint="@string/selfCombatID"
+                                android:textSize="14sp"
+                                android:gravity="left|center_vertical"
+                                android:paddingTop="0dp"
+                                android:inputType="textPersonName" />
+
+                            <Switch
+                                android:id="@+id/swGPSHHMP"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="right|center_vertical"
+                                android:textSize="10sp"
+                                android:switchPadding="2dp"
+                                android:text="@string/useRadioGPS"
+                                android:paddingTop="0dp"
+                                android:textOn="ON"
+                                android:textOff="OFF"/>
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="5dp"
+                            android:background="@android:color/darker_gray">
+                        </RelativeLayout>
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TableLayout
+                                    android:id="@+id/tblLayout_hhmp"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent" />
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tbSPR"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Switch
+                            android:id="@+id/swBFTSPR"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right|center_vertical"
+                            android:text="@string/enableBFT"
+                            android:textOff="OFF"
+                            android:textOn="ON"
+                            android:switchPadding="2dp"
+                            android:paddingBottom="0dp"
+                            android:paddingTop="0dp"
+                            android:textSize="14sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="0dp"
+                            android:paddingTop="0dp"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/edttxtSelfCombatIDSPR"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:hint="@string/selfCombatID"
+                                android:textSize="14sp"
+                                android:gravity="left|center_vertical"
+                                android:paddingTop="0dp"
+                                android:inputType="textPersonName" />
+
+                            <Switch
+                                android:id="@+id/swGPSSPR"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="right|center_vertical"
+                                android:textSize="10sp"
+                                android:switchPadding="2dp"
+                                android:text="@string/useRadioGPS"
+                                android:paddingTop="0dp"
+                                android:textOn="ON"
+                                android:textOff="OFF"/>
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="5dp"
+                            android:background="@android:color/darker_gray">
+                        </RelativeLayout>
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TableLayout
+                                    android:id="@+id/tblLayout_spr"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_gray"
+                android:text="@string/btnAdd"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_gray"
+                android:text="@string/btnSave"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

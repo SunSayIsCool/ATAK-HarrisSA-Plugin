@@ -1,0 +1,81 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/incremental/mergeCivReleaseResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/dimen.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "196",
+                        "endColumns": "39",
+                        "endOffsets": "231"
+                    },
+                    "to": {
+                        "startLines": "209",
+                        "startColumns": "4",
+                        "startOffsets": "7363",
+                        "endColumns": "39",
+                        "endOffsets": "7398"
+                    }
+                },
+                {
+                    "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "37,25,111,155,178,71,92,187,225,216,8,4,18,17,19,20,12,13,21,16,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1206,824,3553,5239,6075,2286,2921,6353,7594,7278,155,73,598,553,637,678,289,338,740,504,390,450",
+                        "endLines": "69,35,153,176,185,90,109,214,236,223,8,4,18,17,19,20,12,13,21,16,14,15",
+                        "endColumns": "19,19,19,19,19,19,19,19,19,19,108,54,38,44,40,61,48,51,54,48,59,53",
+                        "endOffsets": "2280,1200,5233,6069,6347,2915,3547,7272,7960,7588,259,123,632,593,673,735,333,385,790,548,445,499"
+                    },
+                    "to": {
+                        "startLines": "2,35,46,89,111,119,139,157,185,197,210,211,212,213,214,215,216,217,218,219,220,221",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,1134,1515,3200,4035,4312,4946,5577,6501,6872,7403,7512,7567,7606,7651,7692,7754,7803,7855,7910,7959,8019",
+                        "endLines": "34,45,88,110,118,138,156,184,196,204,210,211,212,213,214,215,216,217,218,219,220,221",
+                        "endColumns": "19,19,19,19,19,19,19,19,19,19,108,54,38,44,40,61,48,51,54,48,59,53",
+                        "endOffsets": "1129,1510,3195,4030,4307,4941,5572,6496,6867,7182,7507,7562,7601,7646,7687,7749,7798,7850,7905,7954,8014,8068"
+                    }
+                },
+                {
+                    "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "68,3,64,85,13,45,54,77,97,89",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3163,49,3024,4029,590,2166,2490,3669,4474,4170",
+                        "endLines": "74,10,66,87,38,51,61,81,107,93",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "3559,583,3157,4164,1990,2452,3017,3940,5057,4416"
+                    },
+                    "to": {
+                        "startLines": "222,229,237,240,243,269,276,284,289,300",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "8073,8474,9013,9151,9291,10696,10987,11519,11795,12383",
+                        "endLines": "228,236,239,242,268,275,283,288,299,304",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "8469,9008,9146,9286,10691,10982,11514,11790,12378,12629"
+                    }
+                },
+                {
+                    "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/color.xml",
+                    "from": {
+                        "startLines": "5,6,7,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "120,166,211,80",
+                        "endColumns": "45,44,44,39",
+                        "endOffsets": "161,206,251,115"
+                    },
+                    "to": {
+                        "startLines": "205,206,207,208",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "7187,7233,7278,7323",
+                        "endColumns": "45,44,44,39",
+                        "endOffsets": "7228,7273,7318,7358"
+                    }
+                }
+            ]
+        }
+    ]
+}

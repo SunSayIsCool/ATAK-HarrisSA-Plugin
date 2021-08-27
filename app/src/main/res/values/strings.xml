@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+
+    <string name="app_name">HarrisSA/SPR Tool</string>
+
+    <!-- description -->
+
+    <string name="app_desc">This plugin receive Harris SA and SPR packets and place them on the map</string>
+
+    <!-- UI items  -->
+
+    <string name="enableBFT">Enable BFT</string>
+    <string name="inputCombatID">Combat ID</string>
+    <string name="selfCombatID">My radio Combat ID</string>
+    <string name="useRadioGPS">Use radio GPS</string>
+    <string name="radioAlias">Map alias</string>
+    <string name="btnRemove">Remove</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnSave">Save</string>
+    <string name="domain_promt">Choose marker domain</string>
+    <string name="marker_promt">Choose marker</string>
+    <string name="HHMP_BFT_ENABLED">HH/MP BFT enabled</string>
+    <string name="HHMP_BFT_DISABLED">HH/MP BFT disabled</string>
+    <string name="RadioIDempty">Radio ID can\'t be empty!</string>
+    <string name="HHMP_GPS_ENABLED">HH/MP GPS Radio source enabled</string>
+    <string name="HHMP_GPS_DISABLED">HH/MP GPS Radio source disabled</string>
+    <string name="SPR_radio_not_found">7800S Radio not found!</string>
+    <string name="SPR_BFT_ENABLED">Radio 7800S attached. BFT enabled</string>
+    <string name="SPR_BFT_DISABLED">SPR BFT disabled</string>
+    <string name="SPR_GPS_ENABLED">SPR GPS Radio source enabled</string>
+    <string name="SPR_GPS_DISABLED">SPR GPS Radio source disabled</string>
+    <string name="COMBAT_ID">CombatID</string>
+    <string name="MAP_ALIAS">Map alias</string>
+    <string name="CHOOSE_DOMAIN">Choose marker domain</string>
+    <string name="CHOOSE_MARKER">Choose marker</string>
+
+    <!-- Spinner items -->
+
+    <string-array name="domain_list">
+        <item>AIR MIL</item>
+        <item>GROUND VEHICLE</item>
+        <item>GROUND WEAPON</item>
+        <item>GROUND UNIT COMBAT</item>
+        <item>GROUND UNIT COMBAT SUPPORT</item>
+        <item>GROUND UNIT SERVICE SUPPORT</item>
+        <item>SURFACE</item>
+        <item>SUBSURFACE</item>
+        <item>SOF</item>
+    </string-array>
+
+    <string-array name="air_mil_list">
+        <item>Fixed</item>
+        <item>Fixed/Attack</item>
+        <item>Fixed/Bomber</item>
+        <item>Fixed/Transport</item>
+        <item>Fixed/C2</item>
+        <item>Fixed/Fighter</item>
+        <item>Fixed/Interceptor</item>
+        <item>Fixed/CSAR</item>
+        <item>Fixed/Jammer</item>
+        <item>Fixed/Tanker</item>
+        <item>Fixed/VSTOL</item>
+        <item>Fixed/SOF</item>
+        <item>Fixed/MEDEVAC</item>
+        <item>Fixed/Patrol</item>
+        <item>Fixed/UAV</item>
+        <item>Fixed/Recon</item>
+        <item>Fixed/Trainer</item>
+        <item>Fixed/Utility</item>
+        <item>Fixed/C3I</item>
+        <item>Rotor</item>
+        <item>Rotor/Attack</item>
+        <item>Rotor/Transport</item>
+        <item>Rotor/C2</item>
+        <item>Rotor/CSAR</item>
+        <item>Rotor/Jammer</item>
+        <item>Rotor/SOF</item>
+        <item>Rotor/MEDEVAC</item>
+        <item>Rotor/UAV</item>
+        <item>Rotor/Recon</item>
+        <item>Rotor/Utility</item>
+        <item>Blimp</item>
+    </string-array>
+
+    <string-array name="gnd_vech_list">
+        <item>Vehicle</item>
+        <item>Armor/Gun</item>
+        <item>APC</item>
+        <item>APC/Recovery</item>
+        <item>C2V/ACV</item>
+        <item>Armor/Infantry</item>
+        <item>Armor/Light</item>
+        <item>Armor/Combat Service Support</item>
+        <item>Tank</item>
+        <item>Civilian</item>
+        <item>Engineer</item>
+        <item>Mine Clearing Vehicle</item>
+        <item>Utility</item>
+        <item>Bus</item>
+        <item>Cross Country Truck</item>
+        <item>Boat</item>
+        <item>Semi</item>
+        <item>Ambulance</item>
+    </string-array>
+
+    <string-array name="gnd_weap_list">
+        <item>Weapon</item>
+        <item>Air defense gun</item>
+        <item>Direct fire</item>
+        <item>Antitank gun</item>
+        <item>Howitzer</item>
+        <item>Missile launcher</item>
+        <item>Mortar</item>
+        <item>Rifle</item>
+        <item>Automatic weapon</item>
+        <item>Light machine gun</item>
+        <item>Heavy machine gun</item>
+        <item>Rocket launcher/Single</item>
+        <item>Rocket launcher/Multiple</item>
+        <item>Rocket launcher/AntiTank</item>
+        <item>Flame thrower</item>
+        <item>NBC equipment</item>
+    </string-array>
+
+    <string-array name="gnd_unt_cbt_list">
+        <item>Combat</item>
+        <item>Antiarmor</item>
+        <item>Antiarmor/Armored</item>
+        <item>Antiarmor/Armored air assault</item>
+        <item>Antiarmor/Armored tracked</item>
+        <item>Antiarmor/Armored wheeled</item>
+        <item>Antiarmor/Airborne</item>
+        <item>Antiarmor/Motorized</item>
+        <item>Armor/Track</item>
+        <item>Armor/track amphibious</item>
+        <item>Armor/wheeled</item>
+        <item>Armor/wheeled airborne</item>
+        <item>Armor/wheeled recovery</item>
+        <item>Armor/wheeled amphibious</item>
+        <item>Air defense</item>
+        <item>Air defense/Missile</item>
+        <item>Engineer</item>
+        <item>Artillery/Fixed</item>
+        <item>Mortar</item>
+        <item>Rocket</item>
+        <item>Single rocket/Self propelled</item>
+        <item>Multi rocket/Self propelled</item>
+        <item>Infantry/Troops</item>
+        <item>Infantry/Airborne</item>
+        <item>Infantry/Fighting Vehicle</item>
+        <item>Infantry/Motorized</item>
+        <item>Infantry/Naval</item>
+        <item>Infantry/Air Assault</item>
+        <item>Infantry/Mountain</item>
+        <item>Infantry/Mechanized</item>
+        <item>MISSILE (SURF SURF)</item>
+        <item>Recon</item>
+        <item>Recon/Airborne</item>
+        <item>Recon/Mountain</item>
+        <item>Recon/Marine</item>
+        <item>Recon/Air Assault</item>
+        <item>Internal Security Forces</item>
+        <item>Aviation</item>
+        <item>Aviation/Composite</item>
+        <item>Aviation/Fixed wing</item>
+        <item>Aviation/Rotary wing</item>
+    </string-array>
+
+    <string-array name="gnd_unt_cs_list">
+        <item>Combat support</item>
+        <item>Combat support NBC</item>
+        <item>Biological</item>
+        <item>Chemical</item>
+        <item>Nuclear</item>
+        <item>Explosive Ordinance Disposal</item>
+        <item>Information warfare unit</item>
+        <item>Law Enforcement unit</item>
+        <item>Civilian Law Enforcement</item>
+        <item>Military Police</item>
+        <item>Military Intelligence</item>
+        <item>Counter Intelligence</item>
+        <item>Signal Intelligence (SIGINT)</item>
+        <item>Electronic Warfare</item>
+        <item>Signal unit</item>
+        <item>Command operations</item>
+        <item>Radio unit</item>
+        <item>Tactical satellite</item>
+        <item>Relay</item>
+        <item>Telephone switch</item>
+    </string-array>
+
+    <string-array name="gnd_unt_ss_list">
+        <item>C2 HQ</item>
+        <item>Medical</item>
+        <item>Supply</item>
+        <item>Transportation</item>
+        <item>Maintenance</item>
+        <item>Maintenance recovery</item>
+    </string-array>
+
+    <string-array name="sfc_list">
+        <item>Sea surface track</item>
+        <item>Combatant</item>
+        <item>Amphibious warfare ship</item>
+        <item>Assault vessel</item>
+        <item>Landing craft</item>
+        <item>Landing ship</item>
+        <item>Hovercraft</item>
+        <item>Line</item>
+        <item>Battleship</item>
+        <item>Cruiser</item>
+        <item>Carrier</item>
+        <item>Destroyer</item>
+        <item>Frigate/Corvette</item>
+        <item>Mine warfare vessel</item>
+        <item>Minehunter</item>
+        <item>Minelayer</item>
+        <item>Patrol</item>
+        <item>Antisubmarine warfare</item>
+        <item>Antisurface warfare</item>
+        <item>Convoy</item>
+        <item>Hospital ship</item>
+        <item>Resque</item>
+        <item>Non military</item>
+        <item>Cargo</item>
+        <item>Passenger</item>
+        <item>Tanker</item>
+    </string-array>
+
+    <string-array name="sub_sfc_list">
+        <item>Subsurface track</item>
+        <item>Diver</item>
+        <item>Submarine</item>
+        <item>Submarine conventional propulsion</item>
+        <item>Submarine nuclear propulsion</item>
+        <item>Unmanned Underwater Vehicle (UUV)</item>
+    </string-array>
+
+    <string-array name="sof_list">
+        <item>Aviation/Fixed</item>
+        <item>Aviation/Rotary</item>
+        <item>Aviation/CSAR</item>
+        <item>Naval</item>
+        <item>Special boat</item>
+        <item>Special SSNR</item>
+        <item>Ground</item>
+        <item>Ranger</item>
+        <item>PSYOPS</item>
+        <item>Support</item>
+    </string-array>
+
+</resources>

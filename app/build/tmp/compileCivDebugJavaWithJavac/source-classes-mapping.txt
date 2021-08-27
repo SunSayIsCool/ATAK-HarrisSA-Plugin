@@ -1,0 +1,67 @@
+com/atakmap/android/harrissaspr/driver/CommonUsbSerialPort.java
+ com.atakmap.android.harrissaspr.driver.CommonUsbSerialPort
+com/atakmap/android/harrissaspr/converters/HarrisSAparser.java
+ com.atakmap.android.harrissaspr.converters.HarrisSAparser
+com/atakmap/android/harrissaspr/HarrisSaSprMapComponent.java
+ com.atakmap.android.harrissaspr.HarrisSaSprMapComponent
+com/atakmap/android/harrissaspr/driver/UsbId.java
+ com.atakmap.android.harrissaspr.driver.UsbId
+com/atakmap/android/harrissaspr/driver/CdcAcmSerialDriver.java
+ com.atakmap.android.harrissaspr.driver.CdcAcmSerialDriver
+ com.atakmap.android.harrissaspr.driver.CdcAcmSerialDriver$CdcAcmSerialPort
+com/atakmap/android/harrissaspr/driver/SerialTimeoutException.java
+ com.atakmap.android.harrissaspr.driver.SerialTimeoutException
+com/atakmap/android/harrissaspr/LocateMarker.java
+ com.atakmap.android.harrissaspr.LocateMarker
+com/atakmap/android/harrissaspr/IconsAdapter.java
+ com.atakmap.android.harrissaspr.IconsAdapter
+com/atakmap/android/harrissaspr/driver/ProbeTable.java
+ com.atakmap.android.harrissaspr.driver.ProbeTable
+com/atakmap/android/harrissaspr/driver/UsbSerialPort.java
+ com.atakmap.android.harrissaspr.driver.UsbSerialPort
+ com.atakmap.android.harrissaspr.driver.UsbSerialPort$ControlLine
+ com.atakmap.android.harrissaspr.driver.UsbSerialPort$Parity
+com/atakmap/android/harrissaspr/plugin/PluginNativeLoader.java
+ com.atakmap.android.harrissaspr.plugin.PluginNativeLoader
+com/atakmap/android/harrissaspr/driver/UsbSerialProber.java
+ com.atakmap.android.harrissaspr.driver.UsbSerialProber
+com/atakmap/android/harrissaspr/SprSerialService.java
+ com.atakmap.android.harrissaspr.SprSerialService
+ com.atakmap.android.harrissaspr.SprSerialService$1
+com/atakmap/android/harrissaspr/converters/SprSAparser.java
+ com.atakmap.android.harrissaspr.converters.SprSAparser
+com/atakmap/android/harrissaspr/driver/UsbSerialDriver.java
+ com.atakmap.android.harrissaspr.driver.UsbSerialDriver
+com/atakmap/android/harrissaspr/plugin/BuildConfig.java
+ com.atakmap.android.harrissaspr.plugin.BuildConfig
+com/atakmap/android/harrissaspr/plugin/PluginTemplateTool.java
+ com.atakmap.android.harrissaspr.plugin.PluginTemplateTool
+com/atakmap/android/harrissaspr/util/SerialInputOutputManager.java
+ com.atakmap.android.harrissaspr.util.SerialInputOutputManager
+ com.atakmap.android.harrissaspr.util.SerialInputOutputManager$Listener
+ com.atakmap.android.harrissaspr.util.SerialInputOutputManager$State
+com/atakmap/android/harrissaspr/util/MonotonicClock.java
+ com.atakmap.android.harrissaspr.util.MonotonicClock
+com/atakmap/android/harrissaspr/HarrisSaSprDropDownReceiver.java
+ com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver
+ com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$1
+ com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$10
+ com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$11
+ com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$12
+ com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$13
+ com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$2
+ com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$3
+ com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$4
+ com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$5
+ com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$6
+ com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$6$1
+ com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$6$2
+ com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$7
+ com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$8
+ com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$9
+com/atakmap/android/harrissaspr/converters/MILSTDconverter.java
+ com.atakmap.android.harrissaspr.converters.MILSTDconverter
+com/atakmap/android/harrissaspr/plugin/PluginLifecycle.java
+ com.atakmap.android.harrissaspr.plugin.PluginLifecycle
+com/atakmap/android/harrissaspr/HhmpUdpService.java
+ com.atakmap.android.harrissaspr.HhmpUdpService

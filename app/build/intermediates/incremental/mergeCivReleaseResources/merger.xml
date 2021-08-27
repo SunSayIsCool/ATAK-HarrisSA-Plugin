@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res"/><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/generated/res/rs/civ/release"/><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/generated/res/resValues/civ/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res"><file name="new_dark_button_selected" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/new_dark_button_selected.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/ic_launcher.png" qualifiers="" type="drawable"/><file name="dot_selected" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/dot_selected.xml" qualifiers="" type="drawable"/><file name="new_dark_button_bg" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/new_dark_button_bg.xml" qualifiers="" type="drawable"/><file name="new_dark_button_disabled" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/new_dark_button_disabled.xml" qualifiers="" type="drawable"/><file name="dot_selector" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/dot_selector.xml" qualifiers="" type="drawable"/><file name="dot_unselected" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/dot_unselected.xml" qualifiers="" type="drawable"/><file name="ic_menu_plus" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/ic_menu_plus.png" qualifiers="" type="drawable"/><file name="btn_gray" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/btn_gray.xml" qualifiers="" type="drawable"/><file name="ic_menu_minus" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/ic_menu_minus.png" qualifiers="" type="drawable"/><file path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/dimen.xml" qualifiers=""><dimen name="fontSize">14sp</dimen></file><file path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">HarrisSA/SPR Tool</string><string name="app_desc">This plugin receive Harris SA and SPR packets and place them on the map</string><string name="enableBFT">Enable BFT</string><string name="inputCombatID">Combat ID</string><string name="selfCombatID">My radio Combat ID</string><string name="useRadioGPS">Use radio GPS</string><string name="radioAlias">Map alias</string><string name="btnRemove">Remove</string><string name="btnAdd">Add</string><string name="btnSave">Save</string><string name="domain_promt">Choose marker domain</string><string name="marker_promt">Choose marker</string><string-array name="domain_list">
+        <item>AIR MIL</item>
+        <item>GROUND VEHICLE</item>
+        <item>GROUND WEAPON</item>
+        <item>GROUND UNIT COMBAT</item>
+        <item>GROUND UNIT COMBAT SUPPORT</item>
+        <item>GROUND UNIT SERVICE SUPPORT</item>
+        <item>SURFACE</item>
+        <item>SUBSURFACE</item>
+        <item>SOF</item>
+    </string-array><string-array name="air_mil_list">
+        <item>Fixed</item>
+        <item>Fixed/Attack</item>
+        <item>Fixed/Bomber</item>
+        <item>Fixed/Transport</item>
+        <item>Fixed/C2</item>
+        <item>Fixed/Fighter</item>
+        <item>Fixed/Interceptor</item>
+        <item>Fixed/CSAR</item>
+        <item>Fixed/Jammer</item>
+        <item>Fixed/Tanker</item>
+        <item>Fixed/VSTOL</item>
+        <item>Fixed/SOF</item>
+        <item>Fixed/MEDEVAC</item>
+        <item>Fixed/Patrol</item>
+        <item>Fixed/UAV</item>
+        <item>Fixed/RECON</item>
+        <item>Fixed/Trainer</item>
+        <item>Fixed/Utility</item>
+        <item>Fixed/C3I</item>
+        <item>Rotor</item>
+        <item>Rotor/Attack</item>
+        <item>Rotor/Transport</item>
+        <item>Rotor/C2</item>
+        <item>Rotor/CSAR</item>
+        <item>Rotor/Jammer</item>
+        <item>Rotor/SOF</item>
+        <item>Rotor/MEDEVAC</item>
+        <item>Rotor/UAV</item>
+        <item>Rotor/RECON</item>
+        <item>Rotor/Utility</item>
+        <item>Blimp</item>
+    </string-array><string-array name="gnd_vech_list">
+        <item>Vehicle</item>
+        <item>Armor/Gun</item>
+        <item>Apc</item>
+        <item>Apc/Recovery</item>
+        <item>C2V/ACV</item>
+        <item>Armor/Infantry</item>
+        <item>Armor/Light</item>
+        <item>Armor/Combat Service Support</item>
+        <item>Tank</item>
+        <item>Civilian</item>
+        <item>Engineer</item>
+        <item>Mine Clearing Vehicle</item>
+        <item>Utility</item>
+        <item>Bus</item>
+        <item>Cross Country Truck</item>
+        <item>Boat</item>
+        <item>Semi</item>
+        <item>Ambulance</item>
+    </string-array><string-array name="gnd_weap_list">
+        <item>Weapon</item>
+        <item>Air Defense Gun</item>
+        <item>DirectFire</item>
+        <item>AnitTankGun</item>
+        <item>Howitzer</item>
+        <item>MissileLauncher</item>
+        <item>Mortar</item>
+        <item>Rifle</item>
+        <item>Automatic Weapon</item>
+        <item>Light Machine Gun</item>
+        <item>Heavy Machine Gun</item>
+        <item>RocketLauncher/Single</item>
+        <item>RocketLauncher/Multiple</item>
+        <item>RocketLauncher/AntiTank</item>
+        <item>Flame Thrower</item>
+        <item>Nbc Equipment</item>
+    </string-array><string-array name="gnd_unt_cbt_list">
+        <item>Combat</item>
+        <item>ARMOR</item>
+        <item>ANTI ARMOR</item>
+        <item>ANTI ARMOR, ARMORED AIR ASSAULT</item>
+        <item>ANTI ARMOR, ARMORED TRACKED</item>
+        <item>ANTI ARMOR, ARMORED WHEELED</item>
+        <item>ANTI ARMOR, AIRBORNE</item>
+        <item>ANTI ARMOR, MOTORIZED</item>
+        <item>ARMOR TRACK</item>
+        <item>ARMOR TRACK AMPHIBIOUS</item>
+        <item>ARMOR, WHEELED</item>
+        <item>ARMOR, WHEELED AIRBORNE</item>
+        <item>ARMOR, WHEELED RECOVERY</item>
+        <item>ARMOR, WHEELED AMPHIBIOUS</item>
+        <item>AIR DEFENSE</item>
+        <item>AIR DEFENSE MISSILE</item>
+        <item>Engineer/ENGINEER</item>
+        <item>Artillery (Fixed)</item>
+        <item>MORTAR</item>
+        <item>ROCKET</item>
+        <item>SINGLE ROCKET SELF PROPELLED</item>
+        <item>MULTI ROCKET SELF PROPELLED</item>
+        <item>Infantry/Troops</item>
+        <item>Infantry/Airborne</item>
+        <item>Infantry/Fighting Vehicle</item>
+        <item>Infantry/Motorized</item>
+        <item>Infantry/Naval</item>
+        <item>Infantry/Air Assault</item>
+        <item>Infantry/Mountain</item>
+        <item>Infantry/Mechanized</item>
+        <item>MISSILE (SURF SURF)</item>
+        <item>Recon</item>
+        <item>Recon/AIRBORNE</item>
+        <item>Recon/MOUNTAIN</item>
+        <item>Recon/MARINE</item>
+        <item>Recon/AIR ASSAULT</item>
+        <item>INTERNAL SECURITY FORCES</item>
+        <item>Aviation/AVIATION</item>
+        <item>Aviation/COMPOSITE</item>
+        <item>Aviation/FIXED WING</item>
+        <item>Aviation/ROTARY WING</item>
+    </string-array><string-array name="gnd_unt_cs_list">
+        <item>COMBAT SUPPORT</item>
+        <item>COMBAT SUPPORT NBC</item>
+        <item>BIOLOGICAL</item>
+        <item>CHEMICAL</item>
+        <item>NUCLEAR</item>
+        <item>EXPLOSIVE ORDINANCE DISPOSAL</item>
+        <item>INFORMATION WARFARE UNIT</item>
+        <item>LAW ENFORCEMENT UNIT</item>
+        <item>CIVILIAN LAW ENFORCEMENT</item>
+        <item>MILITARY POLICE</item>
+        <item>MILITARY INTELLIGENCE</item>
+        <item>COUNTER INTELLIGENCE</item>
+        <item>SIGNAL INTELLIGENCE (SIGINT)</item>
+        <item>ELECTRONIC WARFARE</item>
+        <item>SIGNAL UNIT</item>
+        <item>COMMAND OPERATIONS</item>
+        <item>RADIO UNIT</item>
+        <item>TACTICAL SATELLITE</item>
+        <item>RELAY</item>
+        <item>TELEPHONE SWITCH</item>
+    </string-array><string-array name="gnd_unt_ss_list">
+        <item>C2 HEADQUARTERS COMPONENT</item>
+        <item>MEDICAL</item>
+        <item>SUPPLY</item>
+        <item>TRANSPORTATION</item>
+        <item>MAINTENANCE</item>
+        <item>MAINTENANCE RECOVERY</item>
+    </string-array><string-array name="sfc_list">
+        <item>SEA SURFACE TRACK/item</item>
+        <item>COMBATANT</item>
+        <item>AMPHIBIOUS WARFARE SHIP</item>
+        <item>ASSAULT VESSEL</item>
+        <item>LANDING CRAFT</item>
+        <item>LANDING SHIP</item>
+        <item>HOVERCRAFT</item>
+        <item>LINE</item>
+        <item>BATTLESHIP</item>
+        <item>CRUISER</item>
+        <item>CARRIER</item>
+        <item>DESTROYER</item>
+        <item>FRIGATE/CORVETTE</item>
+        <item>MINE WARFARE VESSEL</item>
+        <item>MINEHUNTER</item>
+        <item>MINELAYER</item>
+        <item>PATROL</item>
+        <item>ANTISUBMARINE WARFARE</item>
+        <item>ANTISURFACE WARFARE</item>
+        <item>CONVOY</item>
+        <item>HOSPITAL SHIP</item>
+        <item>RESCUE</item>
+        <item>NON MILITARY</item>
+        <item>CARGO</item>
+        <item>PASSENGER</item>
+        <item>TANKER</item>
+    </string-array><string-array name="sub_sfc_list">
+        <item>SUBSURFACE TRACK</item>
+        <item>DIVER</item>
+        <item>SUBMARINE</item>
+        <item>SUBMARINE CONVENTIONAL PROPULSION</item>
+        <item>SUBMARINE NUCLEAR PROPULSION</item>
+        <item>UNMANNED UNDERWATER VEHICLE (UUV)</item>
+    </string-array><string-array name="sof_list">
+        <item>AVIATION Fixed</item>
+        <item>AVIATION Rotary</item>
+        <item>AVIATION CSAR</item>
+        <item>NAVAL</item>
+        <item>SPECIAL BOAT</item>
+        <item>SPECIAL SSNR</item>
+        <item>GROUND</item>
+        <item>RANGER</item>
+        <item>PSYOPS</item>
+        <item>SUPPORT</item>
+    </string-array></file><file path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/color.xml" qualifiers=""><color name="white">#ffffff</color><color name="darker_gray">#121212</color><color name="light_blue">#33b5e5</color><color name="light_gray">#cccccc</color></file><file path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/styles.xml" qualifiers=""><style name="ATAKPluginTheme" parent="@android:style/Theme.Holo">
+        <item name="android:buttonStyle">@android:style/Widget.Button</item>
+        <item name="android:imageButtonStyle">@android:style/Widget.Button</item>
+        <item name="android:buttonStyleToggle">@android:style/Widget.Button</item>
+        <item name="android:spinnerStyle">@style/ATAKSpinner</item>
+        <item name="android:spinnerItemStyle">@style/ATAKSpinnerItem</item>
+        <item name="android:editTextStyle">@style/ATAKEditText</item>
+    </style><style name="ATAKTheme" parent="@android:style/Theme.Holo">
+
+        
+        <item name="android:buttonStyle">@android:style/Widget.Button</item>
+        <item name="android:imageButtonStyle">@android:style/Widget.Button</item>
+        <item name="android:buttonStyleToggle">@android:style/Widget.Button</item>
+        <item name="android:spinnerStyle">@style/ATAKSpinner</item>
+        <item name="android:spinnerItemStyle">@style/ATAKSpinnerItem</item>
+
+        <item name="android:editTextStyle">@style/ATAKEditText</item>
+
+        
+        
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style><style name="AppTheme" parent="@android:style/Theme.Holo">
+        <item name="android:buttonStyle">@android:style/Widget.Button</item>
+        <item name="android:imageButtonStyle">@android:style/Widget.Button</item>
+        <item name="android:buttonStyleToggle">@android:style/Widget.Button</item>
+        <item name="android:spinnerStyle">@style/ATAKSpinner</item>
+        <item name="android:spinnerItemStyle">@style/ATAKSpinnerItem</item>
+        <item name="android:editTextStyle">@style/ATAKEditText</item>
+    </style><style name="ATAKSpinner" parent="@android:style/Widget.Spinner">
+        <item name="android:spinnerMode">dialog</item>
+    </style><style name="ATAKEditText" parent="@android:style/Widget.EditText">
+        
+        
+
+        
+        <item name="android:imeOptions">flagNoFullscreen</item>
+    </style><style name="FullDropdownStyle" parent="@style/ATAKTheme">
+        <item name="android:buttonStyle">@style/unpaddedButton</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:imeOptions">flagNoExtractUi</item>
+    </style><style name="ATAKSpinnerItem" parent="@style/AppTheme">
+        <item name="android:textColor">@android:color/black</item>
+    </style><style name="unpaddedButton" parent="@android:style/Widget.Button">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textSize">@dimen/fontSize</item>
+    </style><style name="darkButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_gray</item>
+        <item name="android:shadowColor">@color/darker_gray</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textSize">@dimen/fontSize</item>
+    </style></file><file name="main_layout" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/layout/main_layout.xml" qualifiers="" type="layout"/></source><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/generated/res/rs/civ/release"/><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/generated/res/resValues/civ/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="civ$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/civ/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="civ" generated-set="civ$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/civ/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build-types/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build-types/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="civRelease$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/civRelease/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="civRelease" generated-set="civRelease$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/civRelease/res"/></dataSet><mergedItems/></merger>

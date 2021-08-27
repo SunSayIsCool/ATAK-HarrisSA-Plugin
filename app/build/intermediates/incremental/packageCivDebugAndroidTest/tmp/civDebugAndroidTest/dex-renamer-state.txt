@@ -1,0 +1,4 @@
+#Wed Jun 30 22:12:53 EEST 2021
+base.0=/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/dex/civDebugAndroidTest/mergeProjectDexCivDebugAndroidTest/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="air_mil_list">
+        <item>Літак</item>
+        <item>Літак/Штурмовий</item>
+        <item>Літак/Бомбардувальник</item>
+        <item>Літак/Транспортний</item>
+        <item>Літак/Управління</item>
+        <item>Літак/Винищувач</item>
+        <item>Літак/Перехоплювач</item>
+        <item>Літак/Пошуковий</item>
+        <item>Літак/РЕБ</item>
+        <item>Літак/Заправник</item>
+        <item>Літак/Вертикального злету-посадки</item>
+        <item>Літак/Спеціальних операцій</item>
+        <item>Літак/Медичної евакуації</item>
+        <item>Літак/Патрульний</item>
+        <item>Літак/БПА</item>
+        <item>Літак/Розвідник</item>
+        <item>Літак/Тренувальний</item>
+        <item>Літак/Вантажний</item>
+        <item>Літак/Дальнього радіолокаційного стеження</item>
+        <item>Гелікоптер</item>
+        <item>Гелікоптер/Штурмовий</item>
+        <item>Гелікоптер/Транспортний</item>
+        <item>Гелікоптер/Управління</item>
+        <item>Гелікоптер/Пошуковий</item>
+        <item>Гелікоптер/РЕБ</item>
+        <item>Гелікоптер/Спеціальних операцій</item>
+        <item>Гелікоптер/Медичної евакуації</item>
+        <item>Гелікоптер/БПА</item>
+        <item>Гелікоптер/Розвідувальний</item>
+        <item>Гелікоптер/Вантажний</item>
+        <item>Аеростат</item>
+    </string-array>
+    <string-array name="domain_list">
+        <item>ПОВІТРЯНИЙ</item>
+        <item>ТРАНСПОРТ</item>
+        <item>ЗБРОЯ</item>
+        <item>ПІДРОЗДІЛ БОЙОВИЙ</item>
+        <item>ПІДРОЗДІЛ БОЙОВОЇ ПІДТРИМКИ</item>
+        <item>ПІДРОЗДІЛ ЗАБЕЗПЕЧЕННЯ</item>
+        <item>МОРСЬКИЙ</item>
+        <item>ПІДВОДНИЙ</item>
+        <item>ПІДРОЗДІЛ СПЕЦІАЛЬНИХ ОПЕРАЦІЙ</item>
+    </string-array>
+    <string-array name="gnd_unt_cbt_list">
+        <item>Бойовий підрозділ</item>
+        <item>ПТ підрозділ</item>
+        <item>ПТ підрозділ/Броньований</item>
+        <item>ПТ підрозділ/Броньований десантно-штурмовий</item>
+        <item>ПТ підрозділ/Броньований на гусеничній базі</item>
+        <item>ПТ підрозділ/Броньований на колісній базі</item>
+        <item>ПТ підрозділ/Повітряно-десантний</item>
+        <item>ПТ підрозділ/Моторизований</item>
+        <item>Броньований/Гусеничний</item>
+        <item>Броньований/Гусеничний амфібійний</item>
+        <item>Броньований/Колісний</item>
+        <item>Броньований/Колісний повітряно-десантний</item>
+        <item>Броньований/Колісний ремонтний</item>
+        <item>Броньований/Колісний амфібійний</item>
+        <item>ППО</item>
+        <item>ППО/Ракетний</item>
+        <item>Іженерний</item>
+        <item>Артилерія/Стаціонарна</item>
+        <item>Мінометний</item>
+        <item>Ракетний</item>
+        <item>Ракетний/Самохідний</item>
+        <item>Ракетний/РСЗВ самохідний</item>
+        <item>Піхота</item>
+        <item>Піхота/Повітряно-десантна</item>
+        <item>Піхота/на БМП</item>
+        <item>Піхота/Моторизована</item>
+        <item>Піхота/Морська</item>
+        <item>Піхота/Десантно-штурмова</item>
+        <item>Піхота/Гірсько-штурмова</item>
+        <item>Піхота/Механізована</item>
+        <item>Ракетний/Класу земля-земля</item>
+        <item>Розвідка</item>
+        <item>Розвідка/Повітряно-десантна</item>
+        <item>Розвідка/Гірсько-штурмова</item>
+        <item>Розвідка/Морської піхоти</item>
+        <item>Розвідка/Десантно-штурмова</item>
+        <item>Забезпечення охорони</item>
+        <item>Армійська авіація</item>
+        <item>Армійська авіація/Змішана</item>
+        <item>Армійська авіація/Літаки</item>
+        <item>Армійська авіація/Вертольоти</item>
+    </string-array>
+    <string-array name="gnd_unt_cs_list">
+        <item>Бойове забезпечення</item>
+        <item>Бойове забезпечення/РХБ</item>
+        <item>Біологічне</item>
+        <item>Хімічне</item>
+        <item>Ядерне</item>
+        <item>Сапери</item>
+        <item>Інформаційних операцій</item>
+        <item>Органи правопорядку</item>
+        <item>Поліція</item>
+        <item>Військова поліція</item>
+        <item>Військова розвідка</item>
+        <item>Контррозвідка</item>
+        <item>Радіоелектронної розвідка</item>
+        <item>Радіолоектронної боротьби</item>
+        <item>Звязку</item>
+        <item>Управління операціями</item>
+        <item>Радіостанція</item>
+        <item>Тактичний супутник</item>
+        <item>Радіорелейний</item>
+        <item>Телефонний комутатор</item>
+    </string-array>
+    <string-array name="gnd_unt_ss_list">
+        <item>Штаб</item>
+        <item>Медичний</item>
+        <item>Логістичний</item>
+        <item>Транспортний</item>
+        <item>Ремонтний</item>
+        <item>Ремонтно-відновлювальний</item>
+    </string-array>
+    <string-array name="gnd_vech_list">
+        <item>Транспорт</item>
+        <item>Броньований</item>
+        <item>БТР</item>
+        <item>БТР/Ремонтний</item>
+        <item>КШМ</item>
+        <item>БМП</item>
+        <item>ББМ</item>
+        <item>Броньований/Забезпечення</item>
+        <item>Заправник</item>
+        <item>Цивільний</item>
+        <item>Інженерний</item>
+        <item>Розмінування</item>
+        <item>Вантажівка</item>
+        <item>Автобус</item>
+        <item>Вантажівка підвищеної прохідності</item>
+        <item>Човен</item>
+        <item>Причіп</item>
+        <item>Швидка допомога</item>
+    </string-array>
+    <string-array name="gnd_weap_list">
+        <item>Зброя</item>
+        <item>ППО</item>
+        <item>Гармата</item>
+        <item>ПТ гармата</item>
+        <item>Гаубиця</item>
+        <item>Ракетна установка</item>
+        <item>Міномет</item>
+        <item>Стрілецька зброя</item>
+        <item>Автоматична гвинтівка</item>
+        <item>Піхотний кулемет</item>
+        <item>Важкий кулемет</item>
+        <item>Гранатомет/Однозарядний</item>
+        <item>Гранатомет/Багатозарядний</item>
+        <item>РПГ</item>
+        <item>Вогнемет</item>
+        <item>РХБ обладнання</item>
+    </string-array>
+    <string-array name="sfc_list">
+        <item>Корабель</item>
+        <item>Надво́дні си́ли</item>
+        <item>Десантно-висадковий корабель</item>
+        <item>Універсальний десантний корабель</item>
+        <item>Десантний катер</item>
+        <item>Великий десантний кораблель</item>
+        <item>Судно на повітряній подушці</item>
+        <item>Лінійний корабель</item>
+        <item>Бойовий корабель</item>
+        <item>Крейсер</item>
+        <item>Транспортний корабель</item>
+        <item>Эскортний міноносець</item>
+        <item>Фригат/Корве́т</item>
+        <item>Корабель протимінної дії </item>
+        <item>Мінно-тральний корабель</item>
+        <item>Мінний загороджувач</item>
+        <item>Патрульний корабель</item>
+        <item>Корабель боротьби з підвоними човнами</item>
+        <item>Протичовновий корабель</item>
+        <item>Конвой</item>
+        <item>Шпитальний корабель</item>
+        <item>Пошуковий корабель</item>
+        <item>Цивільне судно</item>
+        <item>Вантажне судно</item>
+        <item>Пасажирське судно</item>
+        <item>Танкер</item>
+    </string-array>
+    <string-array name="sof_list">
+        <item>Літаки</item>
+        <item>Гелікоптери</item>
+        <item>Бойових рятувальних операцій</item>
+        <item>Морська компонента</item>
+        <item>Спеціальних бойових човнів</item>
+        <item>Спеціальних підводних човнів</item>
+        <item>Наземна компонента</item>
+        <item>Комбінована компонента</item>
+        <item>ІПСО</item>
+        <item>Забезпечення</item>
+    </string-array>
+    <string-array name="sub_sfc_list">
+        <item>Підводний</item>
+        <item>Водолаз</item>
+        <item>Підводний човен</item>
+        <item>Підводний човен/Дизельний</item>
+        <item>Підводний човен/Атомний</item>
+        <item>Підводний безпілотний апарат</item>
+    </string-array>
+    <string name="CHOOSE_DOMAIN">Оберіть рід маркеру</string>
+    <string name="CHOOSE_MARKER">Оберіть маркер</string>
+    <string name="COMBAT_ID">ID станції</string>
+    <string name="HHMP_BFT_DISABLED">HH/MP BFT вимкнено</string>
+    <string name="HHMP_BFT_ENABLED">HH/MP BFT увімкнено</string>
+    <string name="HHMP_GPS_DISABLED">GPS станції HH/MP як джерело вимкнено</string>
+    <string name="HHMP_GPS_ENABLED">GPS станції HH/MP як джерело ввімкнено</string>
+    <string name="MAP_ALIAS">Позивний</string>
+    <string name="RadioIDempty">ID станції не може бути порожнім!</string>
+    <string name="SPR_BFT_DISABLED">7800S BFT вимкнено</string>
+    <string name="SPR_BFT_ENABLED">Станцію 7800S підключено. BFT увімкнено</string>
+    <string name="SPR_GPS_DISABLED">GPS станції 7800S як джерело вимкнено</string>
+    <string name="SPR_GPS_ENABLED">GPS станції 7800S як джерело ввімкнено</string>
+    <string name="SPR_radio_not_found">Станцію 7800S не знайдено!</string>
+    <string name="app_desc">Цей плагін дає змогу обробляти GPS пакети в форматі Harris SA та SPR SA та розташовувати їх на мапі</string>
+    <string name="app_name">HarrisSA/SPR Tool</string>
+    <string name="btnAdd">Додати</string>
+    <string name="btnRemove">Видалити</string>
+    <string name="btnSave">Зберегти</string>
+    <string name="domain_promt">Виберіть рід об\'єкту</string>
+    <string name="enableBFT">увімк. BFT</string>
+    <string name="inputCombatID">Combat ID</string>
+    <string name="marker_promt">Виберіть маркер</string>
+    <string name="radioAlias">Позивний</string>
+    <string name="selfCombatID">ID своєї станції</string>
+    <string name="useRadioGPS">вик. GPS станції</string>
+</resources>

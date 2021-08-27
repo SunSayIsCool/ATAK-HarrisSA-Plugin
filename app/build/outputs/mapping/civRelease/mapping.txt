@@ -1,0 +1,187 @@
+com.atakmap.android.harrissaspr.HarrisSAparser -> com.atakmap.android.harrissaspr.a:
+    9:9:void <init>() -> <init>
+    11:11:java.lang.Boolean ChkPass(java.lang.String) -> a
+    15:16:java.lang.String RMCstr(java.lang.String) -> b
+    20:24:java.lang.String CHKsumm(java.lang.String) -> c
+    28:29:char Valid(java.lang.String) -> d
+    33:43:java.lang.String CotDateTime(java.lang.String) -> e
+    47:60:java.lang.Double Latitude(java.lang.String) -> f
+    64:77:java.lang.Double Longtitude(java.lang.String) -> g
+    81:84:java.lang.String Speed(java.lang.String) -> h
+    88:89:java.lang.String Course(java.lang.String) -> i
+    93:95:java.lang.String Callsign(java.lang.String) -> j
+    99:102:java.lang.String RMC_chksum(java.lang.String) -> k
+com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver -> com.atakmap.android.harrissaspr.b:
+    java.lang.String TAG -> a
+    java.lang.String SHOW_PLUGIN -> b
+    android.view.View templateView -> c
+    android.content.Context pluginContext -> d
+    33:108:void <init>(com.atakmap.android.maps.MapView,android.content.Context) -> <init>
+    113:113:void disposeImpl() -> disposeImpl
+    120:131:void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    135:135:void onDropDownSelectionRemoved() -> onDropDownSelectionRemoved
+    139:139:void onDropDownVisible(boolean) -> onDropDownVisible
+    143:143:void onDropDownSizeChanged(double,double) -> onDropDownSizeChanged
+    147:147:void onDropDownClose() -> onDropDownClose
+    23:24:void <clinit>() -> <clinit>
+com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$1 -> com.atakmap.android.harrissaspr.c:
+    com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver this$0 -> a
+    58:58:void <init>(com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver) -> <init>
+    61:76:void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$1$1 -> com.atakmap.android.harrissaspr.d:
+    com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$1 this$1 -> a
+    61:61:void <init>(com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$1) -> <init>
+    65:65:void run() -> run
+com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$2 -> com.atakmap.android.harrissaspr.e:
+    com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver this$0 -> a
+    80:80:void <init>(com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver) -> <init>
+    83:88:void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$3 -> com.atakmap.android.harrissaspr.f:
+    com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver this$0 -> a
+    92:92:void <init>(com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver) -> <init>
+    95:97:void onClick(android.view.View) -> onClick
+com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$4 -> com.atakmap.android.harrissaspr.g:
+    com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver this$0 -> a
+    101:101:void <init>(com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver) -> <init>
+    104:105:void onClick(android.view.View) -> onClick
+com.atakmap.android.harrissaspr.HarrisSaSprMapComponent -> com.atakmap.android.harrissaspr.h:
+    java.lang.String TAG -> a
+    android.content.Context pluginContext -> b
+    com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver ddr -> c
+    13:13:void <init>() -> <init>
+    24:37:void onCreate(android.content.Context,android.content.Intent,com.atakmap.android.maps.MapView) -> onCreate
+    41:42:void onDestroyImpl(android.content.Context,com.atakmap.android.maps.MapView) -> onDestroyImpl
+com.atakmap.android.harrissaspr.MILSTDconverter -> com.atakmap.android.harrissaspr.i:
+    3:3:void <init>() -> <init>
+    5:625:java.lang.String milstd_conv(java.lang.String,java.lang.String) -> a
+com.atakmap.android.harrissaspr.UDPReceiverService -> com.atakmap.android.harrissaspr.UDPReceiverService:
+    java.lang.String LOG_TAG -> a
+    9:12:void <init>() -> <init>
+    16:18:void onCreate() -> onCreate
+    22:24:int onStartCommand(android.content.Intent,int,int) -> onStartCommand
+    29:31:void onDestroy() -> onDestroy
+    36:36:android.os.IBinder onBind(android.content.Intent) -> onBind
+    40:40:void someTask() -> a
+com.atakmap.android.harrissaspr.plugin.BuildConfig -> com.atakmap.android.harrissaspr.plugin.a:
+    boolean DEBUG -> a
+    java.lang.String APPLICATION_ID -> b
+    java.lang.String BUILD_TYPE -> c
+    java.lang.String FLAVOR -> d
+    int VERSION_CODE -> e
+    java.lang.String VERSION_NAME -> f
+    6:6:void <init>() -> <init>
+com.atakmap.android.harrissaspr.plugin.PluginLifecycle -> com.atakmap.android.harrissaspr.plugin.PluginLifecycle:
+    android.content.Context pluginContext -> a
+    java.util.Collection overlays -> b
+    com.atakmap.android.maps.MapView mapView -> c
+    java.lang.String TAG -> d
+    28:33:void <init>(android.content.Context) -> <init>
+    37:39:void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    44:66:void onCreate(android.app.Activity,transapps.mapi.MapView) -> onCreate
+    71:73:void onDestroy() -> onDestroy
+    78:78:void onFinish() -> onFinish
+    82:84:void onPause() -> onPause
+    88:90:void onResume() -> onResume
+    94:96:void onStart() -> onStart
+    100:102:void onStop() -> onStop
+com.atakmap.android.harrissaspr.plugin.PluginNativeLoader -> com.atakmap.android.harrissaspr.plugin.b:
+    java.lang.String TAG -> a
+    java.lang.String ndl -> b
+    10:10:void <init>() -> <init>
+    22:33:void init(android.content.Context) -> a
+    43:53:void loadLibrary(java.lang.String) -> a
+    13:13:void <clinit>() -> <clinit>
+com.atakmap.android.harrissaspr.plugin.PluginTemplateTool -> com.atakmap.android.harrissaspr.plugin.PluginTemplateTool:
+    android.content.Context context -> a
+    23:25:void <init>(android.content.Context) -> <init>
+    29:29:java.lang.String getDescription() -> getDescription
+    34:35:android.graphics.drawable.Drawable getIcon() -> getIcon
+    40:40:transapps.maps.plugin.tool.Group[] getGroups() -> getGroups
+    47:47:java.lang.String getShortDescription() -> getShortDescription
+    52:52:transapps.maps.plugin.tool.Tool getTool() -> getTool
+    62:72:void onActivate(android.app.Activity,transapps.mapi.MapView,android.view.ViewGroup,android.os.Bundle,transapps.maps.plugin.tool.Tool$ToolCallback) -> onActivate
+    76:76:void onDeactivate(transapps.maps.plugin.tool.Tool$ToolCallback) -> onDeactivate
+com.atakmap.android.harrissaspr.plugin.R -> com.atakmap.android.harrissaspr.plugin.c:
+    void <init>() -> <init>
+com.atakmap.android.harrissaspr.plugin.R$array -> com.atakmap.android.harrissaspr.plugin.c$a:
+    int air_mil_list -> air_mil_list
+    int domain_list -> domain_list
+    int gnd_unt_cbt_list -> gnd_unt_cbt_list
+    int gnd_unt_cs_list -> gnd_unt_cs_list
+    int gnd_unt_ss_list -> gnd_unt_ss_list
+    int gnd_vech_list -> gnd_vech_list
+    int gnd_weap_list -> gnd_weap_list
+    int sfc_list -> sfc_list
+    int sof_list -> sof_list
+    int sub_sfc_list -> sub_sfc_list
+    void <init>() -> <init>
+com.atakmap.android.harrissaspr.plugin.R$color -> com.atakmap.android.harrissaspr.plugin.c$b:
+    int darker_gray -> darker_gray
+    int light_blue -> light_blue
+    int light_gray -> light_gray
+    int white -> white
+    void <init>() -> <init>
+com.atakmap.android.harrissaspr.plugin.R$dimen -> com.atakmap.android.harrissaspr.plugin.c$c:
+    int fontSize -> fontSize
+    void <init>() -> <init>
+com.atakmap.android.harrissaspr.plugin.R$drawable -> com.atakmap.android.harrissaspr.plugin.c$d:
+    int btn_gray -> btn_gray
+    int dot_selected -> dot_selected
+    int dot_selector -> dot_selector
+    int dot_unselected -> dot_unselected
+    int ic_launcher -> ic_launcher
+    int ic_menu_minus -> ic_menu_minus
+    int ic_menu_plus -> ic_menu_plus
+    int new_dark_button_bg -> new_dark_button_bg
+    int new_dark_button_disabled -> new_dark_button_disabled
+    int new_dark_button_selected -> new_dark_button_selected
+    void <init>() -> <init>
+com.atakmap.android.harrissaspr.plugin.R$id -> com.atakmap.android.harrissaspr.plugin.c$e:
+    int HHMProw_1 -> HHMProw_1
+    int SPRrow_1 -> SPRrow_1
+    int btnAdd -> btnAdd
+    int btnRemove -> btnRemove
+    int btnSave -> btnSave
+    int edttxtAliasHHMP_1 -> edttxtAliasHHMP_1
+    int edttxtCombatIDHHMP_1 -> edttxtCombatIDHHMP_1
+    int edttxtSelfCombatIDHHMP -> edttxtSelfCombatIDHHMP
+    int edttxtSelfCombatIDSPR -> edttxtSelfCombatIDSPR
+    int spnDomain -> spnDomain
+    int spnUnit -> spnUnit
+    int swBFTHHMP -> swBFTHHMP
+    int swBFTSPR -> swBFTSPR
+    int swGPSHHMP -> swGPSHHMP
+    int swGPSSPR -> swGPSSPR
+    int tabHost -> tabHost
+    int tbHHMP -> tbHHMP
+    int tbSPR -> tbSPR
+    void <init>() -> <init>
+com.atakmap.android.harrissaspr.plugin.R$layout -> com.atakmap.android.harrissaspr.plugin.c$f:
+    int main_layout -> main_layout
+    void <init>() -> <init>
+com.atakmap.android.harrissaspr.plugin.R$string -> com.atakmap.android.harrissaspr.plugin.c$g:
+    int app_desc -> app_desc
+    int app_name -> app_name
+    int btnAdd -> btnAdd
+    int btnRemove -> btnRemove
+    int btnSave -> btnSave
+    int domain_promt -> domain_promt
+    int enableBFT -> enableBFT
+    int inputCombatID -> inputCombatID
+    int marker_promt -> marker_promt
+    int radioAlias -> radioAlias
+    int selfCombatID -> selfCombatID
+    int useRadioGPS -> useRadioGPS
+    void <init>() -> <init>
+com.atakmap.android.harrissaspr.plugin.R$style -> com.atakmap.android.harrissaspr.plugin.c$h:
+    int ATAKEditText -> ATAKEditText
+    int ATAKPluginTheme -> ATAKPluginTheme
+    int ATAKSpinner -> ATAKSpinner
+    int ATAKSpinnerItem -> ATAKSpinnerItem
+    int ATAKTheme -> ATAKTheme
+    int AppBaseTheme -> AppBaseTheme
+    int AppTheme -> AppTheme
+    int FullDropdownStyle -> FullDropdownStyle
+    int darkButton -> darkButton
+    int unpaddedButton -> unpaddedButton
+    void <init>() -> <init>
