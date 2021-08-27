@@ -1,17 +1,12 @@
-(Plugin Name)
-
-
+Harris SA Tool
 _________________________________________________________________
 PURPOSE AND CAPABILITIES
 
-(General Description)
-
-
+Receiving Harris SA and SPR SA messages and place it on ATAK Map
 _________________________________________________________________
 STATUS
 
-(In Progress?  Expected release?  Released?  To Who?  When?)
-
+In progress
 _________________________________________________________________
 POINT OF CONTACTS
 
