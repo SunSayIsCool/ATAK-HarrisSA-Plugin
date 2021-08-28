@@ -8,14 +8,15 @@
         android:id="@+id/icon"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:layout_gravity="start"
-        android:src="@drawable/ic_launcher" />
+        android:padding="0dp"
+        android:layout_gravity="left|center_vertical" />
 
     <TextView
         android:id="@+id/tv"
         android:layout_width="wrap_content"
-        android:layout_height="25dp"
+        android:layout_height="30dp"
         android:text="TextView"
         android:textColor="@color/light_gray"
+        android:layout_gravity="left|center_vertical"
         android:textSize="0sp"/>
 </LinearLayout>

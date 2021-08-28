@@ -2,7 +2,11 @@
 <resources>
     
     <!-- font size big enough for most things; MGRS coordinate, etc, so at least ~18 characters of MGRS in a typical dropdown width -->
-    <dimen name="fontSize">14sp</dimen>        
+    <dimen name="header">14sp</dimen>
+    <dimen name="gps_id">14sp</dimen>
+    <dimen name="gps_sw">10sp</dimen>
+    <dimen name="spinner_item">12sp</dimen>
+    <dimen name="tab_text_size">10sp</dimen>
     
     <!-- font size that can fit longer text strings, like lat-lon on the nineline screen, which can easily get up to ~26 characters 
          optimally, fields using this value should be auto-resizing text to fit, since it's important that it all show, but in general

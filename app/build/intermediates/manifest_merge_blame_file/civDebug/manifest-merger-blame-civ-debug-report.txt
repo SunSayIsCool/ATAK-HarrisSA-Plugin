@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.atakmap.android.harrissaspr.plugin"
-4    android:versionCode="1630070603"
-5    android:versionName="1.0 (8c60007d) - [4.3.0]" >
+4    android:versionCode="1630091740"
+5    android:versionName="1.0 (73b3a728) - [4.3.0]" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"

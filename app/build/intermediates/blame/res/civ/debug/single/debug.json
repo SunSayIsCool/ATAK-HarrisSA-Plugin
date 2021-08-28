@@ -96,6 +96,10 @@
         "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_air_defense_missile.png"
     },
     {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/layout-sw600dp_spinner_item.xml.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/layout-sw600dp/spinner_item.xml"
+    },
+    {
         "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_weapon_rifle.png.flat",
         "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_rifle.png"
     },
@@ -416,6 +420,10 @@
         "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/css_supply.png"
     },
     {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/layout-sw600dp_main_layout.xml.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/layout-sw600dp/main_layout.xml"
+    },
+    {
         "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_passenger.png.flat",
         "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_passenger.png"
     },
@@ -430,6 +438,10 @@
     {
         "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_sea_mine_warfare.png.flat",
         "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_mine_warfare.png"
+    },
+    {
+        "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_share.png.flat",
+        "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/share.png"
     },
     {
         "merged": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/res/merged/civ/debug/drawable_comabat_missile_ss.png.flat",

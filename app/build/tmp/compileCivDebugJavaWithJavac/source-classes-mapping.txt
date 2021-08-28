@@ -11,10 +11,10 @@ com/atakmap/android/harrissaspr/driver/CdcAcmSerialDriver.java
  com.atakmap.android.harrissaspr.driver.CdcAcmSerialDriver$CdcAcmSerialPort
 com/atakmap/android/harrissaspr/driver/SerialTimeoutException.java
  com.atakmap.android.harrissaspr.driver.SerialTimeoutException
+com/atakmap/android/harrissaspr/LocateMarker.java
+ com.atakmap.android.harrissaspr.LocateMarker
 com/atakmap/android/harrissaspr/plugin/PluginLifecycle.java
  com.atakmap.android.harrissaspr.plugin.PluginLifecycle
-com/atakmap/android/harrissaspr/IconsAdapter.java
- com.atakmap.android.harrissaspr.IconsAdapter
 com/atakmap/android/harrissaspr/driver/ProbeTable.java
  com.atakmap.android.harrissaspr.driver.ProbeTable
 com/atakmap/android/harrissaspr/driver/UsbSerialPort.java
@@ -63,5 +63,5 @@ com/atakmap/android/harrissaspr/HarrisSaSprDropDownReceiver.java
  com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$7
  com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$8
  com.atakmap.android.harrissaspr.HarrisSaSprDropDownReceiver$9
-com/atakmap/android/harrissaspr/LocateMarker.java
- com.atakmap.android.harrissaspr.LocateMarker
+com/atakmap/android/harrissaspr/IconsAdapter.java
+ com.atakmap.android.harrissaspr.IconsAdapter

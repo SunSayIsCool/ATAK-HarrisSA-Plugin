@@ -26,10 +26,14 @@ color white
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
-dimen fontSize
+dimen gps_id
+dimen gps_sw
+dimen header
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen spinner_item
+dimen tab_text_size
 drawable air
 drawable blimp
 drawable btn_delete
@@ -170,6 +174,7 @@ drawable sea_track
 drawable sensor
 drawable sensor_emplaced
 drawable sensor_radar
+drawable share
 drawable sof
 drawable sof_boat
 drawable sof_csar

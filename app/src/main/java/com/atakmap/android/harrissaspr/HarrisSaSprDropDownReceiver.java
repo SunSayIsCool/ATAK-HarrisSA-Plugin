@@ -9,6 +9,8 @@ import android.hardware.usb.UsbManager;
 import android.os.Build;
 import android.os.Environment;
 import android.text.InputType;
+import android.util.TypedValue;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
@@ -16,11 +18,13 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.TabHost;
 import android.widget.TableLayout;
 import android.widget.TableRow;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.atak.plugins.impl.PluginLayoutInflater;
@@ -156,6 +160,8 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
             R.drawable.sof_ground, R.drawable.sof_ranger, R.drawable.sof_psyops,
             R.drawable.sof_support};
 
+    int share_img = R.drawable.share;
+
 
     /**************************** CONSTRUCTOR *****************************/
 
@@ -173,7 +179,6 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
         final Intent startSprServiceIntent = new Intent("com.atakmap.android.harrissaspr.SprSerialService");
         startSprServiceIntent.setPackage("com.atakmap.android.harrissaspr.plugin");
 
-
         // Remember to use the PluginLayoutInflator if you are actually inflating a custom view
         // In this case, using it is not necessary - but I am putting it here to remind
         // developers to look at this Inflator
@@ -189,6 +194,14 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
         tabSpec.setIndicator("7800S");
         tabHost.addTab(tabSpec);
         tabHost.setCurrentTab(0);
+        for (int i = 0; i < tabHost.getTabWidget().getChildCount(); i++) {
+            // Get the title
+            TextView tabs_title = (TextView) tabHost.getTabWidget().getChildAt(i).findViewById(android.R.id.title);
+            // Define the size of the font
+            tabs_title.setTextSize(TypedValue.COMPLEX_UNIT_PX, context.getResources().getDimension(R.dimen.tab_text_size));
+            // Define alignment
+            tabs_title.setGravity(Gravity.CENTER);
+        }
 
         final Switch hhmpSwitch = templateView.findViewById(R.id.swBFTHHMP);
         final Switch sprSwitch = templateView.findViewById(R.id.swBFTSPR);
@@ -200,6 +213,9 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
         final TableLayout tblLayoutSPR = templateView.findViewById(R.id.tblLayout_spr);
         final EditText HHMP_GPS_ID = templateView.findViewById(R.id.edttxtSelfCombatIDHHMP);
         final EditText SPR_GPS_ID = templateView.findViewById(R.id.edttxtSelfCombatIDSPR);
+
+        // Init settings and SA Tables
+        init(context);
 
         hhmpGpsSwitch.setClickable(false);
         sprGpsSwitch.setClickable(false);
@@ -336,30 +352,35 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
 
                 final TableRow tr_head = new TableRow(context);
                 tr_head.setTag("Table" + tblTag + count);
-                tr_head.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
+                tr_head.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, 100));
 
                 CheckBox chkShare = new CheckBox(context);
                 chkShare.setTag("chkShare" + tblTag + count);
-                chkShare.setText("Share");
-                chkShare.setTextSize(10);
                 chkShare.setPadding(0, 0, 0, 0);
-                chkShare.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
+                chkShare.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, 100));
                 tr_head.addView(chkShare);
+
+                ImageView chkImg = new ImageView(context);
+                chkImg.setImageResource(share_img);
+                chkImg.setLayoutParams(new TableRow.LayoutParams(50, 110));
+                chkImg.setPadding(0, 0, 0, 0);
+                chkImg.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
+                tr_head.addView(chkImg);
 
                 EditText edComabatID = new EditText(context);
                 edComabatID.setTag("CombatID" + tblTag + count);
                 edComabatID.setHint(context.getResources().getString(R.string.COMBAT_ID));
-                edComabatID.setTextSize(12);
+                edComabatID.setTextSize(TypedValue.COMPLEX_UNIT_PX, context.getResources().getDimension(R.dimen.spinner_item));
                 edComabatID.setInputType(InputType.TYPE_TEXT_VARIATION_PERSON_NAME);
-                edComabatID.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT, 1));
+                edComabatID.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, 110, 1));
                 tr_head.addView(edComabatID);
 
                 EditText edAlias = new EditText(context);
                 edAlias.setTag("Alias" + tblTag + count);
                 edAlias.setHint(context.getResources().getString(R.string.MAP_ALIAS));
-                edAlias.setTextSize(12);
+                edAlias.setTextSize(TypedValue.COMPLEX_UNIT_PX, context.getResources().getDimension(R.dimen.spinner_item));
                 edAlias.setInputType(InputType.TYPE_TEXT_VARIATION_PERSON_NAME);
-                edAlias.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT, 1));
+                edAlias.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, 110, 1));
                 tr_head.addView(edAlias);
 
                 Spinner spnDomain = new PluginSpinner(context);
@@ -369,7 +390,7 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                 spnDomain.setAdapter(domain_adapter);
                 spnDomain.setBackgroundResource(R.drawable.new_dark_button_bg);
                 spnDomain.setPrompt(context.getResources().getString(R.string.CHOOSE_DOMAIN));
-                spnDomain.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
+                spnDomain.setLayoutParams(new TableRow.LayoutParams(100, 100));
                 spnDomain.setPadding(0, 0, 0, 0);
                 tr_head.addView(spnDomain);
 
@@ -380,7 +401,7 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                 IconsAdapter air = new IconsAdapter(context, iconsAIRMIL, units);
                 spnUnit.setAdapter(air);
                 spnUnit.setPrompt(context.getResources().getString(R.string.CHOOSE_MARKER));
-                spnUnit.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
+                spnUnit.setLayoutParams(new TableRow.LayoutParams(100, 100));
                 spnUnit.setPadding(0, 0, 0, 0);
                 tr_head.addView(spnUnit);
 
@@ -389,13 +410,12 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                 btnRemove.setImageResource(android.R.drawable.ic_menu_delete);
                 btnRemove.setBackgroundResource(R.drawable.new_dark_button_bg);
                 btnRemove.setPadding(0, 0, 0, 0);
-                btnRemove.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
+                btnRemove.setLayoutParams(new TableRow.LayoutParams(100, 100));
                 tr_head.addView(btnRemove);
 
                 spnDomain.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
                     @Override
                     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-
                         switch (position) {
                             case 0:
                                 //ArrayAdapter<?> air = ArrayAdapter.createFromResource(context,R.array.air_mil_list, android.R.layout.simple_spinner_item);
@@ -506,10 +526,10 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                             TableRow hhmp_row = (TableRow) tblLayoutHHMP.getChildAt(i);
 
                             CheckBox chk_share = (CheckBox) hhmp_row.getChildAt(0);
-                            EditText edt_combatid = (EditText) hhmp_row.getChildAt(1);
-                            EditText edt_alias = (EditText) hhmp_row.getChildAt(2);
-                            PluginSpinner spn_domain = (PluginSpinner) hhmp_row.getChildAt(3);
-                            PluginSpinner spn_unit = (PluginSpinner) hhmp_row.getChildAt(4);
+                            EditText edt_combatid = (EditText) hhmp_row.getChildAt(2);
+                            EditText edt_alias = (EditText) hhmp_row.getChildAt(3);
+                            PluginSpinner spn_domain = (PluginSpinner) hhmp_row.getChildAt(4);
+                            PluginSpinner spn_unit = (PluginSpinner) hhmp_row.getChildAt(5);
 
                             Boolean share = chk_share.isChecked();
                             String combatid = edt_combatid.getText().toString();
@@ -545,10 +565,10 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                             TableRow spr_row = (TableRow) tblLayoutSPR.getChildAt(i);
 
                             CheckBox chk_share = (CheckBox) spr_row.getChildAt(0);
-                            EditText edt_combatid = (EditText) spr_row.getChildAt(1);
-                            EditText edt_alias = (EditText) spr_row.getChildAt(2);
-                            PluginSpinner spn_domain = (PluginSpinner) spr_row.getChildAt(3);
-                            PluginSpinner spn_unit = (PluginSpinner) spr_row.getChildAt(4);
+                            EditText edt_combatid = (EditText) spr_row.getChildAt(2);
+                            EditText edt_alias = (EditText) spr_row.getChildAt(3);
+                            PluginSpinner spn_domain = (PluginSpinner) spr_row.getChildAt(4);
+                            PluginSpinner spn_unit = (PluginSpinner) spr_row.getChildAt(5);
 
                             Boolean share = chk_share.isChecked();
                             String combatid = edt_combatid.getText().toString();
@@ -575,9 +595,6 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                 Toast.makeText(getMapView().getContext(), context.getResources().getString(R.string.SAVE_BTN), Toast.LENGTH_SHORT).show();
             }
         });
-
-        // Init settings and SA Tables
-        init();
 
         // Broadcast receiver for processing SA from services
         br = new BroadcastReceiver() {
@@ -681,7 +698,7 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
 
     }
 
-    private void init() {
+    private void init(Context context) {
         String FieldDelimiter = ";";
 
         BufferedReader br;
@@ -717,95 +734,100 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                 count = hhmp_count;
                 tblTag = "HHMP";
 
-                final TableRow tr_head = new TableRow(pluginContext);
+                final TableRow tr_head = new TableRow(context);
                 tr_head.setTag("Table" + tblTag + count);
                 tr_head.setLayoutParams(new TableRow.LayoutParams());
 
-                CheckBox chkShare = new CheckBox(pluginContext);
+                CheckBox chkShare = new CheckBox(context);
                 chkShare.setTag("chkShare" + tblTag + count);
-                chkShare.setText("Share");
-                chkShare.setTextSize(10);
                 chkShare.setPadding(0, 0, 0, 0);
                 chkShare.setSelected(Boolean.parseBoolean(harris_fields[0]));
-                chkShare.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
+                chkShare.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, 100));
                 tr_head.addView(chkShare);
 
-                EditText edComabatID = new EditText(pluginContext);
+                ImageView chkImg = new ImageView(context);
+                chkImg.setImageResource(share_img);
+                chkImg.setLayoutParams(new TableRow.LayoutParams(50, 110));
+                chkImg.setPadding(0, 0, 0, 0);
+                chkImg.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
+                tr_head.addView(chkImg);
+
+                EditText edComabatID = new EditText(context);
                 edComabatID.setTag("CombatID" + tblTag + count);
-                edComabatID.setHint(pluginContext.getResources().getString(R.string.COMBAT_ID));
-                edComabatID.setTextSize(12);
+                edComabatID.setHint(context.getResources().getString(R.string.COMBAT_ID));
+                edComabatID.setTextSize(TypedValue.COMPLEX_UNIT_PX, context.getResources().getDimension(R.dimen.spinner_item));
                 edComabatID.setInputType(InputType.TYPE_TEXT_VARIATION_PERSON_NAME);
                 edComabatID.setText(harris_fields[1]);
-                edComabatID.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT, 1));
+                edComabatID.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, 110, 1));
                 tr_head.addView(edComabatID);
 
-                EditText edAlias = new EditText(pluginContext);
+                EditText edAlias = new EditText(context);
                 edAlias.setTag("Alias" + tblTag + count);
-                edAlias.setHint(pluginContext.getResources().getString(R.string.MAP_ALIAS));
-                edAlias.setTextSize(12);
+                edAlias.setHint(context.getResources().getString(R.string.MAP_ALIAS));
+                edAlias.setTextSize(TypedValue.COMPLEX_UNIT_PX, context.getResources().getDimension(R.dimen.spinner_item));
                 edAlias.setInputType(InputType.TYPE_TEXT_VARIATION_PERSON_NAME);
                 edAlias.setText(harris_fields[2]);
                 edAlias.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT, 1));
                 tr_head.addView(edAlias);
 
-                Spinner spnDomain = new PluginSpinner(pluginContext);
+                Spinner spnDomain = new PluginSpinner(context);
                 spnDomain.setTag("spnDomain" + tblTag + count);
-                String[] domain_str = pluginContext.getResources().getStringArray(R.array.domain_list);
-                IconsAdapter domain_adapter = new IconsAdapter(pluginContext, iconsDOMAIN, domain_str);
+                String[] domain_str = context.getResources().getStringArray(R.array.domain_list);
+                IconsAdapter domain_adapter = new IconsAdapter(context, iconsDOMAIN, domain_str);
                 spnDomain.setAdapter(domain_adapter);
                 spnDomain.setBackgroundResource(R.drawable.new_dark_button_bg);
-                spnDomain.setPrompt(pluginContext.getResources().getString(R.string.CHOOSE_DOMAIN));
-                spnDomain.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
+                spnDomain.setPrompt(context.getResources().getString(R.string.CHOOSE_DOMAIN));
+                spnDomain.setLayoutParams(new TableRow.LayoutParams(100, 100));
                 spnDomain.setPadding(0, 0, 0, 0);
                 spnDomain.setSelection(Integer.valueOf(harris_fields[3]));
                 tr_head.addView(spnDomain);
 
-                final Spinner spnUnit = new PluginSpinner(pluginContext);
+                final Spinner spnUnit = new PluginSpinner(context);
                 spnUnit.setBackgroundResource(R.drawable.new_dark_button_bg);
                 spnUnit.setTag("spnUnit" + tblTag + count);
                 IconsAdapter adapter_unit = null;
                 String[] units = null;
                 switch (Integer.valueOf(harris_fields[3])) {
                     case 0:
-                        units = pluginContext.getResources().getStringArray(R.array.air_mil_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsAIRMIL, units);
+                        units = context.getResources().getStringArray(R.array.air_mil_list);
+                        adapter_unit = new IconsAdapter(context, iconsAIRMIL, units);
                         break;
                     case 1:
-                        units = pluginContext.getResources().getStringArray(R.array.gnd_vech_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsVEHICLE, units);
+                        units = context.getResources().getStringArray(R.array.gnd_vech_list);
+                        adapter_unit = new IconsAdapter(context, iconsVEHICLE, units);
                         break;
                     case 2:
-                        units = pluginContext.getResources().getStringArray(R.array.gnd_weap_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsWEAPON, units);
+                        units = context.getResources().getStringArray(R.array.gnd_weap_list);
+                        adapter_unit = new IconsAdapter(context, iconsWEAPON, units);
                         break;
                     case 3:
-                        units = pluginContext.getResources().getStringArray(R.array.gnd_unt_cbt_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsCOMBAT, units);
+                        units = context.getResources().getStringArray(R.array.gnd_unt_cbt_list);
+                        adapter_unit = new IconsAdapter(context, iconsCOMBAT, units);
                         break;
                     case 4:
-                        units = pluginContext.getResources().getStringArray(R.array.gnd_unt_cs_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsCS, units);
+                        units = context.getResources().getStringArray(R.array.gnd_unt_cs_list);
+                        adapter_unit = new IconsAdapter(context, iconsCS, units);
                         break;
                     case 5:
-                        units = pluginContext.getResources().getStringArray(R.array.gnd_unt_ss_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsCSS, units);
+                        units = context.getResources().getStringArray(R.array.gnd_unt_ss_list);
+                        adapter_unit = new IconsAdapter(context, iconsCSS, units);
                         break;
                     case 6:
-                        units = pluginContext.getResources().getStringArray(R.array.sfc_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsSEA, units);
+                        units = context.getResources().getStringArray(R.array.sfc_list);
+                        adapter_unit = new IconsAdapter(context, iconsSEA, units);
                         break;
                     case 7:
-                        units = pluginContext.getResources().getStringArray(R.array.sub_sfc_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsSUBSURFACE, units);
+                        units = context.getResources().getStringArray(R.array.sub_sfc_list);
+                        adapter_unit = new IconsAdapter(context, iconsSUBSURFACE, units);
                         break;
                     case 8:
-                        units = pluginContext.getResources().getStringArray(R.array.sof_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsSOF, units);
+                        units = context.getResources().getStringArray(R.array.sof_list);
+                        adapter_unit = new IconsAdapter(context, iconsSOF, units);
                         break;
                 }
                 spnUnit.setAdapter(adapter_unit);
-                spnUnit.setPrompt(pluginContext.getResources().getString(R.string.CHOOSE_MARKER));
-                spnUnit.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
+                spnUnit.setPrompt(context.getResources().getString(R.string.CHOOSE_MARKER));
+                spnUnit.setLayoutParams(new TableRow.LayoutParams(100, 100));
                 spnUnit.setPadding(0, 0, 0, 0);
                 tr_head.addView(spnUnit);
 
@@ -816,47 +838,46 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                         String[] units = null;
                         switch (position) {
                             case 0:
-                                units = pluginContext.getResources().getStringArray(R.array.air_mil_list);
-                                unit = new IconsAdapter(pluginContext, iconsAIRMIL, units);
+                                units = context.getResources().getStringArray(R.array.air_mil_list);
+                                unit = new IconsAdapter(context, iconsAIRMIL, units);
                                 break;
                             case 1:
-                                units = pluginContext.getResources().getStringArray(R.array.gnd_vech_list);
-                                unit = new IconsAdapter(pluginContext, iconsVEHICLE, units);
+                                units = context.getResources().getStringArray(R.array.gnd_vech_list);
+                                unit = new IconsAdapter(context, iconsVEHICLE, units);
                                 break;
                             case 2:
-                                units = pluginContext.getResources().getStringArray(R.array.gnd_weap_list);
-                                unit = new IconsAdapter(pluginContext, iconsWEAPON, units);
+                                units = context.getResources().getStringArray(R.array.gnd_weap_list);
+                                unit = new IconsAdapter(context, iconsWEAPON, units);
                                 break;
                             case 3:
-                                units = pluginContext.getResources().getStringArray(R.array.gnd_unt_cbt_list);
-                                unit = new IconsAdapter(pluginContext, iconsCOMBAT, units);
+                                units = context.getResources().getStringArray(R.array.gnd_unt_cbt_list);
+                                unit = new IconsAdapter(context, iconsCOMBAT, units);
                                 break;
                             case 4:
-                                units = pluginContext.getResources().getStringArray(R.array.gnd_unt_cs_list);
-                                unit = new IconsAdapter(pluginContext, iconsCS, units);
+                                units = context.getResources().getStringArray(R.array.gnd_unt_cs_list);
+                                unit = new IconsAdapter(context, iconsCS, units);
                                 break;
                             case 5:
-                                units = pluginContext.getResources().getStringArray(R.array.gnd_unt_ss_list);
-                                unit = new IconsAdapter(pluginContext, iconsCSS, units);
+                                units = context.getResources().getStringArray(R.array.gnd_unt_ss_list);
+                                unit = new IconsAdapter(context, iconsCSS, units);
                                 break;
                             case 6:
-                                units = pluginContext.getResources().getStringArray(R.array.sfc_list);
-                                unit = new IconsAdapter(pluginContext, iconsSEA, units);
+                                units = context.getResources().getStringArray(R.array.sfc_list);
+                                unit = new IconsAdapter(context, iconsSEA, units);
                                 break;
                             case 7:
-                                units = pluginContext.getResources().getStringArray(R.array.sub_sfc_list);
-                                unit = new IconsAdapter(pluginContext, iconsSUBSURFACE, units);
+                                units = context.getResources().getStringArray(R.array.sub_sfc_list);
+                                unit = new IconsAdapter(context, iconsSUBSURFACE, units);
                                 break;
                             case 8:
-                                units = pluginContext.getResources().getStringArray(R.array.sof_list);
-                                unit = new IconsAdapter(pluginContext, iconsSOF, units);
+                                units = context.getResources().getStringArray(R.array.sof_list);
+                                unit = new IconsAdapter(context, iconsSOF, units);
                                 break;
                         }
                         spnUnit.setAdapter(unit);
                         if (position == Integer.valueOf(harris_fields[3])) {
                             spnUnit.setSelection(Integer.valueOf(harris_fields[4]));
                         }
-
                     }
 
                     @Override
@@ -866,18 +887,18 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                 });
 
 
-                ImageButton btnRemove = new ImageButton(pluginContext);
+                ImageButton btnRemove = new ImageButton(context);
                 btnRemove.setTag("btnRemove" + tblTag + count);
                 btnRemove.setImageResource(android.R.drawable.ic_menu_delete);
                 btnRemove.setBackgroundResource(R.drawable.new_dark_button_bg);
                 btnRemove.setPadding(0, 0, 0, 0);
-                btnRemove.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
+                btnRemove.setLayoutParams(new TableRow.LayoutParams(100, 100));
                 tr_head.addView(btnRemove);
 
 
-                btnRemove.setOnClickListener(new View.OnClickListener() {
+                btnRemove.setOnClickListener(new View.OnClickListener(){
                     @Override
-                    public void onClick(View v) {
+                    public void onClick(View v){
                         t1.removeView(tr_head);
                     }
                 });
@@ -885,6 +906,7 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
 
                 t1.addView(tr_head, new TableLayout.LayoutParams());
             }
+
             while ((spr_line = spr_br.readLine()) != null) {
                 final String[] spr_fields = spr_line.split(FieldDelimiter, -1);
 
@@ -895,95 +917,100 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                 count = spr_count;
                 tblTag = "SPR";
 
-                final TableRow tr_head = new TableRow(pluginContext);
+                final TableRow tr_head = new TableRow(context);
                 tr_head.setTag("Table" + tblTag + count);
                 tr_head.setLayoutParams(new TableRow.LayoutParams());
 
-                CheckBox chkShare = new CheckBox(pluginContext);
+                CheckBox chkShare = new CheckBox(context);
                 chkShare.setTag("chkShare" + tblTag + count);
-                chkShare.setText("Share");
-                chkShare.setTextSize(10);
                 chkShare.setPadding(0, 0, 0, 0);
                 chkShare.setSelected(Boolean.parseBoolean(spr_fields[0]));
-                chkShare.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
+                chkShare.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, 100));
                 tr_head.addView(chkShare);
 
-                EditText edComabatID = new EditText(pluginContext);
+                ImageView chkImg = new ImageView(context);
+                chkImg.setImageResource(share_img);
+                chkImg.setLayoutParams(new TableRow.LayoutParams(50, 110));
+                chkImg.setPadding(0, 0, 0, 0);
+                chkImg.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
+                tr_head.addView(chkImg);
+
+                EditText edComabatID = new EditText(context);
                 edComabatID.setTag("CombatID" + tblTag + count);
-                edComabatID.setHint(pluginContext.getResources().getString(R.string.COMBAT_ID));
-                edComabatID.setTextSize(12);
+                edComabatID.setHint(context.getResources().getString(R.string.COMBAT_ID));
+                edComabatID.setTextSize(TypedValue.COMPLEX_UNIT_PX, context.getResources().getDimension(R.dimen.spinner_item));
                 edComabatID.setInputType(InputType.TYPE_TEXT_VARIATION_PERSON_NAME);
                 edComabatID.setText(spr_fields[1]);
-                edComabatID.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT, 1));
+                edComabatID.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, 110, 1));
                 tr_head.addView(edComabatID);
 
-                EditText edAlias = new EditText(pluginContext);
+                EditText edAlias = new EditText(context);
                 edAlias.setTag("Alias" + tblTag + count);
-                edAlias.setHint(pluginContext.getResources().getString(R.string.MAP_ALIAS));
-                edAlias.setTextSize(12);
+                edAlias.setHint(context.getResources().getString(R.string.MAP_ALIAS));
+                edAlias.setTextSize(TypedValue.COMPLEX_UNIT_PX, context.getResources().getDimension(R.dimen.spinner_item));
                 edAlias.setInputType(InputType.TYPE_TEXT_VARIATION_PERSON_NAME);
                 edAlias.setText(spr_fields[2]);
                 edAlias.setLayoutParams(new TableRow.LayoutParams(TableLayout.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT, 1));
                 tr_head.addView(edAlias);
 
-                Spinner spnDomain = new PluginSpinner(pluginContext);
+                Spinner spnDomain = new PluginSpinner(context);
                 spnDomain.setTag("spnDomain" + tblTag + count);
-                String[] domain_str = pluginContext.getResources().getStringArray(R.array.domain_list);
-                IconsAdapter domain_adapter = new IconsAdapter(pluginContext, iconsDOMAIN, domain_str);
+                String[] domain_str = context.getResources().getStringArray(R.array.domain_list);
+                IconsAdapter domain_adapter = new IconsAdapter(context, iconsDOMAIN, domain_str);
                 spnDomain.setAdapter(domain_adapter);
                 spnDomain.setBackgroundResource(R.drawable.new_dark_button_bg);
-                spnDomain.setPrompt(pluginContext.getResources().getString(R.string.CHOOSE_DOMAIN));
-                spnDomain.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
+                spnDomain.setPrompt(context.getResources().getString(R.string.CHOOSE_DOMAIN));
+                spnDomain.setLayoutParams(new TableRow.LayoutParams(100, 100));
                 spnDomain.setPadding(0, 0, 0, 0);
                 spnDomain.setSelection(Integer.valueOf(spr_fields[3]));
                 tr_head.addView(spnDomain);
 
-                final Spinner spnUnit = new PluginSpinner(pluginContext);
+                final Spinner spnUnit = new PluginSpinner(context);
                 spnUnit.setBackgroundResource(R.drawable.new_dark_button_bg);
                 spnUnit.setTag("spnUnit" + tblTag + count);
                 IconsAdapter adapter_unit = null;
                 String[] units = null;
                 switch (Integer.valueOf(spr_fields[3])) {
                     case 0:
-                        units = pluginContext.getResources().getStringArray(R.array.air_mil_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsAIRMIL, units);
+                        units = context.getResources().getStringArray(R.array.air_mil_list);
+                        adapter_unit = new IconsAdapter(context, iconsAIRMIL, units);
                         break;
                     case 1:
-                        units = pluginContext.getResources().getStringArray(R.array.gnd_vech_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsVEHICLE, units);
+                        units = context.getResources().getStringArray(R.array.gnd_vech_list);
+                        adapter_unit = new IconsAdapter(context, iconsVEHICLE, units);
                         break;
                     case 2:
-                        units = pluginContext.getResources().getStringArray(R.array.gnd_weap_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsWEAPON, units);
+                        units = context.getResources().getStringArray(R.array.gnd_weap_list);
+                        adapter_unit = new IconsAdapter(context, iconsWEAPON, units);
                         break;
                     case 3:
-                        units = pluginContext.getResources().getStringArray(R.array.gnd_unt_cbt_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsCOMBAT, units);
+                        units = context.getResources().getStringArray(R.array.gnd_unt_cbt_list);
+                        adapter_unit = new IconsAdapter(context, iconsCOMBAT, units);
                         break;
                     case 4:
-                        units = pluginContext.getResources().getStringArray(R.array.gnd_unt_cs_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsCS, units);
+                        units = context.getResources().getStringArray(R.array.gnd_unt_cs_list);
+                        adapter_unit = new IconsAdapter(context, iconsCS, units);
                         break;
                     case 5:
-                        units = pluginContext.getResources().getStringArray(R.array.gnd_unt_ss_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsCSS, units);
+                        units = context.getResources().getStringArray(R.array.gnd_unt_ss_list);
+                        adapter_unit = new IconsAdapter(context, iconsCSS, units);
                         break;
                     case 6:
-                        units = pluginContext.getResources().getStringArray(R.array.sfc_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsSEA, units);
+                        units = context.getResources().getStringArray(R.array.sfc_list);
+                        adapter_unit = new IconsAdapter(context, iconsSEA, units);
                         break;
                     case 7:
-                        units = pluginContext.getResources().getStringArray(R.array.sub_sfc_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsSUBSURFACE, units);
+                        units = context.getResources().getStringArray(R.array.sub_sfc_list);
+                        adapter_unit = new IconsAdapter(context, iconsSUBSURFACE, units);
                         break;
                     case 8:
-                        units = pluginContext.getResources().getStringArray(R.array.sof_list);
-                        adapter_unit = new IconsAdapter(pluginContext, iconsSOF, units);
+                        units = context.getResources().getStringArray(R.array.sof_list);
+                        adapter_unit = new IconsAdapter(context, iconsSOF, units);
                         break;
                 }
                 spnUnit.setAdapter(adapter_unit);
-                spnUnit.setPrompt(pluginContext.getResources().getString(R.string.CHOOSE_MARKER));
-                spnUnit.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
+                spnUnit.setPrompt(context.getResources().getString(R.string.CHOOSE_MARKER));
+                spnUnit.setLayoutParams(new TableRow.LayoutParams(100, 100));
                 spnUnit.setPadding(0, 0, 0, 0);
                 tr_head.addView(spnUnit);
 
@@ -994,40 +1021,40 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                         String[] units = null;
                         switch (position) {
                             case 0:
-                                units = pluginContext.getResources().getStringArray(R.array.air_mil_list);
-                                unit = new IconsAdapter(pluginContext, iconsAIRMIL, units);
+                                units = context.getResources().getStringArray(R.array.air_mil_list);
+                                unit = new IconsAdapter(context, iconsAIRMIL, units);
                                 break;
                             case 1:
-                                units = pluginContext.getResources().getStringArray(R.array.gnd_vech_list);
-                                unit = new IconsAdapter(pluginContext, iconsVEHICLE, units);
+                                units = context.getResources().getStringArray(R.array.gnd_vech_list);
+                                unit = new IconsAdapter(context, iconsVEHICLE, units);
                                 break;
                             case 2:
-                                units = pluginContext.getResources().getStringArray(R.array.gnd_weap_list);
-                                unit = new IconsAdapter(pluginContext, iconsWEAPON, units);
+                                units = context.getResources().getStringArray(R.array.gnd_weap_list);
+                                unit = new IconsAdapter(context, iconsWEAPON, units);
                                 break;
                             case 3:
-                                units = pluginContext.getResources().getStringArray(R.array.gnd_unt_cbt_list);
-                                unit = new IconsAdapter(pluginContext, iconsCOMBAT, units);
+                                units = context.getResources().getStringArray(R.array.gnd_unt_cbt_list);
+                                unit = new IconsAdapter(context, iconsCOMBAT, units);
                                 break;
                             case 4:
-                                units = pluginContext.getResources().getStringArray(R.array.gnd_unt_cs_list);
-                                unit = new IconsAdapter(pluginContext, iconsCS, units);
+                                units = context.getResources().getStringArray(R.array.gnd_unt_cs_list);
+                                unit = new IconsAdapter(context, iconsCS, units);
                                 break;
                             case 5:
-                                units = pluginContext.getResources().getStringArray(R.array.gnd_unt_ss_list);
-                                unit = new IconsAdapter(pluginContext, iconsCSS, units);
+                                units = context.getResources().getStringArray(R.array.gnd_unt_ss_list);
+                                unit = new IconsAdapter(context, iconsCSS, units);
                                 break;
                             case 6:
-                                units = pluginContext.getResources().getStringArray(R.array.sfc_list);
-                                unit = new IconsAdapter(pluginContext, iconsSEA, units);
+                                units = context.getResources().getStringArray(R.array.sfc_list);
+                                unit = new IconsAdapter(context, iconsSEA, units);
                                 break;
                             case 7:
-                                units = pluginContext.getResources().getStringArray(R.array.sub_sfc_list);
-                                unit = new IconsAdapter(pluginContext, iconsSUBSURFACE, units);
+                                units = context.getResources().getStringArray(R.array.sub_sfc_list);
+                                unit = new IconsAdapter(context, iconsSUBSURFACE, units);
                                 break;
                             case 8:
-                                units = pluginContext.getResources().getStringArray(R.array.sof_list);
-                                unit = new IconsAdapter(pluginContext, iconsSOF, units);
+                                units = context.getResources().getStringArray(R.array.sof_list);
+                                unit = new IconsAdapter(context, iconsSOF, units);
                                 break;
                         }
                         spnUnit.setAdapter(unit);
@@ -1043,12 +1070,12 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                 });
 
 
-                ImageButton btnRemove = new ImageButton(pluginContext);
+                ImageButton btnRemove = new ImageButton(context);
                 btnRemove.setTag("btnRemove" + tblTag + count);
                 btnRemove.setImageResource(android.R.drawable.ic_menu_delete);
                 btnRemove.setBackgroundResource(R.drawable.new_dark_button_bg);
                 btnRemove.setPadding(0, 0, 0, 0);
-                btnRemove.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
+                btnRemove.setLayoutParams(new TableRow.LayoutParams(100, 100));
                 tr_head.addView(btnRemove);
 
 
