@@ -656,10 +656,10 @@ public class HarrisSaSprDropDownReceiver extends DropDownReceiver implements
                         for (int i = 0; i < row_count; i++) {
                             TableRow spr_row = (TableRow) tblLayoutSPR.getChildAt(i);
                             CheckBox chk_share = (CheckBox) spr_row.getChildAt(0);
-                            EditText edt_combatid = (EditText) spr_row.getChildAt(1);
-                            EditText edt_alias = (EditText) spr_row.getChildAt(2);
-                            PluginSpinner spn_domain = (PluginSpinner) spr_row.getChildAt(3);
-                            PluginSpinner spn_unit = (PluginSpinner) spr_row.getChildAt(4);
+                            EditText edt_combatid = (EditText) spr_row.getChildAt(2);
+                            EditText edt_alias = (EditText) spr_row.getChildAt(3);
+                            PluginSpinner spn_domain = (PluginSpinner) spr_row.getChildAt(4);
+                            PluginSpinner spn_unit = (PluginSpinner) spr_row.getChildAt(5);
 
                             Boolean share = chk_share.isChecked();
                             String combatid = edt_combatid.getText().toString();

@@ -169,11 +169,15 @@ public class SprSerialService extends Service {
                         if (numBytesRead != 0) {
                             Log.d(TAG, "Read " + numBytesRead + " bytes.");
                             Log.d(TAG, "First byte " + new String(buffer));
-                            sprparser.saPass(buffer);
-                            if (sprparser.saPass(buffer) && (sprparser.isValid())) {
-                                intent.putExtra(HarrisSaSprDropDownReceiver.SPR_BYTE, buffer);
-                                sendBroadcast(intent);
+                            try {
+                                if (sprparser.saPass(buffer) && (sprparser.isValid())) {
+                                    intent.putExtra(HarrisSaSprDropDownReceiver.SPR_BYTE, buffer);
+                                    sendBroadcast(intent);
+                                }
+                            } catch (Exception e) {
+                                e.printStackTrace();
                             }
+                            buffer = new byte[128];
                         }
                         if (stopped) {
                             stopSelf();
@@ -185,8 +189,6 @@ public class SprSerialService extends Service {
                     intent.putExtra(HarrisSaSprDropDownReceiver.PARAM_STATUS, false);
                     sendBroadcast(intent);
                 }
-
-                //stopSelf();
             }
         }).start();
     }
