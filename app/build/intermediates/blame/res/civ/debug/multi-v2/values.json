@@ -4,13 +4,32 @@
             "outputFile": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/intermediates/incremental/mergeCivDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
+                    "source": "/home/riddick/.gradle/caches/transforms-2/files-2.1/d8d69adf1a6b3d130b66b11ae8cd24a4/recyclerview-1.1.0/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,111,170,218,274,349,425,497,563",
+                        "endLines": "2,3,4,5,6,7,8,9,38",
+                        "endColumns": "55,58,47,55,74,75,71,65,24",
+                        "endOffsets": "106,165,213,269,344,420,492,558,2084"
+                    },
+                    "to": {
+                        "startLines": "205,210,211,212,216,217,218,221,333",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "7145,7377,7436,7484,7654,7729,7805,7966,14344",
+                        "endLines": "205,210,211,212,216,217,218,221,361",
+                        "endColumns": "55,58,47,55,74,75,71,65,24",
+                        "endOffsets": "7196,7431,7479,7535,7724,7800,7872,8027,15865"
+                    }
+                },
+                {
                     "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/dimen.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,7,-1",
-                        "startColumns": "-1,-1,-1,4,-1",
-                        "startOffsets": "-1,-1,-1,310,-1",
-                        "endColumns": "-1,-1,-1,43,-1",
-                        "endOffsets": "-1,-1,-1,349,-1"
+                        "startLines": "5,6,4,7,8",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "234,272,196,310,354",
+                        "endColumns": "37,37,37,43,44",
+                        "endOffsets": "267,305,229,349,394"
                     },
                     "to": {
                         "startLines": "213,214,215,219,220",
@@ -23,9 +42,12 @@
                 {
                     "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                        "startLines": "52,40,126,170,193,86,107,202,240,231,34,35,32,23,22,26,25,33,24,36,29,28,31,30,27,8,4,18,17,19,20,12,13,21,16,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2205,1823,4558,6221,7057,3285,3920,7315,8551,8235,1598,1661,1503,858,795,1066,990,1550,923,1717,1293,1215,1428,1355,1144,155,73,598,553,637,678,289,338,740,504,390,450",
+                        "endLines": "84,50,168,191,200,105,124,229,251,238,34,35,32,23,22,26,25,33,24,36,29,28,31,30,27,8,4,18,17,19,20,12,13,21,16,14,15",
+                        "endColumns": "19,19,19,19,19,19,19,19,19,19,62,55,46,64,62,77,75,47,66,76,61,77,74,72,70,108,54,38,44,40,61,48,51,54,48,59,53",
+                        "endOffsets": "3279,2199,6215,7051,7309,3914,4552,8229,8917,8545,1656,1712,1545,918,853,1139,1061,1593,985,1789,1350,1288,1498,1423,1210,259,123,632,593,673,735,333,385,790,548,445,499"
                     },
                     "to": {
                         "startLines": "2,35,46,89,111,119,139,157,185,197,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248",
@@ -37,42 +59,32 @@
                     }
                 },
                 {
-                    "source": "/home/riddick/.gradle/caches/transforms-2/files-2.1/4e891082990df48be1bf2b9ebb351bd8/recyclerview-1.1.0/res/values/values.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "205,210,211,212,216,217,218,221",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "7145,7377,7436,7484,7654,7729,7805,7966",
-                        "endColumns": "55,58,47,55,74,75,71,65",
-                        "endOffsets": "7196,7431,7479,7535,7724,7800,7872,8027"
-                    }
-                },
-                {
                     "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                        "startLines": "68,3,64,85,13,45,54,77,97,89",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3163,49,3024,4029,590,2166,2490,3669,4472,4170",
+                        "endLines": "74,10,66,87,38,51,61,81,107,93",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "3559,583,3157,4164,1990,2452,3017,3940,5053,4414"
                     },
                     "to": {
-                        "startLines": "250,257,265,268,271,285,288,296,301,312",
+                        "startLines": "250,257,265,268,271,297,304,312,317,328",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "9787,9964,10503,10641,10781,11344,11427,11959,12235,12821",
-                        "endLines": "256,264,267,270,284,287,295,300,311,316",
+                        "startOffsets": "9787,10188,10727,10865,11005,12410,12701,13233,13509,14095",
+                        "endLines": "256,264,267,270,296,303,311,316,327,332",
                         "endColumns": "12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "9959,10498,10636,10776,11339,11422,11954,12230,12816,13065"
+                        "endOffsets": "10183,10722,10860,11000,12405,12696,13228,13504,14090,14339"
                     }
                 },
                 {
                     "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/generated/res/resValues/civ/debug/values/gradleResValues.xml",
                     "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "151",
+                        "endColumns": "85",
+                        "endOffsets": "232"
                     },
                     "to": {
                         "startLines": "249",
@@ -85,9 +97,11 @@
                 {
                     "source": "/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/color.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1"
+                        "startLines": "5,6,7,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "120,166,211,80",
+                        "endColumns": "45,44,44,39",
+                        "endOffsets": "161,206,251,115"
                     },
                     "to": {
                         "startLines": "206,207,208,209",

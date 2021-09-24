@@ -17,8 +17,6 @@ import com.atakmap.coremap.cot.event.CotPoint;
 import com.atakmap.coremap.maps.coords.GeoPoint;
 import com.atakmap.coremap.maps.time.CoordinatedTime;
 
-import java.text.ParseException;
-
 public class LocateMarker {
     public static void placeHhmpMarker(Boolean share, String CombatID, String Alias, String sa_str, String type) {
         double lat;
@@ -94,6 +92,7 @@ public class LocateMarker {
             generatedCOT.setStart(time);
             generatedCOT.setStale(time.addMinutes(10));
             generatedCOT.setHow("m-g");
+            //TODO add ce, le as accuracy flag
             generatedCOT.setPoint(new CotPoint(lat, lon, 0, 2, 2));
 
             // adding callsign detail
@@ -144,6 +143,7 @@ public class LocateMarker {
             generatedCOT.setStart(time);
             generatedCOT.setStale(time.addMinutes(10));
             generatedCOT.setHow("m-g");
+            //TODO add ce, le as accuracy flag
             generatedCOT.setPoint(new CotPoint(lat, lon, 0, 2, 2));
 
             // adding callsign detail

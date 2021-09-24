@@ -1,14 +1,14 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.atakmap.android.harrissaspr.plugin"
-4    android:versionCode="1630091740"
-5    android:versionName="1.0 (73b3a728) - [4.3.0]" >
+4    android:versionCode="1630681614"
+5    android:versionName="1.1 (abad850a) - [4.4.0]" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
 8-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->[androidx.recyclerview:recyclerview:1.1.0] /home/riddick/.gradle/caches/transforms-2/files-2.1/4e891082990df48be1bf2b9ebb351bd8/recyclerview-1.1.0/AndroidManifest.xml:22:9-38
+9-->[androidx.recyclerview:recyclerview:1.1.0] /home/riddick/.gradle/caches/transforms-2/files-2.1/d8d69adf1a6b3d130b66b11ae8cd24a4/recyclerview-1.1.0/AndroidManifest.xml:22:9-38
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:7:5-83
@@ -76,7 +76,7 @@
 45        <meta-data
 46            android:name="plugin-api"
 46-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:43:13-38
-47            android:value="com.atakmap.app@4.3.0.CIV" />
+47            android:value="com.atakmap.app@4.4.0.CIV" />
 47-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:44:13-46
 48        <meta-data
 48-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:45:9-47:48

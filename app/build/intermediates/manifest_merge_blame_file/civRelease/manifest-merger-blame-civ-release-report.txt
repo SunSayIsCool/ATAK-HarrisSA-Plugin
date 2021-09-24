@@ -1,46 +1,88 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.atakmap.android.harrissaspr.plugin"
-4    android:versionCode="1"
-5    android:versionName="1.0 (1) - [4.3.0]" >
+4    android:versionCode="1630681614"
+5    android:versionName="1.1 (abad850a) - [4.4.0]" >
 6
-7    <uses-sdk android:minSdkVersion="21" />
-7-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml
-8
-9    <application
-9-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:7:5-25:19
-10        android:allowBackup="false"
-10-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:8:9-36
-11        android:description="@string/app_desc"
-11-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:9:9-47
-12        android:extractNativeLibs="true"
-12-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:10:9-41
-13        android:icon="@drawable/ic_launcher"
-13-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:11:9-45
-14        android:label="@string/app_name"
-14-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:12:9-41
-15        android:theme="@style/AppTheme" >
-15-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:13:9-40
-16        <service
-16-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:14:9-17:47
-17            android:name="com.atakmap.android.harrissaspr.UDPReceiverService"
-17-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:15:13-78
-18            android:enabled="true"
-18-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:16:13-35
-19            android:exported="true" />
-19-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:17:13-36
-20
-21        <meta-data
-22            android:name="plugin-api"
-22-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:20:13-38
-23            android:value="com.atakmap.app@4.3.0.CIV" />
-23-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:21:13-46
-24        <meta-data
-24-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:22:9-24:48
-25            android:name="app_desc"
-25-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:23:13-36
-26            android:value="@string/app_desc" />
-26-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:24:13-45
-27    </application>
-28
-29</manifest>
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->[androidx.recyclerview:recyclerview:1.1.0] /home/riddick/.gradle/caches/transforms-2/files-2.1/4e891082990df48be1bf2b9ebb351bd8/recyclerview-1.1.0/AndroidManifest.xml:22:9-38
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:7:5-83
+11-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:7:22-64
+12
+13    <application
+13-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:9:5-48:19
+14        android:allowBackup="false"
+14-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:10:9-36
+15        android:description="@string/app_desc"
+15-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:11:9-47
+16        android:extractNativeLibs="true"
+16-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:12:9-41
+17        android:icon="@drawable/ic_launcher"
+17-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:13:9-45
+18        android:label="@string/app_name"
+18-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:14:9-41
+19        android:theme="@style/AppTheme" >
+19-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:15:9-40
+20        <service
+20-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:17:9-24:19
+21            android:name="com.atakmap.android.harrissaspr.HhmpUdpService"
+21-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:18:13-74
+22            android:enabled="true"
+22-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:19:13-35
+23            android:label="78xx HH/MP UDP Service" >
+23-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:20:13-51
+24            <intent-filter>
+24-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:21:13-23:29
+25                <action android:name="com.atakmap.android.harrissaspr.HhmpUdpService" />
+25-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:22:17-89
+25-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:22:25-86
+26            </intent-filter>
+27        </service>
+28        <service
+28-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:26:9-40:19
+29            android:name="com.atakmap.android.harrissaspr.SprSerialService"
+29-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:27:13-76
+30            android:enabled="true"
+30-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:28:13-35
+31            android:label="7800S serial port Service" >
+31-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:29:13-54
+32            <intent-filter>
+32-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:30:13-32:29
+33                <action android:name="com.atakmap.android.harrissaspr.SprSerialService" />
+33-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:31:17-91
+33-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:31:25-88
+34            </intent-filter>
+35            <intent-filter>
+35-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:33:13-35:29
+36                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+36-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:34:17-90
+36-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:34:25-87
+37            </intent-filter>
+38
+39            <meta-data
+39-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:37:13-39:57
+40                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+40-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:38:17-79
+41                android:resource="@xml/device_filter" />
+41-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:39:17-54
+42        </service>
+43
+44        <meta-data
+45            android:name="plugin-api"
+45-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:43:13-38
+46            android:value="com.atakmap.app@4.4.0.CIV" />
+46-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:44:13-46
+47        <meta-data
+47-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:45:9-47:48
+48            android:name="app_desc"
+48-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:46:13-36
+49            android:value="@string/app_desc" />
+49-->/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:47:13-45
+50    </application>
+51
+52</manifest>

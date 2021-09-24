@@ -11,7 +11,7 @@ ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/An
 INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-50:12
 INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-50:12
 INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-50:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/riddick/.gradle/caches/transforms-2/files-2.1/4e891082990df48be1bf2b9ebb351bd8/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/riddick/.gradle/caches/transforms-2/files-2.1/d8d69adf1a6b3d130b66b11ae8cd24a4/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-50:12
 INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-50:12
 INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-50:12
@@ -100,11 +100,11 @@ ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/An
 uses-sdk
 INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/riddick/.gradle/caches/transforms-2/files-2.1/4e891082990df48be1bf2b9ebb351bd8/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/riddick/.gradle/caches/transforms-2/files-2.1/4e891082990df48be1bf2b9ebb351bd8/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/riddick/.gradle/caches/transforms-2/files-2.1/d8d69adf1a6b3d130b66b11ae8cd24a4/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/riddick/.gradle/caches/transforms-2/files-2.1/d8d69adf1a6b3d130b66b11ae8cd24a4/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		ADDED from [androidx.recyclerview:recyclerview:1.1.0] /home/riddick/.gradle/caches/transforms-2/files-2.1/4e891082990df48be1bf2b9ebb351bd8/recyclerview-1.1.0/AndroidManifest.xml:22:9-38
+		ADDED from [androidx.recyclerview:recyclerview:1.1.0] /home/riddick/.gradle/caches/transforms-2/files-2.1/d8d69adf1a6b3d130b66b11ae8cd24a4/recyclerview-1.1.0/AndroidManifest.xml:22:9-38
 	android:minSdkVersion
 		INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml
 		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml

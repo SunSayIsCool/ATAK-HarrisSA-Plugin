@@ -10,9 +10,9 @@
       "apkData": {
         "type": "MAIN",
         "splits": [],
-        "versionCode": 1,
-        "versionName": "1.0 (1) - [4.3.0]",
-        "outputFile": "ATAK-Plugin-HarrisSAplugin-1.0-1-4.3.0-civ-release.apk",
+        "versionCode": 1630681614,
+        "versionName": "1.1 (abad850a) - [4.4.0]",
+        "outputFile": "ATAK-Plugin-HarrisSAplugin-1.1-abad850a-4.4.0-civ-release.apk",
         "fullName": "civRelease",
         "baseName": "civ-release",
         "dirName": ""

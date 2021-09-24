@@ -11,10 +11,10 @@
       "type": "SINGLE",
       "filters": [],
       "properties": [],
-      "versionCode": 1630091740,
-      "versionName": "1.0 (73b3a728) - [4.3.0]",
+      "versionCode": 1630681614,
+      "versionName": "1.1 (abad850a) - [4.4.0]",
       "enabled": true,
-      "outputFile": "ATAK-Plugin-HarrisSAplugin-1.0-73b3a728-4.3.0-civ-debug.apk"
+      "outputFile": "ATAK-Plugin-HarrisSAplugin-1.1-abad850a-4.4.0-civ-debug.apk"
     }
   ]
 }

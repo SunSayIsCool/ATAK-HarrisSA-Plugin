@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HarrisSAplugin.iml" filepath="$PROJECT_DIR$/.idea/modules/HarrisSAplugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HarrisSAplugin.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HarrisSAplugin.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Harris_SA_Tool.iml" filepath="$PROJECT_DIR$/.idea/modules/Harris_SA_Tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Harris_SA_Tool.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Harris_SA_Tool.app.iml" />
     </modules>
   </component>
 </project>

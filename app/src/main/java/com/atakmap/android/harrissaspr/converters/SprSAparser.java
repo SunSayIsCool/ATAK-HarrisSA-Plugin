@@ -180,4 +180,6 @@ public class SprSAparser {
         return RMCstring;
     }
 
+    // TODO add accuracy flag 0d = 13
+
 }

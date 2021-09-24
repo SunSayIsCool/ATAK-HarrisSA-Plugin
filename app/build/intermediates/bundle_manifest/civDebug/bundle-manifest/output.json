@@ -10,9 +10,9 @@
       "apkData": {
         "type": "MAIN",
         "splits": [],
-        "versionCode": 1630091740,
-        "versionName": "1.0 (73b3a728) - [4.3.0]",
-        "outputFile": "ATAK-Plugin-HarrisSAplugin-1.0-73b3a728-4.3.0-civ-debug.apk",
+        "versionCode": 1630681614,
+        "versionName": "1.1 (abad850a) - [4.4.0]",
+        "outputFile": "ATAK-Plugin-Harris SA Tool-1.1-abad850a-4.4.0-civ-debug.apk",
         "fullName": "civDebug",
         "baseName": "civ-debug",
         "dirName": ""

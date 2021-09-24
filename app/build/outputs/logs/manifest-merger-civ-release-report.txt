@@ -1,69 +1,110 @@
 -- Merging decision tree log ---
 meta-data#plugin-api
-INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:19:9-21:49
+INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:42:9-44:49
 	android:value
 		INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml
-		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:21:13-46
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:44:13-46
 	android:name
-		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:20:13-38
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:43:13-38
 manifest
-ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-50:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/riddick/.gradle/caches/transforms-2/files-2.1/4e891082990df48be1bf2b9ebb351bd8/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:4:5-53
 		INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml
 		INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml
-		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-27:12
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-50:12
 		INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml
-		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-27:12
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:1-50:12
 		INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:2:11-69
 	tools:ignore
 		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:5:5-44
+uses-permission#android.permission.INTERNET
+ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:7:5-83
+	android:name
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:7:22-64
 application
-ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:7:5-25:19
+ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:9:5-48:19
 	android:extractNativeLibs
-		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:10:9-41
-	android:label
 		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:12:9-41
+	android:label
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:14:9-41
 	android:icon
-		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:11:9-45
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:13:9-45
 	android:allowBackup
-		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:8:9-36
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:10:9-36
 	android:description
-		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:9:9-47
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:11:9-47
 	android:theme
-		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:13:9-40
-service#com.atakmap.android.harrissaspr.UDPReceiverService
-ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:14:9-17:47
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:15:9-40
+service#com.atakmap.android.harrissaspr.HhmpUdpService
+ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:17:9-24:19
 	android:enabled
-		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:16:13-35
-	android:exported
-		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:19:13-35
+	android:label
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:20:13-51
 	android:name
-		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:15:13-78
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:18:13-74
+intent-filter#action:name:com.atakmap.android.harrissaspr.HhmpUdpService
+ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:21:13-23:29
+action#com.atakmap.android.harrissaspr.HhmpUdpService
+ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:22:25-86
+service#com.atakmap.android.harrissaspr.SprSerialService
+ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:26:9-40:19
+	android:enabled
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:28:13-35
+	android:label
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:29:13-54
+	android:name
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:27:13-76
+intent-filter#action:name:com.atakmap.android.harrissaspr.SprSerialService
+ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:30:13-32:29
+action#com.atakmap.android.harrissaspr.SprSerialService
+ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:31:17-91
+	android:name
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:31:25-88
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:33:13-35:29
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:34:17-90
+	android:name
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:34:25-87
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:37:13-39:57
+	android:resource
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:39:17-54
+	android:name
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:38:17-79
 meta-data#app_desc
-ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:22:9-24:48
+ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:45:9-47:48
 	android:value
-		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:24:13-45
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:47:13-45
 	android:name
-		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:23:13-36
+		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml:46:13-36
 uses-sdk
 INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/riddick/.gradle/caches/transforms-2/files-2.1/4e891082990df48be1bf2b9ebb351bd8/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/riddick/.gradle/caches/transforms-2/files-2.1/4e891082990df48be1bf2b9ebb351bd8/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		ADDED from [androidx.recyclerview:recyclerview:1.1.0] /home/riddick/.gradle/caches/transforms-2/files-2.1/4e891082990df48be1bf2b9ebb351bd8/recyclerview-1.1.0/AndroidManifest.xml:22:9-38
 	android:minSdkVersion
 		INJECTED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml
 		ADDED from /home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/AndroidManifest.xml

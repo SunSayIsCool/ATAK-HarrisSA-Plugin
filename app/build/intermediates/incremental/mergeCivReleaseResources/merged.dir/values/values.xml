@@ -16,7 +16,7 @@
         <item>Fixed/MEDEVAC</item>
         <item>Fixed/Patrol</item>
         <item>Fixed/UAV</item>
-        <item>Fixed/RECON</item>
+        <item>Fixed/Recon</item>
         <item>Fixed/Trainer</item>
         <item>Fixed/Utility</item>
         <item>Fixed/C3I</item>
@@ -29,7 +29,7 @@
         <item>Rotor/SOF</item>
         <item>Rotor/MEDEVAC</item>
         <item>Rotor/UAV</item>
-        <item>Rotor/RECON</item>
+        <item>Rotor/Recon</item>
         <item>Rotor/Utility</item>
         <item>Blimp</item>
     </string-array>
@@ -46,27 +46,27 @@
     </string-array>
     <string-array name="gnd_unt_cbt_list">
         <item>Combat</item>
-        <item>ARMOR</item>
-        <item>ANTI ARMOR</item>
-        <item>ANTI ARMOR, ARMORED AIR ASSAULT</item>
-        <item>ANTI ARMOR, ARMORED TRACKED</item>
-        <item>ANTI ARMOR, ARMORED WHEELED</item>
-        <item>ANTI ARMOR, AIRBORNE</item>
-        <item>ANTI ARMOR, MOTORIZED</item>
-        <item>ARMOR TRACK</item>
-        <item>ARMOR TRACK AMPHIBIOUS</item>
-        <item>ARMOR, WHEELED</item>
-        <item>ARMOR, WHEELED AIRBORNE</item>
-        <item>ARMOR, WHEELED RECOVERY</item>
-        <item>ARMOR, WHEELED AMPHIBIOUS</item>
-        <item>AIR DEFENSE</item>
-        <item>AIR DEFENSE MISSILE</item>
-        <item>Engineer/ENGINEER</item>
-        <item>Artillery (Fixed)</item>
-        <item>MORTAR</item>
-        <item>ROCKET</item>
-        <item>SINGLE ROCKET SELF PROPELLED</item>
-        <item>MULTI ROCKET SELF PROPELLED</item>
+        <item>Antiarmor</item>
+        <item>Antiarmor/Armored</item>
+        <item>Antiarmor/Armored air assault</item>
+        <item>Antiarmor/Armored tracked</item>
+        <item>Antiarmor/Armored wheeled</item>
+        <item>Antiarmor/Airborne</item>
+        <item>Antiarmor/Motorized</item>
+        <item>Armor/Track</item>
+        <item>Armor/track amphibious</item>
+        <item>Armor/wheeled</item>
+        <item>Armor/wheeled airborne</item>
+        <item>Armor/wheeled recovery</item>
+        <item>Armor/wheeled amphibious</item>
+        <item>Air defense</item>
+        <item>Air defense/Missile</item>
+        <item>Engineer</item>
+        <item>Artillery/Fixed</item>
+        <item>Mortar</item>
+        <item>Rocket</item>
+        <item>Single rocket/Self propelled</item>
+        <item>Multi rocket/Self propelled</item>
         <item>Infantry/Troops</item>
         <item>Infantry/Airborne</item>
         <item>Infantry/Fighting Vehicle</item>
@@ -77,51 +77,51 @@
         <item>Infantry/Mechanized</item>
         <item>MISSILE (SURF SURF)</item>
         <item>Recon</item>
-        <item>Recon/AIRBORNE</item>
-        <item>Recon/MOUNTAIN</item>
-        <item>Recon/MARINE</item>
-        <item>Recon/AIR ASSAULT</item>
-        <item>INTERNAL SECURITY FORCES</item>
-        <item>Aviation/AVIATION</item>
-        <item>Aviation/COMPOSITE</item>
-        <item>Aviation/FIXED WING</item>
-        <item>Aviation/ROTARY WING</item>
+        <item>Recon/Airborne</item>
+        <item>Recon/Mountain</item>
+        <item>Recon/Marine</item>
+        <item>Recon/Air Assault</item>
+        <item>Internal Security Forces</item>
+        <item>Aviation</item>
+        <item>Aviation/Composite</item>
+        <item>Aviation/Fixed wing</item>
+        <item>Aviation/Rotary wing</item>
     </string-array>
     <string-array name="gnd_unt_cs_list">
-        <item>COMBAT SUPPORT</item>
-        <item>COMBAT SUPPORT NBC</item>
-        <item>BIOLOGICAL</item>
-        <item>CHEMICAL</item>
-        <item>NUCLEAR</item>
-        <item>EXPLOSIVE ORDINANCE DISPOSAL</item>
-        <item>INFORMATION WARFARE UNIT</item>
-        <item>LAW ENFORCEMENT UNIT</item>
-        <item>CIVILIAN LAW ENFORCEMENT</item>
-        <item>MILITARY POLICE</item>
-        <item>MILITARY INTELLIGENCE</item>
-        <item>COUNTER INTELLIGENCE</item>
-        <item>SIGNAL INTELLIGENCE (SIGINT)</item>
-        <item>ELECTRONIC WARFARE</item>
-        <item>SIGNAL UNIT</item>
-        <item>COMMAND OPERATIONS</item>
-        <item>RADIO UNIT</item>
-        <item>TACTICAL SATELLITE</item>
-        <item>RELAY</item>
-        <item>TELEPHONE SWITCH</item>
+        <item>Combat support</item>
+        <item>Combat support NBC</item>
+        <item>Biological</item>
+        <item>Chemical</item>
+        <item>Nuclear</item>
+        <item>Explosive Ordinance Disposal</item>
+        <item>Information warfare unit</item>
+        <item>Law Enforcement unit</item>
+        <item>Civilian Law Enforcement</item>
+        <item>Military Police</item>
+        <item>Military Intelligence</item>
+        <item>Counter Intelligence</item>
+        <item>Signal Intelligence (SIGINT)</item>
+        <item>Electronic Warfare</item>
+        <item>Signal unit</item>
+        <item>Command operations</item>
+        <item>Radio unit</item>
+        <item>Tactical satellite</item>
+        <item>Relay</item>
+        <item>Telephone switch</item>
     </string-array>
     <string-array name="gnd_unt_ss_list">
-        <item>C2 HEADQUARTERS COMPONENT</item>
-        <item>MEDICAL</item>
-        <item>SUPPLY</item>
-        <item>TRANSPORTATION</item>
-        <item>MAINTENANCE</item>
-        <item>MAINTENANCE RECOVERY</item>
+        <item>C2 HQ</item>
+        <item>Medical</item>
+        <item>Supply</item>
+        <item>Transportation</item>
+        <item>Maintenance</item>
+        <item>Maintenance recovery</item>
     </string-array>
     <string-array name="gnd_vech_list">
         <item>Vehicle</item>
         <item>Armor/Gun</item>
-        <item>Apc</item>
-        <item>Apc/Recovery</item>
+        <item>APC</item>
+        <item>APC/Recovery</item>
         <item>C2V/ACV</item>
         <item>Armor/Infantry</item>
         <item>Armor/Light</item>
@@ -139,75 +139,102 @@
     </string-array>
     <string-array name="gnd_weap_list">
         <item>Weapon</item>
-        <item>Air Defense Gun</item>
-        <item>DirectFire</item>
-        <item>AnitTankGun</item>
+        <item>Air defense gun</item>
+        <item>Direct fire</item>
+        <item>Antitank gun</item>
         <item>Howitzer</item>
-        <item>MissileLauncher</item>
+        <item>Missile launcher</item>
         <item>Mortar</item>
         <item>Rifle</item>
-        <item>Automatic Weapon</item>
-        <item>Light Machine Gun</item>
-        <item>Heavy Machine Gun</item>
-        <item>RocketLauncher/Single</item>
-        <item>RocketLauncher/Multiple</item>
-        <item>RocketLauncher/AntiTank</item>
-        <item>Flame Thrower</item>
-        <item>Nbc Equipment</item>
+        <item>Automatic weapon</item>
+        <item>Light machine gun</item>
+        <item>Heavy machine gun</item>
+        <item>Rocket launcher/Single</item>
+        <item>Rocket launcher/Multiple</item>
+        <item>Rocket launcher/AntiTank</item>
+        <item>Flame thrower</item>
+        <item>NBC equipment</item>
     </string-array>
     <string-array name="sfc_list">
-        <item>SEA SURFACE TRACK/item</item>
-        <item>COMBATANT</item>
-        <item>AMPHIBIOUS WARFARE SHIP</item>
-        <item>ASSAULT VESSEL</item>
-        <item>LANDING CRAFT</item>
-        <item>LANDING SHIP</item>
-        <item>HOVERCRAFT</item>
-        <item>LINE</item>
-        <item>BATTLESHIP</item>
-        <item>CRUISER</item>
-        <item>CARRIER</item>
-        <item>DESTROYER</item>
-        <item>FRIGATE/CORVETTE</item>
-        <item>MINE WARFARE VESSEL</item>
-        <item>MINEHUNTER</item>
-        <item>MINELAYER</item>
-        <item>PATROL</item>
-        <item>ANTISUBMARINE WARFARE</item>
-        <item>ANTISURFACE WARFARE</item>
-        <item>CONVOY</item>
-        <item>HOSPITAL SHIP</item>
-        <item>RESCUE</item>
-        <item>NON MILITARY</item>
-        <item>CARGO</item>
-        <item>PASSENGER</item>
-        <item>TANKER</item>
+        <item>Sea surface track</item>
+        <item>Combatant</item>
+        <item>Amphibious warfare ship</item>
+        <item>Assault vessel</item>
+        <item>Landing craft</item>
+        <item>Landing ship</item>
+        <item>Hovercraft</item>
+        <item>Line</item>
+        <item>Battleship</item>
+        <item>Cruiser</item>
+        <item>Carrier</item>
+        <item>Destroyer</item>
+        <item>Frigate/Corvette</item>
+        <item>Mine warfare vessel</item>
+        <item>Minehunter</item>
+        <item>Minelayer</item>
+        <item>Patrol</item>
+        <item>Antisubmarine warfare</item>
+        <item>Antisurface warfare</item>
+        <item>Convoy</item>
+        <item>Hospital ship</item>
+        <item>Resque</item>
+        <item>Non military</item>
+        <item>Cargo</item>
+        <item>Passenger</item>
+        <item>Tanker</item>
     </string-array>
     <string-array name="sof_list">
-        <item>AVIATION Fixed</item>
-        <item>AVIATION Rotary</item>
-        <item>AVIATION CSAR</item>
-        <item>NAVAL</item>
-        <item>SPECIAL BOAT</item>
-        <item>SPECIAL SSNR</item>
-        <item>GROUND</item>
-        <item>RANGER</item>
+        <item>Aviation/Fixed</item>
+        <item>Aviation/Rotary</item>
+        <item>Aviation/CSAR</item>
+        <item>Naval</item>
+        <item>Special boat</item>
+        <item>Special SSNR</item>
+        <item>Ground</item>
+        <item>Ranger</item>
         <item>PSYOPS</item>
-        <item>SUPPORT</item>
+        <item>Support</item>
     </string-array>
     <string-array name="sub_sfc_list">
-        <item>SUBSURFACE TRACK</item>
-        <item>DIVER</item>
-        <item>SUBMARINE</item>
-        <item>SUBMARINE CONVENTIONAL PROPULSION</item>
-        <item>SUBMARINE NUCLEAR PROPULSION</item>
-        <item>UNMANNED UNDERWATER VEHICLE (UUV)</item>
+        <item>Subsurface track</item>
+        <item>Diver</item>
+        <item>Submarine</item>
+        <item>Submarine conventional propulsion</item>
+        <item>Submarine nuclear propulsion</item>
+        <item>Unmanned Underwater Vehicle (UUV)</item>
     </string-array>
+    <attr format="reference" name="recyclerViewStyle"/>
     <color name="darker_gray">#121212</color>
     <color name="light_blue">#33b5e5</color>
     <color name="light_gray">#cccccc</color>
     <color name="white">#ffffff</color>
-    <dimen name="fontSize">14sp</dimen>
+    <dimen name="fastscroll_default_thickness">8dp</dimen>
+    <dimen name="fastscroll_margin">0dp</dimen>
+    <dimen name="fastscroll_minimum_range">50dp</dimen>
+    <dimen name="gps_id">14sp</dimen>
+    <dimen name="gps_sw">10sp</dimen>
+    <dimen name="header">14sp</dimen>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <dimen name="spinner_item">12sp</dimen>
+    <dimen name="tab_text_size">10sp</dimen>
+    <item name="item_touch_helper_previous_elevation" type="id"/>
+    <string name="CHOOSE_DOMAIN">Choose marker domain</string>
+    <string name="CHOOSE_MARKER">Choose marker</string>
+    <string name="COMBAT_ID">CombatID</string>
+    <string name="HHMP_BFT_DISABLED">HH/MP BFT disabled</string>
+    <string name="HHMP_BFT_ENABLED">HH/MP BFT enabled</string>
+    <string name="HHMP_GPS_DISABLED">HH/MP GPS Radio source disabled</string>
+    <string name="HHMP_GPS_ENABLED">HH/MP GPS Radio source enabled</string>
+    <string name="MAP_ALIAS">Map alias</string>
+    <string name="RadioIDempty">Radio ID can\'t be empty!</string>
+    <string name="SAVE_BTN">Settings saved. Empty IDs will not save</string>
+    <string name="SPR_BFT_DISABLED">SPR BFT disabled</string>
+    <string name="SPR_BFT_ENABLED">Radio 7800S attached. BFT enabled</string>
+    <string name="SPR_GPS_DISABLED">SPR GPS Radio source disabled</string>
+    <string name="SPR_GPS_ENABLED">SPR GPS Radio source enabled</string>
+    <string name="SPR_radio_not_found">7800S Radio not found!</string>
     <string name="app_desc">This plugin receive Harris SA and SPR packets and place them on the map</string>
     <string name="app_name">HarrisSA/SPR Tool</string>
     <string name="btnAdd">Add</string>
@@ -220,11 +247,12 @@
     <string name="radioAlias">Map alias</string>
     <string name="selfCombatID">My radio Combat ID</string>
     <string name="useRadioGPS">Use radio GPS</string>
+    <string name="versionName" translatable="false">1.1 (abad850a) - [4.4.0]</string>
     <style name="ATAKEditText" parent="@android:style/Widget.EditText">
-        <!-- Default to non-multi-line edit texts? Probably should do this field-by-field, but we've missed a LOT of them!  -->
-        <!-- <item name="inputType">text</item> -->
+        
+        
 
-        <!-- Make all text fields use the non-fullscreen keyboard. -->
+        
         <item name="android:imeOptions">flagNoFullscreen</item>
     </style>
     <style name="ATAKPluginTheme" parent="@android:style/Theme.Holo">
@@ -243,11 +271,7 @@
     </style>
     <style name="ATAKTheme" parent="@android:style/Theme.Holo">
 
-        <!--
-            Revert to old theme's buttons and spinner styles, since they match the colors and sizes
-            we use currently in the toolbar and in dropdowns better.
-            (And because we have to use dialog mode spinners in dropdowns or they crash ATM)
-        -->
+        
         <item name="android:buttonStyle">@android:style/Widget.Button</item>
         <item name="android:imageButtonStyle">@android:style/Widget.Button</item>
         <item name="android:buttonStyleToggle">@android:style/Widget.Button</item>
@@ -256,23 +280,11 @@
 
         <item name="android:editTextStyle">@style/ATAKEditText</item>
 
-        <!--
-              Use new widgets in dialogs though, since they match better there
-               ISSUE: this doesn't work! apparently android just pulls out a limited set of attributes from
-               these themes/styles, it does *NOT* actually apply them. so we can't change button/spinner style from
-               them. We'll just stick with the old ones in dialogs too for now.
-        -->
-        <!--
-              <item name="android:alertDialogTheme">@style/ATAKDialog</item>
-         <item name="android:alertDialogStyle">@style/ATAKDialog</item>
-        -->
+        
+        
     </style>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+        
     </style>
     <style name="AppTheme" parent="@android:style/Theme.Holo">
         <item name="android:buttonStyle">@android:style/Widget.Button</item>
@@ -296,11 +308,32 @@
         <item name="android:textStyle">bold</item>
         <item name="android:paddingTop">0dp</item>
         <item name="android:paddingBottom">3dp</item>
-        <item name="android:textSize">@dimen/fontSize</item>
+        <item name="android:textSize">@dimen/gps_id</item>
     </style>
     <style name="unpaddedButton" parent="@android:style/Widget.Button">
         <item name="android:paddingTop">0dp</item>
         <item name="android:paddingBottom">3dp</item>
-        <item name="android:textSize">@dimen/fontSize</item>
+        <item name="android:textSize">@dimen/gps_id</item>
     </style>
+    <declare-styleable name="RecyclerView">
+        
+        <attr format="string" name="layoutManager"/>
+
+        
+        
+        
+        <eat-comment/>
+
+        <attr name="android:orientation"/>
+        <attr name="android:descendantFocusability"/>
+        <attr name="android:clipToPadding"/>
+        <attr format="integer" name="spanCount"/>
+        <attr format="boolean" name="reverseLayout"/>
+        <attr format="boolean" name="stackFromEnd"/>
+        <attr format="boolean" name="fastScrollEnabled"/>
+        <attr format="reference" name="fastScrollVerticalThumbDrawable"/>
+        <attr format="reference" name="fastScrollVerticalTrackDrawable"/>
+        <attr format="reference" name="fastScrollHorizontalThumbDrawable"/>
+        <attr format="reference" name="fastScrollHorizontalTrackDrawable"/>
+    </declare-styleable>
 </resources>

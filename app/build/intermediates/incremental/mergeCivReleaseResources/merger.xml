@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res"/><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/generated/res/rs/civ/release"/><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/generated/res/resValues/civ/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res"><file name="new_dark_button_selected" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/new_dark_button_selected.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/ic_launcher.png" qualifiers="" type="drawable"/><file name="dot_selected" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/dot_selected.xml" qualifiers="" type="drawable"/><file name="new_dark_button_bg" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/new_dark_button_bg.xml" qualifiers="" type="drawable"/><file name="new_dark_button_disabled" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/new_dark_button_disabled.xml" qualifiers="" type="drawable"/><file name="dot_selector" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/dot_selector.xml" qualifiers="" type="drawable"/><file name="dot_unselected" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/dot_unselected.xml" qualifiers="" type="drawable"/><file name="ic_menu_plus" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/ic_menu_plus.png" qualifiers="" type="drawable"/><file name="btn_gray" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/btn_gray.xml" qualifiers="" type="drawable"/><file name="ic_menu_minus" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/ic_menu_minus.png" qualifiers="" type="drawable"/><file path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/dimen.xml" qualifiers=""><dimen name="fontSize">14sp</dimen></file><file path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">HarrisSA/SPR Tool</string><string name="app_desc">This plugin receive Harris SA and SPR packets and place them on the map</string><string name="enableBFT">Enable BFT</string><string name="inputCombatID">Combat ID</string><string name="selfCombatID">My radio Combat ID</string><string name="useRadioGPS">Use radio GPS</string><string name="radioAlias">Map alias</string><string name="btnRemove">Remove</string><string name="btnAdd">Add</string><string name="btnSave">Save</string><string name="domain_promt">Choose marker domain</string><string name="marker_promt">Choose marker</string><string-array name="domain_list">
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.recyclerview:recyclerview:1.1.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/.gradle/caches/transforms-2/files-2.1/4e891082990df48be1bf2b9ebb351bd8/recyclerview-1.1.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.recyclerview:recyclerview:1.1.0" from-dependency="true" generated-set="androidx.recyclerview:recyclerview:1.1.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/.gradle/caches/transforms-2/files-2.1/4e891082990df48be1bf2b9ebb351bd8/recyclerview-1.1.0/res"><file path="/home/riddick/.gradle/caches/transforms-2/files-2.1/4e891082990df48be1bf2b9ebb351bd8/recyclerview-1.1.0/res/values/values.xml" qualifiers=""><attr format="reference" name="recyclerViewStyle"/><dimen name="fastscroll_default_thickness">8dp</dimen><dimen name="fastscroll_margin">0dp</dimen><dimen name="fastscroll_minimum_range">50dp</dimen><dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen><dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen><dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen><item name="item_touch_helper_previous_elevation" type="id"/><declare-styleable name="RecyclerView">
+        
+        <attr format="string" name="layoutManager"/>
+
+        
+        
+        
+        <eat-comment/>
+
+        <attr name="android:orientation"/>
+        <attr name="android:descendantFocusability"/>
+        <attr name="android:clipToPadding"/>
+        <attr format="integer" name="spanCount"/>
+        <attr format="boolean" name="reverseLayout"/>
+        <attr format="boolean" name="stackFromEnd"/>
+        <attr format="boolean" name="fastScrollEnabled"/>
+        <attr format="reference" name="fastScrollVerticalThumbDrawable"/>
+        <attr format="reference" name="fastScrollVerticalTrackDrawable"/>
+        <attr format="reference" name="fastScrollHorizontalThumbDrawable"/>
+        <attr format="reference" name="fastScrollHorizontalTrackDrawable"/>
+    </declare-styleable></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res"/><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/generated/res/rs/civ/release"/><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/generated/res/resValues/civ/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res"><file name="subsurf_submarine_conv" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/subsurf_submarine_conv.png" qualifiers="" type="drawable"/><file name="cs_mp" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_mp.png" qualifiers="" type="drawable"/><file name="combat_armor_track_amphibious" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_armor_track_amphibious.png" qualifiers="" type="drawable"/><file name="weapon" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon.png" qualifiers="" type="drawable"/><file name="c2_hq" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/c2_hq.png" qualifiers="" type="drawable"/><file name="btn_delete" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/btn_delete.png" qualifiers="" type="drawable"/><file name="rotor_jammer" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_jammer.png" qualifiers="" type="drawable"/><file name="vehicle_semi" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_semi.png" qualifiers="" type="drawable"/><file name="combat_inf_ifv" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_inf_ifv.png" qualifiers="" type="drawable"/><file name="subsurf_" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/subsurf_.png" qualifiers="" type="drawable"/><file name="rotor_uav" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_uav.png" qualifiers="" type="drawable"/><file name="combat_armor_wheeled_recovery" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_armor_wheeled_recovery.png" qualifiers="" type="drawable"/><file name="combat_inf_naval" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_inf_naval.png" qualifiers="" type="drawable"/><file name="sof_csar" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_csar.png" qualifiers="" type="drawable"/><file name="combat_aa_airborne" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_aa_airborne.png" qualifiers="" type="drawable"/><file name="sea_convoy" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_convoy.png" qualifiers="" type="drawable"/><file name="vehicle_armor_gun" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_armor_gun.png" qualifiers="" type="drawable"/><file name="sea_minelayer" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_minelayer.png" qualifiers="" type="drawable"/><file name="sea_rescue" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_rescue.png" qualifiers="" type="drawable"/><file name="fixed_transport" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_transport.png" qualifiers="" type="drawable"/><file name="css" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/css.png" qualifiers="" type="drawable"/><file name="rotor_attack" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_attack.png" qualifiers="" type="drawable"/><file name="vehicle_tank" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_tank.png" qualifiers="" type="drawable"/><file name="weapon_rocket_antitank" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_rocket_antitank.png" qualifiers="" type="drawable"/><file name="combat_anti_armor" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_anti_armor.png" qualifiers="" type="drawable"/><file name="new_dark_button_selected" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/new_dark_button_selected.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/ic_launcher.png" qualifiers="" type="drawable"/><file name="comabat_recon_mountain" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_recon_mountain.png" qualifiers="" type="drawable"/><file name="combat_armor_wheeled_amphibious" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_armor_wheeled_amphibious.png" qualifiers="" type="drawable"/><file name="cs_civ_law_enforcement" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_civ_law_enforcement.png" qualifiers="" type="drawable"/><file name="cs_signal" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_signal.png" qualifiers="" type="drawable"/><file name="sea_tanker" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_tanker.png" qualifiers="" type="drawable"/><file name="fixed_sof" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_sof.png" qualifiers="" type="drawable"/><file name="rotor_recon" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_recon.png" qualifiers="" type="drawable"/><file name="weapon_hmg" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_hmg.png" qualifiers="" type="drawable"/><file name="combat_multi_rocket_self" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_multi_rocket_self.png" qualifiers="" type="drawable"/><file name="combat_air_defense" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_air_defense.png" qualifiers="" type="drawable"/><file name="sea_cruiser" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_cruiser.png" qualifiers="" type="drawable"/><file name="css_transport" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/css_transport.png" qualifiers="" type="drawable"/><file name="sof_psyops" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_psyops.png" qualifiers="" type="drawable"/><file name="rotor_medevac" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_medevac.png" qualifiers="" type="drawable"/><file name="fixed_recon" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_recon.png" qualifiers="" type="drawable"/><file name="subsurf_diver" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/subsurf_diver.png" qualifiers="" type="drawable"/><file name="comabat_composite" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_composite.png" qualifiers="" type="drawable"/><file name="sea_amphibious" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_amphibious.png" qualifiers="" type="drawable"/><file name="blimp" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/blimp.png" qualifiers="" type="drawable"/><file name="css_supply" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/css_supply.png" qualifiers="" type="drawable"/><file name="sof_support" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_support.png" qualifiers="" type="drawable"/><file name="sea_passenger" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_passenger.png" qualifiers="" type="drawable"/><file name="vehicle_truck" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_truck.png" qualifiers="" type="drawable"/><file name="fixed" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed.png" qualifiers="" type="drawable"/><file name="vehicle_utility" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_utility.png" qualifiers="" type="drawable"/><file name="cs_law_enforcement" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_law_enforcement.png" qualifiers="" type="drawable"/><file name="vehicle_boat" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_boat.png" qualifiers="" type="drawable"/><file name="fixed_fighter" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_fighter.png" qualifiers="" type="drawable"/><file name="fixed_jammer" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_jammer.png" qualifiers="" type="drawable"/><file name="sea_patrol" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_patrol.png" qualifiers="" type="drawable"/><file name="combat_air_defense_missile" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_air_defense_missile.png" qualifiers="" type="drawable"/><file name="sea_destroyer" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_destroyer.png" qualifiers="" type="drawable"/><file name="sea_carrier" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_carrier.png" qualifiers="" type="drawable"/><file name="weapon_rifle" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_rifle.png" qualifiers="" type="drawable"/><file name="vehicle_armor_infanrty" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_armor_infanrty.png" qualifiers="" type="drawable"/><file name="weapon_missile_launcher" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_missile_launcher.png" qualifiers="" type="drawable"/><file name="sea_mine_warfare" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_mine_warfare.png" qualifiers="" type="drawable"/><file name="combat_armor_wheeled_airborne" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_armor_wheeled_airborne.png" qualifiers="" type="drawable"/><file name="vehicle_bus" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_bus.png" qualifiers="" type="drawable"/><file name="fixed_tanker" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_tanker.png" qualifiers="" type="drawable"/><file name="fixed_vstol" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_vstol.png" qualifiers="" type="drawable"/><file name="css_maintenance" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/css_maintenance.png" qualifiers="" type="drawable"/><file name="sea_cargo" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_cargo.png" qualifiers="" type="drawable"/><file name="weapon_howitzer" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_howitzer.png" qualifiers="" type="drawable"/><file name="combat_aa_armored_air_assault" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_aa_armored_air_assault.png" qualifiers="" type="drawable"/><file name="fixed_csar" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_csar.png" qualifiers="" type="drawable"/><file name="rotor_utility" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_utility.png" qualifiers="" type="drawable"/><file name="sea_antisurface" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_antisurface.png" qualifiers="" type="drawable"/><file name="cs_sig_radio" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_sig_radio.png" qualifiers="" type="drawable"/><file name="combat_rocket" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_rocket.png" qualifiers="" type="drawable"/><file name="sof_naval" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_naval.png" qualifiers="" type="drawable"/><file name="vehicle_apc" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_apc.png" qualifiers="" type="drawable"/><file name="cs_ew" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_ew.png" qualifiers="" type="drawable"/><file name="dot_selected" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/dot_selected.xml" qualifiers="" type="drawable"/><file name="comabat_rotary_wing" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_rotary_wing.png" qualifiers="" type="drawable"/><file name="weapon_flame" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_flame.png" qualifiers="" type="drawable"/><file name="sea_non_mil" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_non_mil.png" qualifiers="" type="drawable"/><file name="fixed_c3i" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_c3i.png" qualifiers="" type="drawable"/><file name="weapon_lmg" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_lmg.png" qualifiers="" type="drawable"/><file name="combat_inf_motorized" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_inf_motorized.png" qualifiers="" type="drawable"/><file name="cs_mi" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_mi.png" qualifiers="" type="drawable"/><file name="combat_aa_armored_wheeled" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_aa_armored_wheeled.png" qualifiers="" type="drawable"/><file name="comabat_missile_ss" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_missile_ss.png" qualifiers="" type="drawable"/><file name="fixed_medevac" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_medevac.png" qualifiers="" type="drawable"/><file name="new_dark_button_bg" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/new_dark_button_bg.xml" qualifiers="" type="drawable"/><file name="vehicle_armor_light" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_armor_light.png" qualifiers="" type="drawable"/><file name="weapon_rocket_launcher_multiple" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_rocket_launcher_multiple.png" qualifiers="" type="drawable"/><file name="cs_sig_tel_switch" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_sig_tel_switch.png" qualifiers="" type="drawable"/><file name="combat_armor_wheeled" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_armor_wheeled.png" qualifiers="" type="drawable"/><file name="vehicle" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle.png" qualifiers="" type="drawable"/><file name="combat_inf_mountain" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_inf_mountain.png" qualifiers="" type="drawable"/><file name="weapon_direct_fire" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_direct_fire.png" qualifiers="" type="drawable"/><file name="new_dark_button_disabled" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/new_dark_button_disabled.xml" qualifiers="" type="drawable"/><file name="subsurf_submarine" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/subsurf_submarine.png" qualifiers="" type="drawable"/><file name="dot_selector" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/dot_selector.xml" qualifiers="" type="drawable"/><file name="fixed_uav" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_uav.png" qualifiers="" type="drawable"/><file name="fixed_patrol" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_patrol.png" qualifiers="" type="drawable"/><file name="sea_line" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_line.png" qualifiers="" type="drawable"/><file name="sea_combatant" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_combatant.png" qualifiers="" type="drawable"/><file name="fixed_attack" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_attack.png" qualifiers="" type="drawable"/><file name="sea_antisubmarine" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_antisubmarine.png" qualifiers="" type="drawable"/><file name="combat_armor_track" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_armor_track.png" qualifiers="" type="drawable"/><file name="combat_mortar" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_mortar.png" qualifiers="" type="drawable"/><file name="fixed_trainer" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_trainer.png" qualifiers="" type="drawable"/><file name="combat" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat.png" qualifiers="" type="drawable"/><file name="vehicle_c2v_acv" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_c2v_acv.png" qualifiers="" type="drawable"/><file name="rotor_transport" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_transport.png" qualifiers="" type="drawable"/><file name="weapon_automatic" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_automatic.png" qualifiers="" type="drawable"/><file name="cs_biological" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_biological.png" qualifiers="" type="drawable"/><file name="share" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/share.png" qualifiers="" type="drawable"/><file name="sof_rotary" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_rotary.png" qualifiers="" type="drawable"/><file name="sof_fixed" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_fixed.png" qualifiers="" type="drawable"/><file name="rotor" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor.png" qualifiers="" type="drawable"/><file name="cs_eod" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_eod.png" qualifiers="" type="drawable"/><file name="combat_inf_airborne" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_inf_airborne.png" qualifiers="" type="drawable"/><file name="comabat_recon_marine" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_recon_marine.png" qualifiers="" type="drawable"/><file name="css_recovery" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/css_recovery.png" qualifiers="" type="drawable"/><file name="comabat_recon" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_recon.png" qualifiers="" type="drawable"/><file name="css_med" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/css_med.png" qualifiers="" type="drawable"/><file name="cs" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs.png" qualifiers="" type="drawable"/><file name="comabat_isf" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_isf.png" qualifiers="" type="drawable"/><file name="sea_hospital" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_hospital.png" qualifiers="" type="drawable"/><file name="vehicle_mcv" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_mcv.png" qualifiers="" type="drawable"/><file name="fixed_bomber" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_bomber.png" qualifiers="" type="drawable"/><file name="cs_ci" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_ci.png" qualifiers="" type="drawable"/><file name="sof_boat" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_boat.png" qualifiers="" type="drawable"/><file name="air" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/air.png" qualifiers="" type="drawable"/><file name="fixed_interceptor" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_interceptor.png" qualifiers="" type="drawable"/><file name="vehicle_ambulance" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_ambulance.png" qualifiers="" type="drawable"/><file name="cs_iw" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_iw.png" qualifiers="" type="drawable"/><file name="sea_hovercraft" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_hovercraft.png" qualifiers="" type="drawable"/><file name="combat_artillery_fixed" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_artillery_fixed.png" qualifiers="" type="drawable"/><file name="cs_sigint" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_sigint.png" qualifiers="" type="drawable"/><file name="sea_landing_ship" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_landing_ship.png" qualifiers="" type="drawable"/><file name="weapon_air_defense" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_air_defense.png" qualifiers="" type="drawable"/><file name="combat_aa_motorized" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_aa_motorized.png" qualifiers="" type="drawable"/><file name="weapon_rocket_launcher_single" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_rocket_launcher_single.png" qualifiers="" type="drawable"/><file name="sea_landing_craft" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_landing_craft.png" qualifiers="" type="drawable"/><file name="subsurf_uuv" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/subsurf_uuv.png" qualifiers="" type="drawable"/><file name="sof" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof.png" qualifiers="" type="drawable"/><file name="cs_com_ops" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_com_ops.png" qualifiers="" type="drawable"/><file name="rotor_c2" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_c2.png" qualifiers="" type="drawable"/><file name="rotor_sof" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_sof.png" qualifiers="" type="drawable"/><file name="sof_ssnr" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_ssnr.png" qualifiers="" type="drawable"/><file name="fixed_c2" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_c2.png" qualifiers="" type="drawable"/><file name="weapon_nbc" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_nbc.png" qualifiers="" type="drawable"/><file name="combat_single_rocket_self" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_single_rocket_self.png" qualifiers="" type="drawable"/><file name="vehicle_civ" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_civ.png" qualifiers="" type="drawable"/><file name="sea_minehunter" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_minehunter.png" qualifiers="" type="drawable"/><file name="comabat_aviation" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_aviation.png" qualifiers="" type="drawable"/><file name="combat_inf_air_assault" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_inf_air_assault.png" qualifiers="" type="drawable"/><file name="combat_armor" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_armor.png" qualifiers="" type="drawable"/><file name="dot_unselected" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/dot_unselected.xml" qualifiers="" type="drawable"/><file name="ic_menu_plus" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/ic_menu_plus.png" qualifiers="" type="drawable"/><file name="subsurf_submarine_nuc" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/subsurf_submarine_nuc.png" qualifiers="" type="drawable"/><file name="btn_gray" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/btn_gray.xml" qualifiers="" type="drawable"/><file name="comabat_fixed_wing" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_fixed_wing.png" qualifiers="" type="drawable"/><file name="sea_assault_vessel" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_assault_vessel.png" qualifiers="" type="drawable"/><file name="weapon_mortar" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_mortar.png" qualifiers="" type="drawable"/><file name="sof_ground" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_ground.png" qualifiers="" type="drawable"/><file name="cs_nuclear" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_nuclear.png" qualifiers="" type="drawable"/><file name="cs_nbc" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_nbc.png" qualifiers="" type="drawable"/><file name="combat_inf_troops" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_inf_troops.png" qualifiers="" type="drawable"/><file name="sensor_radar" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sensor_radar.png" qualifiers="" type="drawable"/><file name="comabat_recon_airborne" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_recon_airborne.png" qualifiers="" type="drawable"/><file name="combat_engineer" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_engineer.png" qualifiers="" type="drawable"/><file name="cs_sig_sat" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_sig_sat.png" qualifiers="" type="drawable"/><file name="sensor" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sensor.png" qualifiers="" type="drawable"/><file name="weapon_anti_tank_gun" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/weapon_anti_tank_gun.png" qualifiers="" type="drawable"/><file name="combat_aa_armored_tracked" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_aa_armored_tracked.png" qualifiers="" type="drawable"/><file name="vehicle_apc_recovery" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_apc_recovery.png" qualifiers="" type="drawable"/><file name="sensor_emplaced" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sensor_emplaced.png" qualifiers="" type="drawable"/><file name="sea_battleship" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_battleship.png" qualifiers="" type="drawable"/><file name="vehicle_armor_css" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_armor_css.png" qualifiers="" type="drawable"/><file name="rotor_csar" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/rotor_csar.png" qualifiers="" type="drawable"/><file name="combat_inf_mechanized" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/combat_inf_mechanized.png" qualifiers="" type="drawable"/><file name="vehicle_engineer" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/vehicle_engineer.png" qualifiers="" type="drawable"/><file name="cs_chemical" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_chemical.png" qualifiers="" type="drawable"/><file name="comabat_recon_air_assault" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/comabat_recon_air_assault.png" qualifiers="" type="drawable"/><file name="sea_frigate" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_frigate.png" qualifiers="" type="drawable"/><file name="sea_track" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sea_track.png" qualifiers="" type="drawable"/><file name="fixed_utility" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/fixed_utility.png" qualifiers="" type="drawable"/><file name="ic_menu_minus" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/ic_menu_minus.png" qualifiers="" type="drawable"/><file name="sof_ranger" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/sof_ranger.png" qualifiers="" type="drawable"/><file name="cs_sig_relay" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/drawable/cs_sig_relay.png" qualifiers="" type="drawable"/><file path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/dimen.xml" qualifiers=""><dimen name="header">14sp</dimen><dimen name="gps_id">14sp</dimen><dimen name="gps_sw">10sp</dimen><dimen name="spinner_item">12sp</dimen><dimen name="tab_text_size">10sp</dimen></file><file path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">HarrisSA/SPR Tool</string><string name="app_desc">This plugin receive Harris SA and SPR packets and place them on the map</string><string name="enableBFT">Enable BFT</string><string name="inputCombatID">Combat ID</string><string name="selfCombatID">My radio Combat ID</string><string name="useRadioGPS">Use radio GPS</string><string name="radioAlias">Map alias</string><string name="btnRemove">Remove</string><string name="btnAdd">Add</string><string name="btnSave">Save</string><string name="domain_promt">Choose marker domain</string><string name="marker_promt">Choose marker</string><string name="HHMP_BFT_ENABLED">HH/MP BFT enabled</string><string name="HHMP_BFT_DISABLED">HH/MP BFT disabled</string><string name="RadioIDempty">Radio ID can\'t be empty!</string><string name="HHMP_GPS_ENABLED">HH/MP GPS Radio source enabled</string><string name="HHMP_GPS_DISABLED">HH/MP GPS Radio source disabled</string><string name="SPR_radio_not_found">7800S Radio not found!</string><string name="SPR_BFT_ENABLED">Radio 7800S attached. BFT enabled</string><string name="SPR_BFT_DISABLED">SPR BFT disabled</string><string name="SPR_GPS_ENABLED">SPR GPS Radio source enabled</string><string name="SPR_GPS_DISABLED">SPR GPS Radio source disabled</string><string name="COMBAT_ID">CombatID</string><string name="MAP_ALIAS">Map alias</string><string name="CHOOSE_DOMAIN">Choose marker domain</string><string name="CHOOSE_MARKER">Choose marker</string><string name="SAVE_BTN">Settings saved. Empty IDs will not save</string><string-array name="domain_list">
         <item>AIR MIL</item>
         <item>GROUND VEHICLE</item>
         <item>GROUND WEAPON</item>
@@ -25,7 +45,7 @@
         <item>Fixed/MEDEVAC</item>
         <item>Fixed/Patrol</item>
         <item>Fixed/UAV</item>
-        <item>Fixed/RECON</item>
+        <item>Fixed/Recon</item>
         <item>Fixed/Trainer</item>
         <item>Fixed/Utility</item>
         <item>Fixed/C3I</item>
@@ -38,14 +58,14 @@
         <item>Rotor/SOF</item>
         <item>Rotor/MEDEVAC</item>
         <item>Rotor/UAV</item>
-        <item>Rotor/RECON</item>
+        <item>Rotor/Recon</item>
         <item>Rotor/Utility</item>
         <item>Blimp</item>
     </string-array><string-array name="gnd_vech_list">
         <item>Vehicle</item>
         <item>Armor/Gun</item>
-        <item>Apc</item>
-        <item>Apc/Recovery</item>
+        <item>APC</item>
+        <item>APC/Recovery</item>
         <item>C2V/ACV</item>
         <item>Armor/Infantry</item>
         <item>Armor/Light</item>
@@ -62,44 +82,44 @@
         <item>Ambulance</item>
     </string-array><string-array name="gnd_weap_list">
         <item>Weapon</item>
-        <item>Air Defense Gun</item>
-        <item>DirectFire</item>
-        <item>AnitTankGun</item>
+        <item>Air defense gun</item>
+        <item>Direct fire</item>
+        <item>Antitank gun</item>
         <item>Howitzer</item>
-        <item>MissileLauncher</item>
+        <item>Missile launcher</item>
         <item>Mortar</item>
         <item>Rifle</item>
-        <item>Automatic Weapon</item>
-        <item>Light Machine Gun</item>
-        <item>Heavy Machine Gun</item>
-        <item>RocketLauncher/Single</item>
-        <item>RocketLauncher/Multiple</item>
-        <item>RocketLauncher/AntiTank</item>
-        <item>Flame Thrower</item>
-        <item>Nbc Equipment</item>
+        <item>Automatic weapon</item>
+        <item>Light machine gun</item>
+        <item>Heavy machine gun</item>
+        <item>Rocket launcher/Single</item>
+        <item>Rocket launcher/Multiple</item>
+        <item>Rocket launcher/AntiTank</item>
+        <item>Flame thrower</item>
+        <item>NBC equipment</item>
     </string-array><string-array name="gnd_unt_cbt_list">
         <item>Combat</item>
-        <item>ARMOR</item>
-        <item>ANTI ARMOR</item>
-        <item>ANTI ARMOR, ARMORED AIR ASSAULT</item>
-        <item>ANTI ARMOR, ARMORED TRACKED</item>
-        <item>ANTI ARMOR, ARMORED WHEELED</item>
-        <item>ANTI ARMOR, AIRBORNE</item>
-        <item>ANTI ARMOR, MOTORIZED</item>
-        <item>ARMOR TRACK</item>
-        <item>ARMOR TRACK AMPHIBIOUS</item>
-        <item>ARMOR, WHEELED</item>
-        <item>ARMOR, WHEELED AIRBORNE</item>
-        <item>ARMOR, WHEELED RECOVERY</item>
-        <item>ARMOR, WHEELED AMPHIBIOUS</item>
-        <item>AIR DEFENSE</item>
-        <item>AIR DEFENSE MISSILE</item>
-        <item>Engineer/ENGINEER</item>
-        <item>Artillery (Fixed)</item>
-        <item>MORTAR</item>
-        <item>ROCKET</item>
-        <item>SINGLE ROCKET SELF PROPELLED</item>
-        <item>MULTI ROCKET SELF PROPELLED</item>
+        <item>Antiarmor</item>
+        <item>Antiarmor/Armored</item>
+        <item>Antiarmor/Armored air assault</item>
+        <item>Antiarmor/Armored tracked</item>
+        <item>Antiarmor/Armored wheeled</item>
+        <item>Antiarmor/Airborne</item>
+        <item>Antiarmor/Motorized</item>
+        <item>Armor/Track</item>
+        <item>Armor/track amphibious</item>
+        <item>Armor/wheeled</item>
+        <item>Armor/wheeled airborne</item>
+        <item>Armor/wheeled recovery</item>
+        <item>Armor/wheeled amphibious</item>
+        <item>Air defense</item>
+        <item>Air defense/Missile</item>
+        <item>Engineer</item>
+        <item>Artillery/Fixed</item>
+        <item>Mortar</item>
+        <item>Rocket</item>
+        <item>Single rocket/Self propelled</item>
+        <item>Multi rocket/Self propelled</item>
         <item>Infantry/Troops</item>
         <item>Infantry/Airborne</item>
         <item>Infantry/Fighting Vehicle</item>
@@ -110,88 +130,88 @@
         <item>Infantry/Mechanized</item>
         <item>MISSILE (SURF SURF)</item>
         <item>Recon</item>
-        <item>Recon/AIRBORNE</item>
-        <item>Recon/MOUNTAIN</item>
-        <item>Recon/MARINE</item>
-        <item>Recon/AIR ASSAULT</item>
-        <item>INTERNAL SECURITY FORCES</item>
-        <item>Aviation/AVIATION</item>
-        <item>Aviation/COMPOSITE</item>
-        <item>Aviation/FIXED WING</item>
-        <item>Aviation/ROTARY WING</item>
+        <item>Recon/Airborne</item>
+        <item>Recon/Mountain</item>
+        <item>Recon/Marine</item>
+        <item>Recon/Air Assault</item>
+        <item>Internal Security Forces</item>
+        <item>Aviation</item>
+        <item>Aviation/Composite</item>
+        <item>Aviation/Fixed wing</item>
+        <item>Aviation/Rotary wing</item>
     </string-array><string-array name="gnd_unt_cs_list">
-        <item>COMBAT SUPPORT</item>
-        <item>COMBAT SUPPORT NBC</item>
-        <item>BIOLOGICAL</item>
-        <item>CHEMICAL</item>
-        <item>NUCLEAR</item>
-        <item>EXPLOSIVE ORDINANCE DISPOSAL</item>
-        <item>INFORMATION WARFARE UNIT</item>
-        <item>LAW ENFORCEMENT UNIT</item>
-        <item>CIVILIAN LAW ENFORCEMENT</item>
-        <item>MILITARY POLICE</item>
-        <item>MILITARY INTELLIGENCE</item>
-        <item>COUNTER INTELLIGENCE</item>
-        <item>SIGNAL INTELLIGENCE (SIGINT)</item>
-        <item>ELECTRONIC WARFARE</item>
-        <item>SIGNAL UNIT</item>
-        <item>COMMAND OPERATIONS</item>
-        <item>RADIO UNIT</item>
-        <item>TACTICAL SATELLITE</item>
-        <item>RELAY</item>
-        <item>TELEPHONE SWITCH</item>
+        <item>Combat support</item>
+        <item>Combat support NBC</item>
+        <item>Biological</item>
+        <item>Chemical</item>
+        <item>Nuclear</item>
+        <item>Explosive Ordinance Disposal</item>
+        <item>Information warfare unit</item>
+        <item>Law Enforcement unit</item>
+        <item>Civilian Law Enforcement</item>
+        <item>Military Police</item>
+        <item>Military Intelligence</item>
+        <item>Counter Intelligence</item>
+        <item>Signal Intelligence (SIGINT)</item>
+        <item>Electronic Warfare</item>
+        <item>Signal unit</item>
+        <item>Command operations</item>
+        <item>Radio unit</item>
+        <item>Tactical satellite</item>
+        <item>Relay</item>
+        <item>Telephone switch</item>
     </string-array><string-array name="gnd_unt_ss_list">
-        <item>C2 HEADQUARTERS COMPONENT</item>
-        <item>MEDICAL</item>
-        <item>SUPPLY</item>
-        <item>TRANSPORTATION</item>
-        <item>MAINTENANCE</item>
-        <item>MAINTENANCE RECOVERY</item>
+        <item>C2 HQ</item>
+        <item>Medical</item>
+        <item>Supply</item>
+        <item>Transportation</item>
+        <item>Maintenance</item>
+        <item>Maintenance recovery</item>
     </string-array><string-array name="sfc_list">
-        <item>SEA SURFACE TRACK/item</item>
-        <item>COMBATANT</item>
-        <item>AMPHIBIOUS WARFARE SHIP</item>
-        <item>ASSAULT VESSEL</item>
-        <item>LANDING CRAFT</item>
-        <item>LANDING SHIP</item>
-        <item>HOVERCRAFT</item>
-        <item>LINE</item>
-        <item>BATTLESHIP</item>
-        <item>CRUISER</item>
-        <item>CARRIER</item>
-        <item>DESTROYER</item>
-        <item>FRIGATE/CORVETTE</item>
-        <item>MINE WARFARE VESSEL</item>
-        <item>MINEHUNTER</item>
-        <item>MINELAYER</item>
-        <item>PATROL</item>
-        <item>ANTISUBMARINE WARFARE</item>
-        <item>ANTISURFACE WARFARE</item>
-        <item>CONVOY</item>
-        <item>HOSPITAL SHIP</item>
-        <item>RESCUE</item>
-        <item>NON MILITARY</item>
-        <item>CARGO</item>
-        <item>PASSENGER</item>
-        <item>TANKER</item>
+        <item>Sea surface track</item>
+        <item>Combatant</item>
+        <item>Amphibious warfare ship</item>
+        <item>Assault vessel</item>
+        <item>Landing craft</item>
+        <item>Landing ship</item>
+        <item>Hovercraft</item>
+        <item>Line</item>
+        <item>Battleship</item>
+        <item>Cruiser</item>
+        <item>Carrier</item>
+        <item>Destroyer</item>
+        <item>Frigate/Corvette</item>
+        <item>Mine warfare vessel</item>
+        <item>Minehunter</item>
+        <item>Minelayer</item>
+        <item>Patrol</item>
+        <item>Antisubmarine warfare</item>
+        <item>Antisurface warfare</item>
+        <item>Convoy</item>
+        <item>Hospital ship</item>
+        <item>Resque</item>
+        <item>Non military</item>
+        <item>Cargo</item>
+        <item>Passenger</item>
+        <item>Tanker</item>
     </string-array><string-array name="sub_sfc_list">
-        <item>SUBSURFACE TRACK</item>
-        <item>DIVER</item>
-        <item>SUBMARINE</item>
-        <item>SUBMARINE CONVENTIONAL PROPULSION</item>
-        <item>SUBMARINE NUCLEAR PROPULSION</item>
-        <item>UNMANNED UNDERWATER VEHICLE (UUV)</item>
+        <item>Subsurface track</item>
+        <item>Diver</item>
+        <item>Submarine</item>
+        <item>Submarine conventional propulsion</item>
+        <item>Submarine nuclear propulsion</item>
+        <item>Unmanned Underwater Vehicle (UUV)</item>
     </string-array><string-array name="sof_list">
-        <item>AVIATION Fixed</item>
-        <item>AVIATION Rotary</item>
-        <item>AVIATION CSAR</item>
-        <item>NAVAL</item>
-        <item>SPECIAL BOAT</item>
-        <item>SPECIAL SSNR</item>
-        <item>GROUND</item>
-        <item>RANGER</item>
+        <item>Aviation/Fixed</item>
+        <item>Aviation/Rotary</item>
+        <item>Aviation/CSAR</item>
+        <item>Naval</item>
+        <item>Special boat</item>
+        <item>Special SSNR</item>
+        <item>Ground</item>
+        <item>Ranger</item>
         <item>PSYOPS</item>
-        <item>SUPPORT</item>
+        <item>Support</item>
     </string-array></file><file path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/color.xml" qualifiers=""><color name="white">#ffffff</color><color name="darker_gray">#121212</color><color name="light_blue">#33b5e5</color><color name="light_gray">#cccccc</color></file><file path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values/styles.xml" qualifiers=""><style name="ATAKPluginTheme" parent="@android:style/Theme.Holo">
         <item name="android:buttonStyle">@android:style/Widget.Button</item>
         <item name="android:imageButtonStyle">@android:style/Widget.Button</item>
@@ -238,7 +258,7 @@
     </style><style name="unpaddedButton" parent="@android:style/Widget.Button">
         <item name="android:paddingTop">0dp</item>
         <item name="android:paddingBottom">3dp</item>
-        <item name="android:textSize">@dimen/fontSize</item>
+        <item name="android:textSize">@dimen/gps_id</item>
     </style><style name="darkButton" parent="@android:style/Widget.Button">
         <item name="android:background">@drawable/btn_gray</item>
         <item name="android:shadowColor">@color/darker_gray</item>
@@ -248,5 +268,468 @@
         <item name="android:textStyle">bold</item>
         <item name="android:paddingTop">0dp</item>
         <item name="android:paddingBottom">3dp</item>
-        <item name="android:textSize">@dimen/fontSize</item>
-    </style></file><file name="main_layout" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/layout/main_layout.xml" qualifiers="" type="layout"/></source><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/generated/res/rs/civ/release"/><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/generated/res/resValues/civ/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="civ$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/civ/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="civ" generated-set="civ$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/civ/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build-types/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build-types/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="civRelease$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/civRelease/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="civRelease" generated-set="civRelease$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/civRelease/res"/></dataSet><mergedItems/></merger>
+        <item name="android:textSize">@dimen/gps_id</item>
+    </style></file><file name="spinner_item" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/layout-sw600dp/spinner_item.xml" qualifiers="sw600dp-v13" type="layout"/><file name="main_layout" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/layout-sw600dp/main_layout.xml" qualifiers="sw600dp-v13" type="layout"/><file path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values-sw600dp/dimen.xml" qualifiers="sw600dp-v13"><dimen name="header">28sp</dimen><dimen name="gps_id">26sp</dimen><dimen name="gps_sw">26sp</dimen><dimen name="spinner_item">18sp</dimen><dimen name="tab_text_size">20sp</dimen></file><file path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values-sw600dp/strings.xml" qualifiers="sw600dp-v13"><string name="app_name">HarrisSA/SPR Tool</string><string name="app_desc">This plugin receive Harris SA and SPR packets and place them on the map</string><string name="enableBFT">Enable BFT</string><string name="inputCombatID">Combat ID</string><string name="selfCombatID">My radio Combat ID</string><string name="useRadioGPS">Use radio GPS</string><string name="radioAlias">Map alias</string><string name="btnRemove">Remove</string><string name="btnAdd">Add</string><string name="btnSave">Save</string><string name="domain_promt">Choose marker domain</string><string name="marker_promt">Choose marker</string><string name="HHMP_BFT_ENABLED">HH/MP BFT enabled</string><string name="HHMP_BFT_DISABLED">HH/MP BFT disabled</string><string name="RadioIDempty">Radio ID can\'t be empty!</string><string name="HHMP_GPS_ENABLED">HH/MP GPS Radio source enabled</string><string name="HHMP_GPS_DISABLED">HH/MP GPS Radio source disabled</string><string name="SPR_radio_not_found">7800S Radio not found!</string><string name="SPR_BFT_ENABLED">Radio 7800S attached. BFT enabled</string><string name="SPR_BFT_DISABLED">SPR BFT disabled</string><string name="SPR_GPS_ENABLED">SPR GPS Radio source enabled</string><string name="SPR_GPS_DISABLED">SPR GPS Radio source disabled</string><string name="COMBAT_ID">CombatID</string><string name="MAP_ALIAS">Map alias</string><string name="CHOOSE_DOMAIN">Choose marker domain</string><string name="CHOOSE_MARKER">Choose marker</string><string name="SAVE_BTN">Settings saved. Empty IDs will not save</string><string-array name="domain_list">
+        <item>AIR MIL</item>
+        <item>GROUND VEHICLE</item>
+        <item>GROUND WEAPON</item>
+        <item>GROUND UNIT COMBAT</item>
+        <item>GROUND UNIT COMBAT SUPPORT</item>
+        <item>GROUND UNIT SERVICE SUPPORT</item>
+        <item>SURFACE</item>
+        <item>SUBSURFACE</item>
+        <item>SOF</item>
+    </string-array><string-array name="air_mil_list">
+        <item>Fixed</item>
+        <item>Fixed/Attack</item>
+        <item>Fixed/Bomber</item>
+        <item>Fixed/Transport</item>
+        <item>Fixed/C2</item>
+        <item>Fixed/Fighter</item>
+        <item>Fixed/Interceptor</item>
+        <item>Fixed/CSAR</item>
+        <item>Fixed/Jammer</item>
+        <item>Fixed/Tanker</item>
+        <item>Fixed/VSTOL</item>
+        <item>Fixed/SOF</item>
+        <item>Fixed/MEDEVAC</item>
+        <item>Fixed/Patrol</item>
+        <item>Fixed/UAV</item>
+        <item>Fixed/Recon</item>
+        <item>Fixed/Trainer</item>
+        <item>Fixed/Utility</item>
+        <item>Fixed/C3I</item>
+        <item>Rotor</item>
+        <item>Rotor/Attack</item>
+        <item>Rotor/Transport</item>
+        <item>Rotor/C2</item>
+        <item>Rotor/CSAR</item>
+        <item>Rotor/Jammer</item>
+        <item>Rotor/SOF</item>
+        <item>Rotor/MEDEVAC</item>
+        <item>Rotor/UAV</item>
+        <item>Rotor/Recon</item>
+        <item>Rotor/Utility</item>
+        <item>Blimp</item>
+    </string-array><string-array name="gnd_vech_list">
+        <item>Vehicle</item>
+        <item>Armor/Gun</item>
+        <item>APC</item>
+        <item>APC/Recovery</item>
+        <item>C2V/ACV</item>
+        <item>Armor/Infantry</item>
+        <item>Armor/Light</item>
+        <item>Armor/Combat Service Support</item>
+        <item>Tank</item>
+        <item>Civilian</item>
+        <item>Engineer</item>
+        <item>Mine Clearing Vehicle</item>
+        <item>Utility</item>
+        <item>Bus</item>
+        <item>Cross Country Truck</item>
+        <item>Boat</item>
+        <item>Semi</item>
+        <item>Ambulance</item>
+    </string-array><string-array name="gnd_weap_list">
+        <item>Weapon</item>
+        <item>Air defense gun</item>
+        <item>Direct fire</item>
+        <item>Antitank gun</item>
+        <item>Howitzer</item>
+        <item>Missile launcher</item>
+        <item>Mortar</item>
+        <item>Rifle</item>
+        <item>Automatic weapon</item>
+        <item>Light machine gun</item>
+        <item>Heavy machine gun</item>
+        <item>Rocket launcher/Single</item>
+        <item>Rocket launcher/Multiple</item>
+        <item>Rocket launcher/AntiTank</item>
+        <item>Flame thrower</item>
+        <item>NBC equipment</item>
+    </string-array><string-array name="gnd_unt_cbt_list">
+        <item>Combat</item>
+        <item>Antiarmor</item>
+        <item>Antiarmor/Armored</item>
+        <item>Antiarmor/Armored air assault</item>
+        <item>Antiarmor/Armored tracked</item>
+        <item>Antiarmor/Armored wheeled</item>
+        <item>Antiarmor/Airborne</item>
+        <item>Antiarmor/Motorized</item>
+        <item>Armor/Track</item>
+        <item>Armor/track amphibious</item>
+        <item>Armor/wheeled</item>
+        <item>Armor/wheeled airborne</item>
+        <item>Armor/wheeled recovery</item>
+        <item>Armor/wheeled amphibious</item>
+        <item>Air defense</item>
+        <item>Air defense/Missile</item>
+        <item>Engineer</item>
+        <item>Artillery/Fixed</item>
+        <item>Mortar</item>
+        <item>Rocket</item>
+        <item>Single rocket/Self propelled</item>
+        <item>Multi rocket/Self propelled</item>
+        <item>Infantry/Troops</item>
+        <item>Infantry/Airborne</item>
+        <item>Infantry/Fighting Vehicle</item>
+        <item>Infantry/Motorized</item>
+        <item>Infantry/Naval</item>
+        <item>Infantry/Air Assault</item>
+        <item>Infantry/Mountain</item>
+        <item>Infantry/Mechanized</item>
+        <item>MISSILE (SURF SURF)</item>
+        <item>Recon</item>
+        <item>Recon/Airborne</item>
+        <item>Recon/Mountain</item>
+        <item>Recon/Marine</item>
+        <item>Recon/Air Assault</item>
+        <item>Internal Security Forces</item>
+        <item>Aviation</item>
+        <item>Aviation/Composite</item>
+        <item>Aviation/Fixed wing</item>
+        <item>Aviation/Rotary wing</item>
+    </string-array><string-array name="gnd_unt_cs_list">
+        <item>Combat support</item>
+        <item>Combat support NBC</item>
+        <item>Biological</item>
+        <item>Chemical</item>
+        <item>Nuclear</item>
+        <item>Explosive Ordinance Disposal</item>
+        <item>Information warfare unit</item>
+        <item>Law Enforcement unit</item>
+        <item>Civilian Law Enforcement</item>
+        <item>Military Police</item>
+        <item>Military Intelligence</item>
+        <item>Counter Intelligence</item>
+        <item>Signal Intelligence (SIGINT)</item>
+        <item>Electronic Warfare</item>
+        <item>Signal unit</item>
+        <item>Command operations</item>
+        <item>Radio unit</item>
+        <item>Tactical satellite</item>
+        <item>Relay</item>
+        <item>Telephone switch</item>
+    </string-array><string-array name="gnd_unt_ss_list">
+        <item>C2 HQ</item>
+        <item>Medical</item>
+        <item>Supply</item>
+        <item>Transportation</item>
+        <item>Maintenance</item>
+        <item>Maintenance recovery</item>
+    </string-array><string-array name="sfc_list">
+        <item>Sea surface track</item>
+        <item>Combatant</item>
+        <item>Amphibious warfare ship</item>
+        <item>Assault vessel</item>
+        <item>Landing craft</item>
+        <item>Landing ship</item>
+        <item>Hovercraft</item>
+        <item>Line</item>
+        <item>Battleship</item>
+        <item>Cruiser</item>
+        <item>Carrier</item>
+        <item>Destroyer</item>
+        <item>Frigate/Corvette</item>
+        <item>Mine warfare vessel</item>
+        <item>Minehunter</item>
+        <item>Minelayer</item>
+        <item>Patrol</item>
+        <item>Antisubmarine warfare</item>
+        <item>Antisurface warfare</item>
+        <item>Convoy</item>
+        <item>Hospital ship</item>
+        <item>Resque</item>
+        <item>Non military</item>
+        <item>Cargo</item>
+        <item>Passenger</item>
+        <item>Tanker</item>
+    </string-array><string-array name="sub_sfc_list">
+        <item>Subsurface track</item>
+        <item>Diver</item>
+        <item>Submarine</item>
+        <item>Submarine conventional propulsion</item>
+        <item>Submarine nuclear propulsion</item>
+        <item>Unmanned Underwater Vehicle (UUV)</item>
+    </string-array><string-array name="sof_list">
+        <item>Aviation/Fixed</item>
+        <item>Aviation/Rotary</item>
+        <item>Aviation/CSAR</item>
+        <item>Naval</item>
+        <item>Special boat</item>
+        <item>Special SSNR</item>
+        <item>Ground</item>
+        <item>Ranger</item>
+        <item>PSYOPS</item>
+        <item>Support</item>
+    </string-array></file><file path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values-sw600dp/color.xml" qualifiers="sw600dp-v13"><color name="white">#ffffff</color><color name="darker_gray">#121212</color><color name="light_blue">#33b5e5</color><color name="light_gray">#cccccc</color></file><file path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values-sw600dp/styles.xml" qualifiers="sw600dp-v13"><style name="ATAKPluginTheme" parent="@android:style/Theme.Holo">
+        <item name="android:buttonStyle">@android:style/Widget.Button</item>
+        <item name="android:imageButtonStyle">@android:style/Widget.Button</item>
+        <item name="android:buttonStyleToggle">@android:style/Widget.Button</item>
+        <item name="android:spinnerStyle">@style/ATAKSpinner</item>
+        <item name="android:spinnerItemStyle">@style/ATAKSpinnerItem</item>
+        <item name="android:editTextStyle">@style/ATAKEditText</item>
+    </style><style name="ATAKTheme" parent="@android:style/Theme.Holo">
+
+        
+        <item name="android:buttonStyle">@android:style/Widget.Button</item>
+        <item name="android:imageButtonStyle">@android:style/Widget.Button</item>
+        <item name="android:buttonStyleToggle">@android:style/Widget.Button</item>
+        <item name="android:spinnerStyle">@style/ATAKSpinner</item>
+        <item name="android:spinnerItemStyle">@style/ATAKSpinnerItem</item>
+
+        <item name="android:editTextStyle">@style/ATAKEditText</item>
+
+        
+        
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style><style name="AppTheme" parent="@android:style/Theme.Holo">
+        <item name="android:buttonStyle">@android:style/Widget.Button</item>
+        <item name="android:imageButtonStyle">@android:style/Widget.Button</item>
+        <item name="android:buttonStyleToggle">@android:style/Widget.Button</item>
+        <item name="android:spinnerStyle">@style/ATAKSpinner</item>
+        <item name="android:spinnerItemStyle">@style/ATAKSpinnerItem</item>
+        <item name="android:editTextStyle">@style/ATAKEditText</item>
+    </style><style name="ATAKSpinner" parent="@android:style/Widget.Spinner">
+        <item name="android:spinnerMode">dialog</item>
+    </style><style name="ATAKEditText" parent="@android:style/Widget.EditText">
+        
+        
+
+        
+        <item name="android:imeOptions">flagNoFullscreen</item>
+    </style><style name="FullDropdownStyle" parent="@style/ATAKTheme">
+        <item name="android:buttonStyle">@style/unpaddedButton</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:imeOptions">flagNoExtractUi</item>
+    </style><style name="ATAKSpinnerItem" parent="@style/AppTheme">
+        <item name="android:textColor">@android:color/black</item>
+    </style><style name="unpaddedButton" parent="@android:style/Widget.Button">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textSize">@dimen/gps_id</item>
+    </style><style name="darkButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_gray</item>
+        <item name="android:shadowColor">@color/darker_gray</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textSize">@dimen/gps_id</item>
+    </style></file><file path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/values-uk-rUA/strings.xml" qualifiers="uk-rUA"><string name="app_name">HarrisSA/SPR Tool</string><string name="app_desc">Цей плагін дає змогу обробляти GPS пакети в форматі Harris SA та SPR SA та розташовувати їх на мапі</string><string name="enableBFT">увімк. BFT</string><string name="inputCombatID">Combat ID</string><string name="selfCombatID">ID своєї станції</string><string name="useRadioGPS">вик. GPS станції</string><string name="radioAlias">Позивний</string><string name="btnRemove">Видалити</string><string name="btnAdd">Додати</string><string name="btnSave">Зберегти</string><string name="domain_promt">Виберіть рід об\'єкту</string><string name="marker_promt">Виберіть маркер</string><string name="HHMP_BFT_ENABLED">HH/MP BFT увімкнено</string><string name="HHMP_BFT_DISABLED">HH/MP BFT вимкнено</string><string name="RadioIDempty">ID станції не може бути порожнім!</string><string name="HHMP_GPS_ENABLED">GPS станції HH/MP як джерело ввімкнено</string><string name="HHMP_GPS_DISABLED">GPS станції HH/MP як джерело вимкнено</string><string name="SPR_radio_not_found">Станцію 7800S не знайдено!</string><string name="SPR_BFT_ENABLED">Станцію 7800S підключено. BFT увімкнено</string><string name="SPR_BFT_DISABLED">7800S BFT вимкнено</string><string name="SPR_GPS_ENABLED">GPS станції 7800S як джерело ввімкнено</string><string name="SPR_GPS_DISABLED">GPS станції 7800S як джерело вимкнено</string><string name="COMBAT_ID">ID станції</string><string name="MAP_ALIAS">Позивний</string><string name="CHOOSE_DOMAIN">Оберіть рід маркеру</string><string name="CHOOSE_MARKER">Оберіть маркер</string><string name="SAVE_BTN">Налаштування збережені. Поля з пустими ID не зберігатимуться</string><string-array name="domain_list">
+        <item>ПОВІТРЯНИЙ</item>
+        <item>ТРАНСПОРТ</item>
+        <item>ЗБРОЯ</item>
+        <item>ПІДРОЗДІЛ БОЙОВИЙ</item>
+        <item>ПІДРОЗДІЛ БОЙОВОЇ ПІДТРИМКИ</item>
+        <item>ПІДРОЗДІЛ ЗАБЕЗПЕЧЕННЯ</item>
+        <item>МОРСЬКИЙ</item>
+        <item>ПІДВОДНИЙ</item>
+        <item>ПІДРОЗДІЛ СПЕЦІАЛЬНИХ ОПЕРАЦІЙ</item>
+    </string-array><string-array name="air_mil_list">
+        <item>Літак</item>
+        <item>Літак/Штурмовий</item>
+        <item>Літак/Бомбардувальник</item>
+        <item>Літак/Транспортний</item>
+        <item>Літак/Управління</item>
+        <item>Літак/Винищувач</item>
+        <item>Літак/Перехоплювач</item>
+        <item>Літак/Пошуковий</item>
+        <item>Літак/РЕБ</item>
+        <item>Літак/Заправник</item>
+        <item>Літак/Вертикального злету-посадки</item>
+        <item>Літак/Спеціальних операцій</item>
+        <item>Літак/Медичної евакуації</item>
+        <item>Літак/Патрульний</item>
+        <item>Літак/БПА</item>
+        <item>Літак/Розвідник</item>
+        <item>Літак/Тренувальний</item>
+        <item>Літак/Вантажний</item>
+        <item>Літак/Дальнього радіолокаційного стеження</item>
+        <item>Гелікоптер</item>
+        <item>Гелікоптер/Штурмовий</item>
+        <item>Гелікоптер/Транспортний</item>
+        <item>Гелікоптер/Управління</item>
+        <item>Гелікоптер/Пошуковий</item>
+        <item>Гелікоптер/РЕБ</item>
+        <item>Гелікоптер/Спеціальних операцій</item>
+        <item>Гелікоптер/Медичної евакуації</item>
+        <item>Гелікоптер/БПА</item>
+        <item>Гелікоптер/Розвідувальний</item>
+        <item>Гелікоптер/Вантажний</item>
+        <item>Аеростат</item>
+    </string-array><string-array name="gnd_vech_list">
+        <item>Транспорт</item>
+        <item>Броньований</item>
+        <item>БТР</item>
+        <item>БТР/Ремонтний</item>
+        <item>КШМ</item>
+        <item>БМП</item>
+        <item>ББМ</item>
+        <item>Броньований/Забезпечення</item>
+        <item>Заправник</item>
+        <item>Цивільний</item>
+        <item>Інженерний</item>
+        <item>Розмінування</item>
+        <item>Вантажівка</item>
+        <item>Автобус</item>
+        <item>Вантажівка підвищеної прохідності</item>
+        <item>Човен</item>
+        <item>Причіп</item>
+        <item>Швидка допомога</item>
+    </string-array><string-array name="gnd_weap_list">
+        <item>Зброя</item>
+        <item>ППО</item>
+        <item>Гармата</item>
+        <item>ПТ гармата</item>
+        <item>Гаубиця</item>
+        <item>Ракетна установка</item>
+        <item>Міномет</item>
+        <item>Стрілецька зброя</item>
+        <item>Автоматична гвинтівка</item>
+        <item>Піхотний кулемет</item>
+        <item>Важкий кулемет</item>
+        <item>Гранатомет/Однозарядний</item>
+        <item>Гранатомет/Багатозарядний</item>
+        <item>РПГ</item>
+        <item>Вогнемет</item>
+        <item>РХБ обладнання</item>
+    </string-array><string-array name="gnd_unt_cbt_list">
+        <item>Бойовий підрозділ</item>
+        <item>ПТ підрозділ</item>
+        <item>ПТ підрозділ/Броньований</item>
+        <item>ПТ підрозділ/Броньований десантно-штурмовий</item>
+        <item>ПТ підрозділ/Броньований на гусеничній базі</item>
+        <item>ПТ підрозділ/Броньований на колісній базі</item>
+        <item>ПТ підрозділ/Повітряно-десантний</item>
+        <item>ПТ підрозділ/Моторизований</item>
+        <item>Броньований/Гусеничний</item>
+        <item>Броньований/Гусеничний амфібійний</item>
+        <item>Броньований/Колісний</item>
+        <item>Броньований/Колісний повітряно-десантний</item>
+        <item>Броньований/Колісний ремонтний</item>
+        <item>Броньований/Колісний амфібійний</item>
+        <item>ППО</item>
+        <item>ППО/Ракетний</item>
+        <item>Іженерний</item>
+        <item>Артилерія/Стаціонарна</item>
+        <item>Мінометний</item>
+        <item>Ракетний</item>
+        <item>Ракетний/Самохідний</item>
+        <item>Ракетний/РСЗВ самохідний</item>
+        <item>Піхота</item>
+        <item>Піхота/Повітряно-десантна</item>
+        <item>Піхота/на БМП</item>
+        <item>Піхота/Моторизована</item>
+        <item>Піхота/Морська</item>
+        <item>Піхота/Десантно-штурмова</item>
+        <item>Піхота/Гірсько-штурмова</item>
+        <item>Піхота/Механізована</item>
+        <item>Ракетний/Класу земля-земля</item>
+        <item>Розвідка</item>
+        <item>Розвідка/Повітряно-десантна</item>
+        <item>Розвідка/Гірсько-штурмова</item>
+        <item>Розвідка/Морської піхоти</item>
+        <item>Розвідка/Десантно-штурмова</item>
+        <item>Забезпечення охорони</item>
+        <item>Армійська авіація</item>
+        <item>Армійська авіація/Змішана</item>
+        <item>Армійська авіація/Літаки</item>
+        <item>Армійська авіація/Вертольоти</item>
+    </string-array><string-array name="gnd_unt_cs_list">
+        <item>Бойове забезпечення</item>
+        <item>Бойове забезпечення/РХБ</item>
+        <item>Біологічне</item>
+        <item>Хімічне</item>
+        <item>Ядерне</item>
+        <item>Сапери</item>
+        <item>Інформаційних операцій</item>
+        <item>Органи правопорядку</item>
+        <item>Поліція</item>
+        <item>Військова поліція</item>
+        <item>Військова розвідка</item>
+        <item>Контррозвідка</item>
+        <item>Радіоелектронної розвідка</item>
+        <item>Радіолоектронної боротьби</item>
+        <item>Звязку</item>
+        <item>Управління операціями</item>
+        <item>Радіостанція</item>
+        <item>Тактичний супутник</item>
+        <item>Радіорелейний</item>
+        <item>Телефонний комутатор</item>
+    </string-array><string-array name="gnd_unt_ss_list">
+        <item>Штаб</item>
+        <item>Медичний</item>
+        <item>Логістичний</item>
+        <item>Транспортний</item>
+        <item>Ремонтний</item>
+        <item>Ремонтно-відновлювальний</item>
+    </string-array><string-array name="sfc_list">
+        <item>Корабель</item>
+        <item>Надво́дні си́ли</item>
+        <item>Десантно-висадковий корабель</item>
+        <item>Універсальний десантний корабель</item>
+        <item>Десантний катер</item>
+        <item>Великий десантний кораблель</item>
+        <item>Судно на повітряній подушці</item>
+        <item>Лінійний корабель</item>
+        <item>Бойовий корабель</item>
+        <item>Крейсер</item>
+        <item>Транспортний корабель</item>
+        <item>Эскортний міноносець</item>
+        <item>Фригат/Корве́т</item>
+        <item>Корабель протимінної дії </item>
+        <item>Мінно-тральний корабель</item>
+        <item>Мінний загороджувач</item>
+        <item>Патрульний корабель</item>
+        <item>Корабель боротьби з підвоними човнами</item>
+        <item>Протичовновий корабель</item>
+        <item>Конвой</item>
+        <item>Шпитальний корабель</item>
+        <item>Пошуковий корабель</item>
+        <item>Цивільне судно</item>
+        <item>Вантажне судно</item>
+        <item>Пасажирське судно</item>
+        <item>Танкер</item>
+    </string-array><string-array name="sub_sfc_list">
+        <item>Підводний</item>
+        <item>Водолаз</item>
+        <item>Підводний човен</item>
+        <item>Підводний човен/Дизельний</item>
+        <item>Підводний човен/Атомний</item>
+        <item>Підводний безпілотний апарат</item>
+    </string-array><string-array name="sof_list">
+        <item>Літаки</item>
+        <item>Гелікоптери</item>
+        <item>Бойових рятувальних операцій</item>
+        <item>Морська компонента</item>
+        <item>Спеціальних бойових човнів</item>
+        <item>Спеціальних підводних човнів</item>
+        <item>Наземна компонента</item>
+        <item>Комбінована компонента</item>
+        <item>ІПСО</item>
+        <item>Забезпечення</item>
+    </string-array></file><file name="spinner_item" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/layout/spinner_item.xml" qualifiers="" type="layout"/><file name="main_layout" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/layout/main_layout.xml" qualifiers="" type="layout"/><file name="device_filter" path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/main/res/xml/device_filter.xml" qualifiers="" type="xml"/></source><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/generated/res/rs/civ/release"/><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/generated/res/resValues/civ/release"><file path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build/generated/res/resValues/civ/release/values/gradleResValues.xml" qualifiers=""><string name="versionName" translatable="false">1.1 (abad850a) - [4.4.0]</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="civ$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/civ/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="civ" generated-set="civ$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/civ/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build-types/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/build-types/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="civRelease$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/civRelease/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="civRelease" generated-set="civRelease$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/riddick/atak-civ/plugin-examples/HarrisSAplugin/app/src/civRelease/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="RecyclerView">
+        
+        <attr format="string" name="layoutManager"/>
+
+        
+        
+        
+        <eat-comment/>
+
+        <attr name="android:orientation"/>
+        <attr name="android:descendantFocusability"/>
+        <attr name="android:clipToPadding"/>
+        <attr format="integer" name="spanCount"/>
+        <attr format="boolean" name="reverseLayout"/>
+        <attr format="boolean" name="stackFromEnd"/>
+        <attr format="boolean" name="fastScrollEnabled"/>
+        <attr format="reference" name="fastScrollVerticalThumbDrawable"/>
+        <attr format="reference" name="fastScrollVerticalTrackDrawable"/>
+        <attr format="reference" name="fastScrollHorizontalThumbDrawable"/>
+        <attr format="reference" name="fastScrollHorizontalTrackDrawable"/>
+    </declare-styleable></configuration></mergedItems></merger>
