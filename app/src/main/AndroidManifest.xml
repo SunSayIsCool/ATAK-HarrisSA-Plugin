@@ -14,10 +14,19 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
 
+        <!-- allow for plugin discovery -->
+        <activity android:name="com.atakmap.app.component"
+            tools:ignore="MissingClass" android:exported="true">
+            <intent-filter android:label="@string/app_name">
+                <action android:name="com.atakmap.app.component" />
+            </intent-filter>
+        </activity>
+
         <service
             android:name="com.atakmap.android.harrissaspr.HhmpUdpService"
             android:enabled="true"
-            android:label="78xx HH/MP UDP Service" >
+            android:label="78xx HH/MP UDP Service"
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.atakmap.android.harrissaspr.HhmpUdpService" />
             </intent-filter>
@@ -26,7 +35,8 @@
         <service
             android:name="com.atakmap.android.harrissaspr.SprSerialService"
             android:enabled="true"
-            android:label="7800S serial port Service" >
+            android:label="7800S serial port Service"
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.atakmap.android.harrissaspr.SprSerialService" />
             </intent-filter>
