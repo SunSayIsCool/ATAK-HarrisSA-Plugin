@@ -13,7 +13,7 @@ public class PluginTemplateTool extends AbstractPluginTool implements Disposable
                 context.getString(R.string.app_name),
                 context.getString(R.string.app_name),
                 context.getResources().getDrawable(R.drawable.ic_launcher),
-                "com.atakmap.android.geospy.SHOW_PLUGIN");
+                "com.atakmap.android.harrissaspr.SHOW_PLUGIN");
         PluginNativeLoader.init(context);
     }
 
